@@ -1,0 +1,13 @@
+*.log
+.DS_Store
+node_modules
+/dist
+/.coverage
+/node_modules
+/.nyc_output
+/.vscode
+/_stockageTemp
+/src/utilsTests/_tempo
+
+docu/src/.vitepress/dist
+docu/src/.vitepress/cache
