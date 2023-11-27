@@ -31,7 +31,7 @@
     "vitepress": "1.0.0-rc.25"
   },
   "dependencies": {
-    "jsdom": "^22.1.0",
+    "jsdom": "^23.0.0",
     "marked": "^9.1.5",
     "nuchabal": "^3.1.6",
     "postcss-rtl": "^2.0.0",
