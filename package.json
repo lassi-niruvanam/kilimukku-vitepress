@@ -28,7 +28,7 @@
     "prettier": "^3.0.3",
     "rimraf": "^5.0.5",
     "typescript": "^5.2.2",
-    "vitepress": "1.0.0-rc.25"
+    "vitepress": "1.0.0-rc.31"
   },
   "dependencies": {
     "jsdom": "^23.0.0",
@@ -39,6 +39,6 @@
     "yaml": "^2.3.4"
   },
   "peerDependencies": {
-    "vitepress": "1.0.0-rc.25"
+    "vitepress": "1.0.0-rc.31"
   }
 }
