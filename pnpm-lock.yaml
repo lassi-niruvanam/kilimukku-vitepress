@@ -9,8 +9,8 @@ dependencies:
     specifier: ^23.0.0
     version: 23.0.0
   marked:
-    specifier: ^9.1.5
-    version: 9.1.5
+    specifier: ^11.0.0
+    version: 11.0.0
   nuchabal:
     specifier: ^3.1.6
     version: 3.1.6(@constl/ipa@0.9.13)
@@ -5210,9 +5210,9 @@ packages:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
     dev: true
 
-  /marked@9.1.5:
-    resolution: {integrity: sha512-14QG3shv8Kg/xc0Yh6TNkMj90wXH9mmldi5941I2OevfJ/FQAFLEwtwU2/FfgSAOMlWHrEukWSGQf8MiVYNG2A==}
-    engines: {node: '>= 16'}
+  /marked@11.0.0:
+    resolution: {integrity: sha512-2GsW34uXaFEGTQ/+3rCnNC6vUYTAgFuDLGl70v/aWinA5mIJtTrrFAmfbLOfVvgPyxXuDVL9He/7reCK+6j3Sw==}
+    engines: {node: '>= 18'}
     hasBin: true
     dev: false
 
