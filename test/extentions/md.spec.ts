@@ -5,11 +5,11 @@ import { expect } from "aegir/chai";
 import { marked } from "marked";
 
 const composantes: {
-    nom: string,
-    entrée: string,
-    analyse: {clef: string, valeur: string}[],
-    traducs: {[clef: string]: string},
-    traduit: string,
+  nom: string;
+  entrée: string;
+  analyse: { clef: string; valeur: string }[];
+  traducs: { [clef: string]: string };
+  traduit: string;
 }[] = [
   {
     nom: "Entête simple",
@@ -24,6 +24,30 @@ const composantes: {
     analyse: [{ clef: "", valeur: "Un autre titre" }],
     traducs: { "Un autre titre": "Otro título" },
     traduit: "## Otro título\n",
+  },
+  {
+    nom: "Entête avec formattage",
+    entrée: "## C'est **important**\n",
+    analyse: [{ clef: "", valeur: "C'est **important**" }],
+    traducs: { "C'est **important**": "Es **importante**" },
+    traduit: "## Es **importante**\n",
+  },
+  {
+    nom: "Tableau",
+    entrée: `| Col1 | Col2 |
+| --- | --- |
+| a | b |`,
+    analyse: [
+      { clef: "", valeur: "Col1" },
+      { clef: "", valeur: "Col2" },
+      { clef: "", valeur: "a" },
+      { clef: "", valeur: "b" },
+    ],
+    traducs: { Col1: "columna 1", Col2: "columna 2", a: "A" },
+    traduit: `columna 1 | columna 2
+--- | ---
+A | b
+`,
   },
 ];
 
@@ -42,12 +66,17 @@ describe("Extention md", function () {
 
       it(`${spéc.nom} - reconstruction`, async () => {
         const rés = extention.reconstruireComposante({
-            composante,
-            traducs: Object.fromEntries(spéc.analyse.map(c => [fichier + "." + empreinte(c.valeur),  spéc.traducs[c.valeur]])),
-            langue: "es",
-            fichier,
-          });
-          expect(rés).to.equal(spéc.traduit);
+          composante,
+          traducs: Object.fromEntries(
+            spéc.analyse.map((c) => [
+              fichier + "." + empreinte(c.valeur),
+              spéc.traducs[c.valeur],
+            ]),
+          ),
+          langue: "es",
+          fichier,
+        });
+        expect(rés).to.equal(spéc.traduit);
       });
     });
   });

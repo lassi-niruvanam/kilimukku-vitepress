@@ -105,19 +105,7 @@ export class ExtentionMd extends Extention {
         return composante.raw;
       case "heading":
         return (
-          "#".repeat(composante.depth) +
-          " " +
-          (composante.tokens || [])
-            .map((j) =>
-              this.reconstruireComposante({
-                composante: j,
-                fichier,
-                traducs,
-                langue,
-              }),
-            )
-            .join("") +
-          "\n"
+          "#".repeat(composante.depth) + " " + obtTrad(composante.text) + "\n"
         );
       case "table":
         return (
