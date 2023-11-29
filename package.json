@@ -12,6 +12,7 @@
   "scripts": {
     "nettoyer": "rimraf dist",
     "compiler": "pnpm nettoyer && pnpm tsc",
+    "test": "pnpm compiler && pnpm aegir test -t node --cov",
     "formatter": "pnpm prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" && pnpm eslint --ext .js,.ts src",
     "publier": "pnpm versioner && pnpm compiler && (git commit -a -m 'version' || true) && pnpm publish",
     "versioner": "pnpm genversion  --es6 --semi src/version.ts"
@@ -19,12 +20,15 @@
   "license": "AGPL-3.0",
   "devDependencies": {
     "@types/jsdom": "^21.1.5",
+    "@types/mocha": "^10.0.6",
     "@types/node": "^20.9.0",
     "@types/xml2js": "^0.4.14",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "aegir": "^41.1.10",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "genversion": "^3.1.1",
+    "mocha": "^10.2.0",
     "prettier": "^3.0.3",
     "rimraf": "^5.0.5",
     "typescript": "^5.2.2",

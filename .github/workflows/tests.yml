@@ -1,0 +1,34 @@
+name: kilimukku-vitepress
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  sodanaikal:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Préparation de Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Installer pnpm
+        uses: pnpm/action-setup@v2.4.0
+        with:
+          version: latest
+
+      - name: Ouvrir la branche
+        uses: actions/checkout@v4
+
+      - name: Installer
+        run: pnpm install
+
+      - name: Vérifier les tests
+        run: pnpm test
+
+      - name: Envoyer couverure à Codecov
+        uses: codecov/codecov-action@v3
