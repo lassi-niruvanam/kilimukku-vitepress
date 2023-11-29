@@ -224,7 +224,7 @@ export class Compilateur {
     for (const langue of this.languesCibles) {
       const dossierSourcesTraduites = path.join(this.dossierSource, langue);
       if (fs.existsSync(dossierSourcesTraduites))
-        fs.rmdirSync(dossierSourcesTraduites, { recursive: true });
+        fs.rmSync(dossierSourcesTraduites, { recursive: true });
       fs.mkdirSync(dossierSourcesTraduites, { recursive: true });
 
       const traducs = this.obtTraductions({ langue });
