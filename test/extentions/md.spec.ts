@@ -1,31 +1,54 @@
-import { ExtentionMd } from "@/extentions/md.js"
-import { empreinte } from "@/utils.js"
+import { ExtentionMd } from "@/extentions/md.js";
+import { empreinte } from "@/utils.js";
 
-import {expect} from "aegir/chai"
-import { marked } from "marked"
+import { expect } from "aegir/chai";
+import { marked } from "marked";
+
+const composantes: {
+    nom: string,
+    entrée: string,
+    analyse: {clef: string, valeur: string}[],
+    traducs: {[clef: string]: string},
+    traduit: string,
+}[] = [
+  {
+    nom: "Entête simple",
+    entrée: "# Un titre\n",
+    analyse: [{ clef: "", valeur: "Un titre" }],
+    traducs: { "Un titre": "Un título" },
+    traduit: "# Un título\n",
+  },
+  {
+    nom: "Entête deuxième niveau",
+    entrée: "## Un autre titre\n",
+    analyse: [{ clef: "", valeur: "Un autre titre" }],
+    traducs: { "Un autre titre": "Otro título" },
+    traduit: "## Otro título\n",
+  },
+];
 
 describe("Extention md", function () {
-    describe("Analyser composantes", function () {
-        const extention = new ExtentionMd()
-        it("Entête", async () => {
-            const composante = marked.lexer("# Un titre\n")[0]
-            const rés = extention.analyserComposante({composante})
-            expect(rés).to.deep.equal([{clef: '', valeur: 'Un titre'}])
-        })
-    })
+  describe("Composantes", function () {
+    const fichier = "fichier test";
+    const extention = new ExtentionMd();
 
-    describe("Reconstruire composantes", function () {
-        const extention = new ExtentionMd()
-        it("Entête", async () => {
-            const fichier = "fichier test"
-            const composante = marked.lexer("# Un titre\n")[0]
-            const rés = extention.reconstruireComposante({
-                composante,
-                traducs: {[fichier + "." + empreinte("Un titre")]: "Un título"},
-                langue: "es",
-                fichier
-            })
-            expect(rés).to.equal("# Un título\n")
-        })
-    })
-})
+    composantes.forEach((spéc) => {
+      const composante = marked.lexer(spéc.entrée)[0];
+
+      it(`${spéc.nom} - analyse`, async () => {
+        const rés = extention.analyserComposante({ composante });
+        expect(rés).to.deep.equal(spéc.analyse);
+      });
+
+      it(`${spéc.nom} - reconstruction`, async () => {
+        const rés = extention.reconstruireComposante({
+            composante,
+            traducs: Object.fromEntries(spéc.analyse.map(c => [fichier + "." + empreinte(c.valeur),  spéc.traducs[c.valeur]])),
+            langue: "es",
+            fichier,
+          });
+          expect(rés).to.equal(spéc.traduit);
+      });
+    });
+  });
+});
