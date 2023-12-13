@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import rtl from "postcss-rtl";
-import mergeOptions from 'merge-options';
+import mergeOptions from "merge-options";
 
 import { ExtentionDéfaut, type Extention } from "./extentions/extention.js";
 import { empreinte } from "./utils.js";
@@ -269,6 +269,7 @@ export class Compilateur {
     }
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   compilerConfig<T extends Record<string, any> | Array<any>>({
     langue,
     config,
@@ -277,6 +278,7 @@ export class Compilateur {
     langue: string;
     config?: T;
     clefRacine?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   }): any {
     clefRacine = clefRacine ? clefRacine + "." : "";
 
