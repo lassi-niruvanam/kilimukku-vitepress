@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import rtl from "postcss-rtl";
+import mergeOptions from 'merge-options';
 
 import { ExtentionDéfaut, type Extention } from "./extentions/extention.js";
 import { empreinte } from "./utils.js";
@@ -367,13 +368,13 @@ export class Compilateur {
       ),
     };
 
-    config.vite = {
+    config.vite = mergeOptions(config.vite || {}, {
       css: {
         postcss: {
           plugins: [rtl()],
         },
       },
-    };
+    });
     return defineConfig(config);
   }
 

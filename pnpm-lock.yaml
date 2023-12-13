@@ -11,6 +11,9 @@ dependencies:
   marked:
     specifier: ^11.0.0
     version: 11.0.0
+  merge-options:
+    specifier: ^3.0.4
+    version: 3.0.4
   nuchabal:
     specifier: ^3.1.8
     version: 3.1.8(@constl/ipa@0.9.17)
@@ -14318,7 +14321,7 @@ packages:
   /wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: false
 
   /widest-line@4.0.1:
