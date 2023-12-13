@@ -11,9 +11,10 @@ import type { Nuchabäl } from "nuchabal";
 import { defineConfig } from "vitepress";
 import { ExtentionMd } from "./extentions/md.js";
 import { ExtentionSvg } from "./extentions/svg.js";
+import { ExtentionExcalidraw } from "./extentions/excalidraw.js";
+import { ExtentionYaml } from "./extentions/yaml.js";
 
 import type { Message } from "./types";
-import { ExtentionYaml } from "./extentions/yaml.js";
 
 export class Compilateur {
   languePrincipale: string;
@@ -55,7 +56,7 @@ export class Compilateur {
     this.dossierSource = path.join(this.racineProjet, dossierSource);
     this.dossierTraductions = path.join(this.racineProjet, dossierTraductions);
     this.configVitePress = configVitePress;
-    this.extentions = [new ExtentionMd(), new ExtentionSvg(), ...extentions];
+    this.extentions = [new ExtentionMd(), new ExtentionSvg(), new ExtentionExcalidraw(), ...extentions];
 
     this.dossiersIgnorés = [path.join(this.dossierSource, ".vitepress")];
 
