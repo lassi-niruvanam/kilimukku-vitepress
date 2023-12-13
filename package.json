@@ -1,6 +1,6 @@
 {
   "name": "@lassi-js/kilimukku-vitepress",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/src/index.js",
   "type": "module",
