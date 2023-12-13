@@ -1,5 +1,5 @@
 import type { Message } from "@/types.js";
-import { empreinte } from "../utils.js";
+import { empreinte } from "@/utils.js";
 import xml2js from "xml2js";
 
 import { Extention } from "./extention.js";
