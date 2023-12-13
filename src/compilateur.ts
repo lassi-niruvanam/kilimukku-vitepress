@@ -56,7 +56,12 @@ export class Compilateur {
     this.dossierSource = path.join(this.racineProjet, dossierSource);
     this.dossierTraductions = path.join(this.racineProjet, dossierTraductions);
     this.configVitePress = configVitePress;
-    this.extentions = [new ExtentionMd(), new ExtentionSvg(), new ExtentionExcalidraw(), ...extentions];
+    this.extentions = [
+      new ExtentionMd(),
+      new ExtentionSvg(),
+      new ExtentionExcalidraw(),
+      ...extentions,
+    ];
 
     this.dossiersIgnorés = [path.join(this.dossierSource, ".vitepress")];
 
@@ -279,7 +284,7 @@ export class Compilateur {
     langue: string;
     config?: T;
     clefRacine?: string;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   }): any {
     clefRacine = clefRacine ? clefRacine + "." : "";
 
