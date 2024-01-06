@@ -24,7 +24,7 @@
     "@types/node": "^20.10.4",
     "@types/xml2js": "^0.4.14",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "aegir": "^41.2.0",
+    "aegir": "^42.0.0",
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
     "genversion": "^3.1.1",
