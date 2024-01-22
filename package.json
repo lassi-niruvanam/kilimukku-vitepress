@@ -34,7 +34,7 @@
     "ts-patch": "^3.1.1",
     "typescript": "^5.3.3",
     "typescript-transform-paths": "^3.4.6",
-    "vitepress": "1.0.0-rc.39"
+    "vitepress": "1.0.0-rc.40"
   },
   "dependencies": {
     "jsdom": "^23.0.1",
@@ -46,6 +46,6 @@
     "yaml": "^2.3.4"
   },
   "peerDependencies": {
-    "vitepress": "1.0.0-rc.39"
+    "vitepress": "1.0.0-rc.40"
   }
 }
