@@ -72,7 +72,7 @@ devDependencies:
     version: 5.3.3
   typescript-transform-paths:
     specifier: ^3.4.6
-    version: 3.4.6(typescript@5.3.3)
+    version: 3.4.7(typescript@5.3.3)
   vitepress:
     specifier: 1.0.0-rc.44
     version: 1.0.0-rc.44(@algolia/client-search@4.22.1)(@types/node@20.10.4)(postcss@8.4.35)(search-insights@2.13.0)(typescript@5.3.3)
@@ -14264,8 +14264,8 @@ packages:
       - '@types/node'
     dev: true
 
-  /typescript-transform-paths@3.4.6(typescript@5.3.3):
-    resolution: {integrity: sha512-qdgpCk9oRHkIBhznxaHAapCFapJt5e4FbFik7Y4qdqtp6VyC3smAIPoDEIkjZ2eiF7x5+QxUPYNwJAtw0thsTw==}
+  /typescript-transform-paths@3.4.7(typescript@5.3.3):
+    resolution: {integrity: sha512-1Us1kdkdfKd2unbkBAOV2HHRmbRBYpSuk9nJ7cLD2hP4QmfToiM/VpxNlhJc1eezVwVqSKSBjNSzZsK/fWR/9A==}
     peerDependencies:
       typescript: '>=3.6.5'
     dependencies:
