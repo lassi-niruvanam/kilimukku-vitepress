@@ -10,7 +10,7 @@ dependencies:
     version: 23.2.0
   marked:
     specifier: ^11.1.0
-    version: 11.1.0
+    version: 11.2.0
   merge-options:
     specifier: ^3.0.4
     version: 3.0.4
@@ -10533,8 +10533,8 @@ packages:
       supports-hyperlinks: 3.0.0
     dev: true
 
-  /marked@11.1.0:
-    resolution: {integrity: sha512-fvKJWAPEafVj1dwGwcPI5mBB/0pvViL6NlCbNDG1HOIRwwAU/jeMoFxfbRLuirO1wRH7m4yPvBqD/O1wyWvayw==}
+  /marked@11.2.0:
+    resolution: {integrity: sha512-HR0m3bvu0jAPYiIvLUUQtdg1g6D247//lvcekpHO1WMvbwDlwSkZAX9Lw4F4YHE1T0HaaNve0tuAWuV1UJ6vtw==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: false
