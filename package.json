@@ -37,7 +37,7 @@
     "vitepress": "1.0.0-rc.44"
   },
   "dependencies": {
-    "jsdom": "^23.0.1",
+    "jsdom": "^24.0.0",
     "marked": "^11.1.0",
     "merge-options": "^3.0.4",
     "nuchabal": "^3.1.8",
