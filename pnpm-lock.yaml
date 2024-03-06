@@ -25,7 +25,7 @@ dependencies:
     version: 0.6.2
   yaml:
     specifier: ^2.3.4
-    version: 2.4.0
+    version: 2.4.1
 
 devDependencies:
   '@types/jsdom':
@@ -2021,8 +2021,8 @@ packages:
       '@libp2p/webrtc-direct': 6.0.0
       '@libp2p/websockets': 8.0.16
       '@libp2p/webtransport': 4.0.20
-      '@localfirst/auth': 5.5.1
-      '@localfirst/crypto': 5.5.1
+      '@localfirst/auth': 5.6.0
+      '@localfirst/crypto': 5.6.0
       '@orbitdb/core': 2.1.0
       '@orbitdb/feed-db': 1.0.0(react-native@0.73.5)
       '@orbitdb/ordered-keyvalue-db': 1.0.0(react-native@0.73.5)
@@ -2948,8 +2948,8 @@ packages:
       - supports-color
     dev: false
 
-  /@herbcaudill/eventemitter42@0.2.1:
-    resolution: {integrity: sha512-BKibbOeJZ7Bp7Yq84tZy6iqy2+5fWvBtDXjPK+kiPL4c4qgXe1dF3dCF/eo5QwgXcXpanGDU33Suf0xZUek0qg==}
+  /@herbcaudill/eventemitter42@0.3.1:
+    resolution: {integrity: sha512-GTe0EupM4v+0Iet2UmFz5ZsPz8MZm/FbYx1yTJ9OyeVbCe5etkEKA2pntuFAjamp08c8Sh2p+QcM5AGMWi3sdA==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.14:
@@ -3846,31 +3846,31 @@ packages:
       - supports-color
     dev: false
 
-  /@localfirst/auth@5.5.1:
-    resolution: {integrity: sha512-QdzDYQBo7iXmrbfu+3oViP3vpvaMsae7zDvKrV29BNWqJdn0HyexItPk0DsqwQio50dobe/6RisVhljtGMXxew==}
+  /@localfirst/auth@5.6.0:
+    resolution: {integrity: sha512-4nNEZ/xCYLtr9SA8GHz4Xdt+LPk1ZZsulNK2vJoO/Gy6IWIPeWuk9zKdpa1m3EhlbVw5L9xhj7ncUXAZEbmWRw==}
     engines: {node: '>=18'}
     requiresBuild: true
     dependencies:
-      '@herbcaudill/eventemitter42': 0.2.1
-      '@localfirst/crdx': 5.5.1
-      '@localfirst/crypto': 5.5.1
-      '@localfirst/shared': 5.5.1
+      '@herbcaudill/eventemitter42': 0.3.1
+      '@localfirst/crdx': 5.6.0
+      '@localfirst/crypto': 5.6.0
+      '@localfirst/shared': 5.6.0
       '@paralleldrive/cuid2': 2.2.2
       lodash-es: 4.17.21
       msgpackr: 1.10.1
-      xstate: 4.38.3
+      xstate: 5.9.1
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@localfirst/crdx@5.5.1:
-    resolution: {integrity: sha512-nX3cBuuIOUegkxZwavIzzZCCYIvWk8Dw9Ih5kphNaqvVPfabEwC5uyfApWZJ2vI6zJIZqwAvraeidXUqHFfxDw==}
+  /@localfirst/crdx@5.6.0:
+    resolution: {integrity: sha512-o2UPeS9lpSgZfwTCo7VRzbghVzyXxA/qf4sG6sMuVBSuG+QhsJUjVT7r/WVWuCyw9gjTC3pOHfDL37wKXbuqug==}
     engines: {node: '>=18'}
     requiresBuild: true
     dependencies:
-      '@herbcaudill/eventemitter42': 0.2.1
-      '@localfirst/crypto': 5.5.1
-      '@localfirst/shared': 5.5.1
+      '@herbcaudill/eventemitter42': 0.3.1
+      '@localfirst/crypto': 5.6.0
+      '@localfirst/shared': 5.6.0
       '@paralleldrive/cuid2': 2.2.2
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
@@ -3879,12 +3879,12 @@ packages:
       - supports-color
     dev: false
 
-  /@localfirst/crypto@5.5.1:
-    resolution: {integrity: sha512-9u2SnQRh80pKcIQiGy+yIR6O3kf1uiOOx08HOCvu9XJksMztzcbhYDGbBIe5HIwsVo44L3Quq7u4RSUnNH472A==}
+  /@localfirst/crypto@5.6.0:
+    resolution: {integrity: sha512-dH7GXwCdxet9T+O5gLOHZIn44PzGYRC9feVyLK/ue9u4grMsiYQOpaeTbj04wUD0YZAqqdFOnd+Bxc45M5DYag==}
     engines: {node: '>=18'}
     requiresBuild: true
     dependencies:
-      '@localfirst/shared': 5.5.1
+      '@localfirst/shared': 5.6.0
       '@types/lodash-es': 4.17.12
       bs58: 5.0.0
       libsodium-wrappers-sumo: 0.7.13
@@ -3894,13 +3894,14 @@ packages:
       - supports-color
     dev: false
 
-  /@localfirst/shared@5.5.1:
-    resolution: {integrity: sha512-UKbkqFCME/2R4ST/2PkIv0GeP8c++h51Oef5VTbidg3+oEIH21qptWF0V3vihtXAtHCdN+T8PEZ+77omLx9jvQ==}
+  /@localfirst/shared@5.6.0:
+    resolution: {integrity: sha512-wf13QnH8ePYccpewQ4oWv/lY2E1eVAA8XDALf8+jyb7+YGfmKFDKRT/QBAvu5T0wfeg9JbYQT79UMOWRSkvX5A==}
     requiresBuild: true
     dependencies:
-      '@herbcaudill/eventemitter42': 0.2.1
+      '@herbcaudill/eventemitter42': 0.3.1
       cd: 0.3.3
       debug: 4.3.4(supports-color@8.1.1)
+      eventemitter3: 5.0.1
       lodash-es: 4.17.21
     transitivePeerDependencies:
       - supports-color
@@ -4343,7 +4344,7 @@ packages:
       semver: 7.6.0
       strip-ansi: 5.2.0
       wcwidth: 1.0.1
-      yaml: 2.4.0
+      yaml: 2.4.1
     transitivePeerDependencies:
       - encoding
     dev: false
@@ -11565,7 +11566,7 @@ packages:
     resolution: {integrity: sha512-83eZaH2+B+jP92KuodPqXknzwmiboKAuZY4doRfTEEXAG57pNVNN6cqSRJlwDnmaTBKRffxoncBXbYqHQgulgg==}
     engines: {node: '>=18'}
     dependencies:
-      terser: 5.28.1
+      terser: 5.29.1
     dev: false
 
   /metro-react-native-babel-preset@0.64.0(@babel/core@7.24.0):
@@ -15168,8 +15169,8 @@ packages:
       unique-string: 3.0.0
     dev: true
 
-  /terser@5.28.1:
-    resolution: {integrity: sha512-wM+bZp54v/E9eRRGXb5ZFDvinrJIOaTapx3WUokyVGZu5ucVCK55zEgGd5Dl2fSr3jUo5sDiERErUWLY6QPFyA==}
+  /terser@5.29.1:
+    resolution: {integrity: sha512-lZQ/fyaIGxsbGxApKmoPTODIzELy3++mXhS5hOqaAWZjQtpq/hFHAc+rm29NND1rYRxRWKcjuARNwULNXa5RtQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -16302,8 +16303,8 @@ packages:
     resolution: {integrity: sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==}
     dev: false
 
-  /xstate@4.38.3:
-    resolution: {integrity: sha512-SH7nAaaPQx57dx6qvfcIgqKRXIh4L0A1iYEqim4s1u7c9VoCgzZc+63FY90AKU4ZzOC2cfJzTnpO4zK7fCUzzw==}
+  /xstate@5.9.1:
+    resolution: {integrity: sha512-85edx7iMqRJSRlEPevDwc98EWDYUlT5zEQ54AXuRVR+G76gFbcVTAUdtAeqOVxy8zYnUr9FBB5114iK6enljjw==}
     dev: false
 
   /xtend@4.0.2:
@@ -16328,8 +16329,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml@2.4.0:
-    resolution: {integrity: sha512-j9iR8g+/t0lArF4V6NE/QCfT+CO7iLqrXAHZbJdo+LfjqP1vR8Fg5bSiaq6Q2lOD1AUEVrEVIgABvBFYojJVYQ==}
+  /yaml@2.4.1:
+    resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: false
