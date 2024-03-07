@@ -9,8 +9,8 @@ dependencies:
     specifier: ^24.0.0
     version: 24.0.0
   marked:
-    specifier: ^11.1.0
-    version: 11.2.0
+    specifier: ^12.0.0
+    version: 12.0.0
   merge-options:
     specifier: ^3.0.4
     version: 3.0.4
@@ -1884,7 +1884,7 @@ packages:
       it-length-prefixed: 9.0.4
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.1.0
       protobufjs: 7.2.6
       uint8arraylist: 2.4.8
       uint8arrays: 5.0.2
@@ -2853,7 +2853,7 @@ packages:
       ipfs-bitswap: 20.0.2
       it-filter: 3.0.4
       it-foreach: 2.0.6
-      multiformats: 13.0.1
+      multiformats: 13.1.0
       progress-events: 1.0.0
       uint8arrays: 5.0.2
     transitivePeerDependencies:
@@ -2902,7 +2902,7 @@ packages:
       interface-datastore: 8.2.11
       interface-store: 5.1.8
       ipfs-bitswap: 20.0.2
-      multiformats: 13.0.1
+      multiformats: 13.1.0
       progress-events: 1.0.0
     transitivePeerDependencies:
       - supports-color
@@ -3972,7 +3972,7 @@ packages:
     dependencies:
       '@chainsafe/is-ip': 2.0.2
       '@multiformats/multiaddr': 12.1.14
-      multiformats: 13.0.1
+      multiformats: 13.1.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -6436,7 +6436,7 @@ packages:
       it-filter: 3.0.4
       it-merge: 3.0.3
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.1.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -6448,7 +6448,7 @@ packages:
       interface-blockstore: 5.2.10
       interface-store: 5.1.8
       level: 8.0.1
-      multiformats: 13.0.1
+      multiformats: 13.1.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -9496,7 +9496,7 @@ packages:
       it-drain: 3.0.5
       libp2p: 1.2.4
       mortice: 3.0.4
-      multiformats: 13.0.1
+      multiformats: 13.1.0
       progress-events: 1.0.0
       uint8arrays: 5.0.2
     transitivePeerDependencies:
@@ -9920,7 +9920,7 @@ packages:
       cborg: 4.1.0
       err-code: 3.0.1
       interface-datastore: 8.2.11
-      multiformats: 13.0.1
+      multiformats: 13.1.0
       protons-runtime: 5.4.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -11273,17 +11273,10 @@ packages:
       supports-hyperlinks: 3.0.0
     dev: true
 
-  /marked@11.2.0:
-    resolution: {integrity: sha512-HR0m3bvu0jAPYiIvLUUQtdg1g6D247//lvcekpHO1WMvbwDlwSkZAX9Lw4F4YHE1T0HaaNve0tuAWuV1UJ6vtw==}
-    engines: {node: '>= 18'}
-    hasBin: true
-    dev: false
-
   /marked@12.0.0:
     resolution: {integrity: sha512-Vkwtq9rLqXryZnWaQc86+FHLC6tr/fycMfYAhiOIXkrNmeGAyhSxjqu0Rs1i0bBqw5u0S7+lV9fdH2ZSVaoa0w==}
     engines: {node: '>= 18'}
     hasBin: true
-    dev: true
 
   /marked@4.3.0:
     resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
@@ -16144,7 +16137,7 @@ packages:
   /wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: false
 
   /winston@2.4.7:
