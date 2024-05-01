@@ -35,7 +35,7 @@ importers:
         version: 10.0.6
       '@types/node':
         specifier: ^20.11.25
-        version: 20.12.7
+        version: 20.12.8
       '@types/xml2js':
         specifier: ^0.4.14
         version: 0.4.14
@@ -74,7 +74,7 @@ importers:
         version: 3.4.7(typescript@5.4.5)
       vitepress:
         specifier: 1.1.4
-        version: 1.1.4(@algolia/client-search@4.23.3)(@types/node@20.12.7)(axios@1.6.8)(postcss@8.4.38)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.0)(typescript@5.4.5)
+        version: 1.1.4(@algolia/client-search@4.23.3)(@types/node@20.12.8)(axios@1.6.8)(postcss@8.4.38)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.0)(typescript@5.4.5)
 
 packages:
 
@@ -1319,14 +1319,14 @@ packages:
   '@hapi/topo@5.1.0':
     resolution: {integrity: sha512-foQZKJig7Ob0BMAYBfcJk8d77QtOe7Wo4ox7ff1lQYoNNAb6jwcY1ncdoy2e9wQZzvNy7ODZCYJkK8kzmcAnAg==}
 
-  '@helia/bitswap@1.0.1':
-    resolution: {integrity: sha512-G/wakfSbKTjnRgxw27ypBeR7+a2yVEf1c6Jbw2WtprnM/CYmXI9b/4nUrqXWngsQ9gBdAa8atPnnmxvl9FvXmg==}
+  '@helia/bitswap@1.1.0':
+    resolution: {integrity: sha512-/RF3vxEHM6KWliLYYvukf+z388SWkJU1NJkdXdbzU7W0YjyCmanYAusOXVf5sfHIiOtK+YFO6oJzy+kcp+eySQ==}
 
   '@helia/block-brokers@1.0.0':
     resolution: {integrity: sha512-VP9KDj6fNT1FKk/vWjDzk8eYyVclxHFQaOLI0+rvifg+w8X+atCa/v2JKzZzbW6BX3/dxcn/mZz+ZHgdmuQ1qg==}
 
-  '@helia/block-brokers@2.1.1':
-    resolution: {integrity: sha512-QlZDU+Jt7NjEFqB3P9MzKJYtiQwLZ0r+ks5NGNHX1NlXEGjzEZiCNcOYPpThSR0ntK3w2fRvrei6l4cb+LHPyw==}
+  '@helia/block-brokers@2.1.2':
+    resolution: {integrity: sha512-YJxWqoruBaiH1r27TQ757hE08SpWEp5gPclHYrHIzBDUrVrggt5axkGdKUGLPBrGzOjIk1L0+KCuxGamI8Gp9g==}
 
   '@helia/delegated-routing-v1-http-api-client@1.1.2':
     resolution: {integrity: sha512-u+sVdOxFieusZh/AxC8c0lU1micWfAosju7A80n62rdJ1fr1lclkhhrlfaKWIgVOq+pwonEzoOE7QgnTL22tYw==}
@@ -1334,14 +1334,14 @@ packages:
   '@helia/interface@3.0.1':
     resolution: {integrity: sha512-ibaiN0InfFVf8TNOKK+wzoLqlrWx/Crk/yY5o+DNRvgI4fdaJofHEaSyDvFR/amTVhdFHnOK+3Mbh+jGktWapQ==}
 
-  '@helia/interface@4.2.0':
-    resolution: {integrity: sha512-8F1rZAskqxcIpXEcJOa050fsdYQLDbf6WRgUyPve+gPIZVTvwgfuGuOlZxxrXAFtH7CujRiP3yMAN3V6iTbuRA==}
+  '@helia/interface@4.3.0':
+    resolution: {integrity: sha512-gaWQSVGIcOkK0Wx12qUiUMFLPI8AjQCYaf4dpZdciSYPNfKOtPpW54QGzgrQYBcvBgPzg16hnnvDGwLeL2WlAQ==}
 
-  '@helia/unixfs@3.0.5':
-    resolution: {integrity: sha512-vgNuwz8P4ASJg61re1JImtcYOhfUZbDSGti7Ejq9of2fYBQjofuzxJCB/Zx2C6xF/OZExrLvCRujRBUaRJJTyA==}
+  '@helia/unixfs@3.0.6':
+    resolution: {integrity: sha512-x3hoHUjwNk2M9Hg0Z9sQE8O8S2rcj13O9dYexGHckxdpeEPhNOwRWT1cMpY8NTK0vpuIs0TvlQm9gYfHm94Clw==}
 
-  '@helia/utils@0.2.0':
-    resolution: {integrity: sha512-osC2VIozCfXpZyuoIm5Tor2eYD5zfW/OPiziJPnpInKM4hXD6QLexM+Zx3cz2T4X7zWRG9pLrHFJpAsKoRfJqg==}
+  '@helia/utils@0.3.0':
+    resolution: {integrity: sha512-lCOd5DsimmUrp9+TyxWDkvhDFvI+Hgn7PevQHGya3AwmJXxsuCY6FtRgd7YkdaoqAm4+q7L710UnUtp5AmHlVA==}
 
   '@herbcaudill/eventemitter42@0.3.1':
     resolution: {integrity: sha512-GTe0EupM4v+0Iet2UmFz5ZsPz8MZm/FbYx1yTJ9OyeVbCe5etkEKA2pntuFAjamp08c8Sh2p+QcM5AGMWi3sdA==}
@@ -1441,8 +1441,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@lassi-js/kili@0.3.11':
-    resolution: {integrity: sha512-7ujEvbCg0kdp6U+zJmFAE+wOfNV6tHm8ssuoPYOUM7bJivFrQdLYv2D8MyPhsaWX6eQzVqBuDQqZqEyoQ9td/g==}
+  '@lassi-js/kili@0.3.12':
+    resolution: {integrity: sha512-yEG802H3LxZpS9nphQr98mNrQSNRX8JFtWHau/bo0ieI1njtCLccHza9VmIn780ofgOXFzM8L0pgFofLBL3bfQ==}
     peerDependencies:
       '@constl/ipa': ^1.0.5
 
@@ -2353,8 +2353,8 @@ packages:
   '@types/murmurhash3js-revisited@3.0.3':
     resolution: {integrity: sha512-QvlqvYtGBYIDeO8dFdY4djkRubcrc+yTJtBc7n8VZPlJDUS/00A+PssbvERM8f9bYRmcaSEHPZgZojeQj7kzAA==}
 
-  '@types/node@20.12.7':
-    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
+  '@types/node@20.12.8':
+    resolution: {integrity: sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -5129,8 +5129,8 @@ packages:
   it-foreach@2.1.0:
     resolution: {integrity: sha512-nobWUecq9E2ED1kcXz2o27yN6KePauSdmxJNMwCduWByrF4WNB2UgBHjr9QV2jPXpEWPDuzxZas9fVhQj1Vovg==}
 
-  it-glob@2.0.7:
-    resolution: {integrity: sha512-FjL2rAsGu566sMVKexFG5ciDoKoi1lgwXlSE6DW0yVbGRyvrlzi0OQ3fbfrw89dpIAzJFHnLNQwZS4yRkt3d/Q==}
+  it-glob@3.0.1:
+    resolution: {integrity: sha512-IUWE9f6XVUJLugK7pQmQPqTWj4BiQJhufnvxfsCmNIGEDQEkKVs3Ld9gFZq/Vude6g/OpndhsiuFrA730Bc59A==}
 
   it-last@3.0.6:
     resolution: {integrity: sha512-M4/get95O85u2vWvWQinF8SJUc/RPC5bWTveBTYXvlP2q5TF9Y+QhT3nz+CRCyS2YEc66VJkyl/da6WrJ0wKhw==}
@@ -9448,10 +9448,10 @@ snapshots:
       '@constl/bohr-db': 1.1.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))
       '@constl/mandataire': 0.1.16
       '@constl/utils-ipa': 1.0.0
-      '@helia/block-brokers': 2.1.1
-      '@helia/unixfs': 3.0.5
+      '@helia/block-brokers': 2.1.2
+      '@helia/unixfs': 3.0.6
       '@ipld/dag-cbor': 9.2.0
-      '@lassi-js/kili': 0.3.11(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
+      '@lassi-js/kili': 0.3.12(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
       '@libp2p/autonat': 1.0.19
       '@libp2p/bootstrap': 10.0.22
       '@libp2p/circuit-relay-v2': 1.0.22
@@ -9776,10 +9776,10 @@ snapshots:
     dependencies:
       '@hapi/hoek': 9.3.0
 
-  '@helia/bitswap@1.0.1':
+  '@helia/bitswap@1.1.0':
     dependencies:
-      '@helia/interface': 4.2.0
-      '@helia/utils': 0.2.0
+      '@helia/interface': 4.3.0
+      '@helia/utils': 0.3.0
       '@libp2p/interface': 1.3.1
       '@libp2p/logger': 4.0.12
       '@libp2p/peer-collections': 5.2.0
@@ -9788,9 +9788,7 @@ snapshots:
       any-signal: 4.1.1
       interface-blockstore: 5.2.10
       interface-store: 5.1.8
-      it-all: 3.0.6
       it-drain: 3.0.7
-      it-filter: 3.1.0
       it-length-prefixed: 9.0.4
       it-length-prefixed-stream: 1.1.7
       it-map: 3.1.0
@@ -9823,11 +9821,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@helia/block-brokers@2.1.1':
+  '@helia/block-brokers@2.1.2':
     dependencies:
-      '@helia/bitswap': 1.0.1
-      '@helia/interface': 4.2.0
-      '@helia/utils': 0.2.0
+      '@helia/bitswap': 1.1.0
+      '@helia/interface': 4.3.0
+      '@helia/utils': 0.3.0
       '@libp2p/interface': 1.3.1
       '@libp2p/utils': 5.4.0
       '@multiformats/multiaddr': 12.2.1
@@ -9871,7 +9869,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@helia/interface@4.2.0':
+  '@helia/interface@4.3.0':
     dependencies:
       '@libp2p/interface': 1.3.1
       '@multiformats/dns': 1.0.6
@@ -9881,9 +9879,9 @@ snapshots:
       multiformats: 13.1.0
       progress-events: 1.0.0
 
-  '@helia/unixfs@3.0.5':
+  '@helia/unixfs@3.0.6':
     dependencies:
-      '@helia/interface': 4.2.0
+      '@helia/interface': 4.3.0
       '@ipld/dag-pb': 4.1.0
       '@libp2p/interface': 1.3.1
       '@libp2p/logger': 4.0.12
@@ -9894,7 +9892,7 @@ snapshots:
       ipfs-unixfs-exporter: 13.5.0
       ipfs-unixfs-importer: 15.2.5
       it-all: 3.0.6
-      it-glob: 2.0.7
+      it-glob: 3.0.1
       it-last: 3.0.6
       it-pipe: 3.0.1
       merge-options: 3.0.4
@@ -9906,9 +9904,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@helia/utils@0.2.0':
+  '@helia/utils@0.3.0':
     dependencies:
-      '@helia/interface': 4.2.0
+      '@helia/interface': 4.3.0
       '@ipld/dag-cbor': 9.2.0
       '@ipld/dag-json': 10.2.0
       '@ipld/dag-pb': 4.1.0
@@ -10005,14 +10003,14 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       jest-mock: 29.7.0
 
   '@jest/fake-timers@29.7.0':
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -10025,7 +10023,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@types/yargs': 15.0.19
       chalk: 4.1.2
 
@@ -10034,7 +10032,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -10065,7 +10063,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@lassi-js/kili@0.3.11(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))':
+  '@lassi-js/kili@0.3.12(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))':
     dependencies:
       '@constl/ipa': 1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)
       '@constl/utils-ipa': 1.0.0
@@ -11631,7 +11629,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@types/responselike': 1.0.3
 
   '@types/chai-as-promised@7.1.8':
@@ -11654,7 +11652,7 @@ snapshots:
 
   '@types/dns-packet@5.6.5':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/estree@1.0.5': {}
 
@@ -11672,7 +11670,7 @@ snapshots:
 
   '@types/jsdom@21.1.6':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@types/tough-cookie': 4.0.5
       parse5: 7.1.2
 
@@ -11682,7 +11680,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/linkify-it@3.0.5': {}
 
@@ -11714,11 +11712,11 @@ snapshots:
   '@types/multicast-dns@7.2.4':
     dependencies:
       '@types/dns-packet': 5.6.5
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/murmurhash3js-revisited@3.0.3': {}
 
-  '@types/node@20.12.7':
+  '@types/node@20.12.8':
     dependencies:
       undici-types: 5.26.5
 
@@ -11728,7 +11726,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/retry@0.12.0': {}
 
@@ -11756,11 +11754,11 @@ snapshots:
 
   '@types/ws@8.5.10':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/xml2js@0.4.14':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -11774,7 +11772,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
     optional: true
 
   '@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)':
@@ -11960,9 +11958,9 @@ snapshots:
 
   '@vascosantos/moving-average@1.1.0': {}
 
-  '@vitejs/plugin-vue@5.0.4(vite@5.2.10(@types/node@20.12.7)(terser@5.31.0))(vue@3.4.25(typescript@5.4.5))':
+  '@vitejs/plugin-vue@5.0.4(vite@5.2.10(@types/node@20.12.8)(terser@5.31.0))(vue@3.4.25(typescript@5.4.5))':
     dependencies:
-      vite: 5.2.10(@types/node@20.12.7)(terser@5.31.0)
+      vite: 5.2.10(@types/node@20.12.8)(terser@5.31.0)
       vue: 3.4.25(typescript@5.4.5)
 
   '@vue/compiler-core@3.4.25':
@@ -12161,7 +12159,7 @@ snapshots:
       '@types/chai-string': 1.4.5
       '@types/chai-subset': 1.3.5
       '@types/mocha': 10.0.6
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       buffer: 6.0.3
       bytes: 3.1.2
@@ -12235,7 +12233,7 @@ snapshots:
       typedoc-plugin-mdn-links: 3.1.23(typedoc@0.25.13(typescript@5.4.5))
       typedoc-plugin-missing-exports: 2.2.0(typedoc@0.25.13(typescript@5.4.5))
       typescript: 5.4.5
-      typescript-docs-verifier: 2.5.0(@types/node@20.12.7)(typescript@5.4.5)
+      typescript-docs-verifier: 2.5.0(@types/node@20.12.8)(typescript@5.4.5)
       wherearewe: 2.0.1
       yargs: 17.7.2
       yargs-parser: 21.1.1
@@ -12843,7 +12841,7 @@ snapshots:
 
   chrome-launcher@0.15.2:
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -12852,7 +12850,7 @@ snapshots:
 
   chromium-edge-launcher@1.0.0:
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -13453,7 +13451,7 @@ snapshots:
   ennikkai@2.2.7(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)):
     dependencies:
       '@constl/ipa': 1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)
-      '@lassi-js/kili': 0.3.11(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
+      '@lassi-js/kili': 0.3.12(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
       deepmerge: 4.3.1
       events: 3.3.0
     transitivePeerDependencies:
@@ -15206,9 +15204,9 @@ snapshots:
     dependencies:
       it-peekable: 3.0.4
 
-  it-glob@2.0.7:
+  it-glob@3.0.1:
     dependencies:
-      minimatch: 9.0.4
+      fast-glob: 3.3.2
 
   it-last@3.0.6: {}
 
@@ -15325,7 +15323,7 @@ snapshots:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
@@ -15346,13 +15344,13 @@ snapshots:
   jest-mock@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       jest-util: 29.7.0
 
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -15369,7 +15367,7 @@ snapshots:
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -17303,7 +17301,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.0
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       long: 5.2.3
 
   protons-runtime@5.4.0:
@@ -18372,14 +18370,14 @@ snapshots:
     dependencies:
       typescript: 5.4.5
 
-  ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5):
+  ts-node@10.9.2(@types/node@20.12.8)(typescript@5.4.5):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
@@ -18521,13 +18519,13 @@ snapshots:
       shiki: 0.14.7
       typescript: 5.4.5
 
-  typescript-docs-verifier@2.5.0(@types/node@20.12.7)(typescript@5.4.5):
+  typescript-docs-verifier@2.5.0(@types/node@20.12.8)(typescript@5.4.5):
     dependencies:
       chalk: 4.1.2
       fs-extra: 10.1.0
       ora: 5.4.1
       strip-ansi: 7.1.0
-      ts-node: 10.9.2(@types/node@20.12.7)(typescript@5.4.5)
+      ts-node: 10.9.2(@types/node@20.12.8)(typescript@5.4.5)
       tsconfig: 7.0.0
       typescript: 5.4.5
       yargs: 17.7.2
@@ -18701,24 +18699,24 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@5.2.10(@types/node@20.12.7)(terser@5.31.0):
+  vite@5.2.10(@types/node@20.12.8)(terser@5.31.0):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.16.4
     optionalDependencies:
-      '@types/node': 20.12.7
+      '@types/node': 20.12.8
       fsevents: 2.3.3
       terser: 5.31.0
 
-  vitepress@1.1.4(@algolia/client-search@4.23.3)(@types/node@20.12.7)(axios@1.6.8)(postcss@8.4.38)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.0)(typescript@5.4.5):
+  vitepress@1.1.4(@algolia/client-search@4.23.3)(@types/node@20.12.8)(axios@1.6.8)(postcss@8.4.38)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.0)(typescript@5.4.5):
     dependencies:
       '@docsearch/css': 3.6.0
       '@docsearch/js': 3.6.0(@algolia/client-search@4.23.3)(react@18.2.0)(search-insights@2.13.0)
       '@shikijs/core': 1.3.0
       '@shikijs/transformers': 1.3.0
       '@types/markdown-it': 14.0.1
-      '@vitejs/plugin-vue': 5.0.4(vite@5.2.10(@types/node@20.12.7)(terser@5.31.0))(vue@3.4.25(typescript@5.4.5))
+      '@vitejs/plugin-vue': 5.0.4(vite@5.2.10(@types/node@20.12.8)(terser@5.31.0))(vue@3.4.25(typescript@5.4.5))
       '@vue/devtools-api': 7.0.27(vue@3.4.25(typescript@5.4.5))
       '@vueuse/core': 10.9.0(vue@3.4.25(typescript@5.4.5))
       '@vueuse/integrations': 10.9.0(axios@1.6.8)(focus-trap@7.5.4)(vue@3.4.25(typescript@5.4.5))
@@ -18726,7 +18724,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 6.3.0
       shiki: 1.3.0
-      vite: 5.2.10(@types/node@20.12.7)(terser@5.31.0)
+      vite: 5.2.10(@types/node@20.12.8)(terser@5.31.0)
       vue: 3.4.25(typescript@5.4.5)
     optionalDependencies:
       postcss: 8.4.38
