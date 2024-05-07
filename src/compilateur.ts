@@ -69,7 +69,7 @@ export class Compilateur {
   }
 
   obtCache() {
-    return path.resolve(this.racineProjet, ".கி-வி")
+    return path.resolve(this.racineProjet, ".கி-வி");
   }
 
   obtCompilateur({
