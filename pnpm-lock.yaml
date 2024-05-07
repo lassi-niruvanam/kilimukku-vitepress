@@ -16,7 +16,7 @@ importers:
         version: 3.0.4
       nuchabal:
         specifier: ^3.2.3
-        version: 3.2.3(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
+        version: 3.2.4(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
       postcss-rtl:
         specifier: ^2.0.0
         version: 2.0.0(postcss@8.4.38)
@@ -1428,10 +1428,10 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@lassi-js/kili@0.3.12':
-    resolution: {integrity: sha512-yEG802H3LxZpS9nphQr98mNrQSNRX8JFtWHau/bo0ieI1njtCLccHza9VmIn780ofgOXFzM8L0pgFofLBL3bfQ==}
+  '@lassi-js/kili@0.3.13':
+    resolution: {integrity: sha512-L2k6onihv5S6/rtKfYyiax63tWVJ5sSvrhbFff75NVJvoicGrziw2jUr44qqD8P5W9IUqDhteZ+JuFaw7yasjg==}
     peerDependencies:
-      '@constl/ipa': ^1.0.5
+      '@constl/ipa': ^1.0.12
 
   '@leichtgewicht/ip-codec@2.0.5':
     resolution: {integrity: sha512-Vo+PSpZG2/fmgmiNzYK9qWRh8h/CHrwD0mo1h1DzL4yzHNSfWYujGTYsWGreD000gcgmZ7K4Ys6Tx9TxtsKdDw==}
@@ -3662,10 +3662,10 @@ packages:
   end-of-stream@1.4.4:
     resolution: {integrity: sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==}
 
-  ennikkai@2.2.7:
-    resolution: {integrity: sha512-LfwBjW3IC4aOstvGLoHQ4rWeK9Y5OplHHfjsozbMbaplczn/kKnpXQ2gqZpfkZRYNOL5CSp9nYQb9XW5++nxFQ==}
+  ennikkai@2.2.9:
+    resolution: {integrity: sha512-yI9tzqBtYOm4U+zDKFApY2Auzm8TQwDr/4J2s++/K1U0stUu6BIrmDy1VPRoO6EDXyw1jzB6Svkvfe/B2iF4Jw==}
     peerDependencies:
-      '@constl/ipa': ^1.0.0
+      '@constl/ipa': ^1.0.12
 
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
@@ -6115,8 +6115,8 @@ packages:
   npmlog@4.1.2:
     resolution: {integrity: sha512-2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==}
 
-  nuchabal@3.2.3:
-    resolution: {integrity: sha512-rlOrSJ2aIqnNqKF/YvqbpCOHdJ4l8//YWAv9E40iKUrwrZRThTr/21z2RbZc3IKCEqqtpUh2cjOJLm8cmsET6w==}
+  nuchabal@3.2.4:
+    resolution: {integrity: sha512-sOhaO8cO0fRgnCM6rQ5FjxPS+ubTQ9f2xTP3vEgRbFqCXFb/oGDzn2DzoIn7V9h+zEhaD8/yaQZCgyQZkYRNvQ==}
     peerDependencies:
       '@constl/ipa': ^1.0.12
 
@@ -9201,7 +9201,7 @@ snapshots:
       it-length-prefixed: 9.0.4
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.1.0
+      multiformats: 13.0.1
       protobufjs: 7.2.6
       uint8arraylist: 2.4.8
       uint8arrays: 5.0.3
@@ -9297,7 +9297,7 @@ snapshots:
       '@helia/block-brokers': 2.1.3
       '@helia/unixfs': 3.0.6
       '@ipld/dag-cbor': 9.2.0
-      '@lassi-js/kili': 0.3.12(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
+      '@lassi-js/kili': 0.3.13(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
       '@libp2p/autonat': 1.0.19
       '@libp2p/bootstrap': 10.0.22
       '@libp2p/circuit-relay-v2': 1.0.22
@@ -9327,7 +9327,7 @@ snapshots:
       crypto-js: 4.2.0
       deep-equal: 2.2.3
       deepcopy: 2.1.0
-      ennikkai: 2.2.7(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
+      ennikkai: 2.2.9(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
       env-paths: 3.0.0
       events: 3.3.0
       genversion: 3.2.0
@@ -9661,7 +9661,7 @@ snapshots:
       ipfs-bitswap: 20.0.2
       it-filter: 3.1.0
       it-foreach: 2.1.0
-      multiformats: 13.1.0
+      multiformats: 13.0.1
       progress-events: 1.0.0
       uint8arrays: 5.0.3
     transitivePeerDependencies:
@@ -9710,7 +9710,7 @@ snapshots:
       interface-datastore: 8.2.11
       interface-store: 5.1.8
       ipfs-bitswap: 20.0.2
-      multiformats: 13.1.0
+      multiformats: 13.0.1
       progress-events: 1.0.0
     transitivePeerDependencies:
       - supports-color
@@ -9941,7 +9941,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@lassi-js/kili@0.3.12(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))':
+  '@lassi-js/kili@0.3.13(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))':
     dependencies:
       '@constl/ipa': 1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)
       '@constl/utils-ipa': 1.0.0
@@ -12366,7 +12366,7 @@ snapshots:
       it-filter: 3.1.0
       it-merge: 3.0.5
       it-pushable: 3.2.3
-      multiformats: 13.1.0
+      multiformats: 13.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -12376,7 +12376,7 @@ snapshots:
       interface-blockstore: 5.2.10
       interface-store: 5.1.8
       level: 8.0.1
-      multiformats: 13.1.0
+      multiformats: 13.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13235,10 +13235,10 @@ snapshots:
     dependencies:
       once: 1.4.0
 
-  ennikkai@2.2.7(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)):
+  ennikkai@2.2.9(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)):
     dependencies:
       '@constl/ipa': 1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)
-      '@lassi-js/kili': 0.3.12(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
+      '@lassi-js/kili': 0.3.13(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
       deepmerge: 4.3.1
       events: 3.3.0
     transitivePeerDependencies:
@@ -14428,7 +14428,7 @@ snapshots:
       it-drain: 3.0.7
       libp2p: 1.5.1
       mortice: 3.0.4
-      multiformats: 13.1.0
+      multiformats: 13.0.1
       progress-events: 1.0.0
       uint8arrays: 5.0.3
     transitivePeerDependencies:
@@ -14621,7 +14621,7 @@ snapshots:
       it-pipe: 3.0.1
       it-take: 3.0.5
       just-debounce-it: 3.2.0
-      multiformats: 13.1.0
+      multiformats: 13.0.1
       progress-events: 1.0.0
       protons-runtime: 5.4.0
       timeout-abort-controller: 3.0.0
@@ -14706,7 +14706,7 @@ snapshots:
       cborg: 4.2.0
       err-code: 3.0.1
       interface-datastore: 8.2.11
-      multiformats: 13.1.0
+      multiformats: 13.0.1
       protons-runtime: 5.4.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -16489,10 +16489,10 @@ snapshots:
       gauge: 2.7.4
       set-blocking: 2.0.0
 
-  nuchabal@3.2.3(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)):
+  nuchabal@3.2.4(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)):
     dependencies:
       '@constl/ipa': 1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7)
-      '@lassi-js/kili': 0.3.12(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
+      '@lassi-js/kili': 0.3.13(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.24.5)(@babel/preset-env@7.24.4(@babel/core@7.24.5))(react@18.2.0))(wrtc@0.4.7))
       deepmerge: 4.3.1
       events: 3.3.0
     transitivePeerDependencies:
@@ -18595,7 +18595,7 @@ snapshots:
 
   wide-align@1.1.5:
     dependencies:
-      string-width: 4.2.3
+      string-width: 1.0.2
 
   winston@2.4.7:
     dependencies:
