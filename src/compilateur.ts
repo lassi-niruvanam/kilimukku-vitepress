@@ -68,6 +68,10 @@ export class Compilateur {
     this.nuchabäl = nuchabäl;
   }
 
+  obtCache() {
+    return path.resolve(this.racineProjet, ".கி-வி")
+  }
+
   obtCompilateur({
     ext,
     fichier,
