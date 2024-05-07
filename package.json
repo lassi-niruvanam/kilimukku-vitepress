@@ -13,7 +13,7 @@
     "nettoyer": "rimraf dist",
     "compiler": "pnpm nettoyer && pnpm tspc",
     "test": "pnpm compiler && pnpm aegir test -t node --cov",
-    "formatter": "pnpm prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" && pnpm eslint src",
+    "formatter": "pnpm prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" && pnpm eslint src test",
     "publier": "pnpm test && pnpm versioner && pnpm formatter && pnpm compiler && (git commit -a -m 'version' || true) && pnpm publish",
     "versioner": "pnpm genversion  --es6 --semi src/version.ts"
   },
