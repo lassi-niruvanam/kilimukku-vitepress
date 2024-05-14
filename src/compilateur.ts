@@ -53,9 +53,13 @@ export class Compilateur {
     this.racineProjet = path.resolve(racineProjet);
     this.dossierSource = path.join(this.racineProjet, dossierSource);
     this.dossierTraductions = path.join(this.racineProjet, dossierTraductions);
-    this.languesCibles = languesCibles || fs.readdirSync(this.dossierTraductions).filter(f=>fs.statSync(f).isFile() && f.split(".").pop() === "json").map(f=>path.basename(f)).filter(
-      (lng) => lng !== languePrincipale,
-    ); // Au cas où
+    this.languesCibles =
+      languesCibles ||
+      fs
+        .readdirSync(this.dossierTraductions)
+        .filter((f) => fs.statSync(f).isFile() && f.split(".").pop() === "json")
+        .map((f) => path.basename(f))
+        .filter((lng) => lng !== languePrincipale); // Au cas où
     this.configVitePress = configVitePress;
     this.extentions = [
       new ExtentionMd(),
