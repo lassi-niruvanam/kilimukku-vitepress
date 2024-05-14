@@ -31,30 +31,31 @@ export class Compilateur {
 
   constructor({
     languePrincipale,
-    languesCibles,
     dossierSource,
     dossierTraductions,
+    languesCibles,
     racineProjet = ".",
     configVitePress,
     extentions = [],
     nuchabäl,
   }: {
     languePrincipale: string;
-    languesCibles: string[];
     dossierSource: string;
     dossierTraductions: string;
+    languesCibles?: string[];
     racineProjet?: string;
     configVitePress: UserConfig<DefaultTheme.Config>;
     extentions?: Extention[];
     nuchabäl?: Nuchabäl;
   }) {
     this.languePrincipale = languePrincipale;
-    this.languesCibles = languesCibles.filter(
-      (lng) => lng !== languePrincipale,
-    ); // Au cas où
+
     this.racineProjet = path.resolve(racineProjet);
     this.dossierSource = path.join(this.racineProjet, dossierSource);
     this.dossierTraductions = path.join(this.racineProjet, dossierTraductions);
+    this.languesCibles = languesCibles || fs.readdirSync(this.dossierTraductions).filter(f=>fs.statSync(f).isFile() && f.split(".").pop() === "json").map(f=>path.basename(f)).filter(
+      (lng) => lng !== languePrincipale,
+    ); // Au cas où
     this.configVitePress = configVitePress;
     this.extentions = [
       new ExtentionMd(),
