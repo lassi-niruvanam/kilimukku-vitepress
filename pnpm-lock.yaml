@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       marked:
-        specifier: ^12.0.2
-        version: 12.0.2
+        specifier: ^13.0.0
+        version: 13.0.1
       merge-options:
         specifier: ^3.0.4
         version: 3.0.4
@@ -5626,6 +5626,11 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
+  marked@13.0.1:
+    resolution: {integrity: sha512-7kBohS6GrZKvCsNXZyVVXSW7/hGBHe49ng99YPkDCckSUrrG7MSFLCexsRxptzOmyW2eT5dySh4Md1V6my52fA==}
+    engines: {node: '>= 18'}
+    hasBin: true
+
   marked@4.3.0:
     resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
     engines: {node: '>= 12'}
@@ -9504,7 +9509,7 @@ snapshots:
       it-length-prefixed: 9.0.4
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.1.1
       protobufjs: 7.3.2
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10053,7 +10058,7 @@ snapshots:
       ipfs-bitswap: 20.0.2
       it-filter: 3.1.1
       it-foreach: 2.1.1
-      multiformats: 13.0.1
+      multiformats: 13.1.1
       progress-events: 1.0.0
       uint8arrays: 5.1.0
     transitivePeerDependencies:
@@ -10102,7 +10107,7 @@ snapshots:
       interface-datastore: 8.2.11
       interface-store: 5.1.8
       ipfs-bitswap: 20.0.2
-      multiformats: 13.0.1
+      multiformats: 13.1.1
       progress-events: 1.0.0
     transitivePeerDependencies:
       - supports-color
@@ -10998,7 +11003,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.0.2
       '@multiformats/multiaddr': 12.3.0
-      multiformats: 13.0.1
+      multiformats: 13.1.1
 
   '@multiformats/multiaddr-to-uri@10.1.0':
     dependencies:
@@ -12682,7 +12687,7 @@ snapshots:
       it-filter: 3.1.1
       it-merge: 3.0.5
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.1.1
     transitivePeerDependencies:
       - supports-color
 
@@ -12692,7 +12697,7 @@ snapshots:
       interface-blockstore: 5.2.10
       interface-store: 5.1.8
       level: 8.0.1
-      multiformats: 13.0.1
+      multiformats: 13.1.1
     transitivePeerDependencies:
       - supports-color
 
@@ -13776,8 +13781,8 @@ snapshots:
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.14.1(@typescript-eslint/parser@7.15.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)(typescript@5.5.3)
       '@typescript-eslint/parser': 7.15.0(eslint@8.57.0)(typescript@5.5.3)
-      eslint-config-love: 47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@9.6.0))(eslint@8.57.0)(typescript@5.5.3)
-      eslint-config-standard: 17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@9.6.0))(eslint@8.57.0)
+      eslint-config-love: 47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)
+      eslint-config-standard: 17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-etc: 2.0.3(eslint@8.57.0)(typescript@5.5.3)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.15.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)
       eslint-plugin-jsdoc: 48.5.0(eslint@8.57.0)
@@ -13793,7 +13798,7 @@ snapshots:
       - eslint-plugin-n
       - supports-color
 
-  eslint-config-love@47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@9.6.0))(eslint@8.57.0)(typescript@5.5.3):
+  eslint-config-love@47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3):
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.14.1(@typescript-eslint/parser@7.15.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)(typescript@5.5.3)
       '@typescript-eslint/parser': 7.15.0(eslint@8.57.0)(typescript@5.5.3)
@@ -13809,7 +13814,7 @@ snapshots:
     dependencies:
       eslint: 9.6.0
 
-  eslint-config-standard@17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@9.6.0))(eslint@8.57.0):
+  eslint-config-standard@17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.15.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.15.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)
@@ -14785,7 +14790,7 @@ snapshots:
       it-drain: 3.0.7
       libp2p: 1.7.0
       mortice: 3.0.4
-      multiformats: 13.0.1
+      multiformats: 13.1.1
       progress-events: 1.0.0
       uint8arrays: 5.1.0
     transitivePeerDependencies:
@@ -14934,7 +14939,7 @@ snapshots:
   interface-blockstore@5.2.10:
     dependencies:
       interface-store: 5.1.8
-      multiformats: 13.0.1
+      multiformats: 13.1.1
 
   interface-datastore@8.2.11:
     dependencies:
@@ -14980,7 +14985,7 @@ snapshots:
       it-pipe: 3.0.1
       it-take: 3.0.6
       just-debounce-it: 3.2.0
-      multiformats: 13.0.1
+      multiformats: 13.1.1
       progress-events: 1.0.0
       protons-runtime: 5.4.0
       timeout-abort-controller: 3.0.0
@@ -15065,7 +15070,7 @@ snapshots:
       cborg: 4.2.2
       err-code: 3.0.1
       interface-datastore: 8.2.11
-      multiformats: 13.0.1
+      multiformats: 13.1.1
       protons-runtime: 5.4.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -15898,6 +15903,8 @@ snapshots:
       supports-hyperlinks: 3.0.0
 
   marked@12.0.2: {}
+
+  marked@13.0.1: {}
 
   marked@4.3.0: {}
 
@@ -19018,7 +19025,7 @@ snapshots:
 
   wide-align@1.1.5:
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
 
   winston@2.4.7:
     dependencies:
