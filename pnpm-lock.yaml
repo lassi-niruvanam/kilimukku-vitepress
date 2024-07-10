@@ -62,7 +62,7 @@ importers:
         version: 3.3.2
       rimraf:
         specifier: ^6.0.0
-        version: 6.0.0
+        version: 6.0.1
       ts-patch:
         specifier: ^3.1.2
         version: 3.2.1
@@ -77,7 +77,7 @@ importers:
         version: 3.4.7(typescript@5.5.3)
       vitepress:
         specifier: 1.3.0
-        version: 1.3.0(@algolia/client-search@4.23.3)(@types/node@20.14.10)(axios@1.7.2)(postcss@8.4.39)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.1)(typescript@5.5.3)
+        version: 1.3.0(@algolia/client-search@4.23.3)(@types/node@20.14.10)(axios@1.7.2)(postcss@8.4.39)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.2)(typescript@5.5.3)
 
 packages:
 
@@ -3002,8 +3002,8 @@ packages:
     resolution: {integrity: sha512-q6cFW5m3KxfP/9xGI3yGLaC1l5DP6DWM9IvjiJojnIwohL5CQDl02EXViPV852mOfQo+7PJGPN01MI87vFGzyA==}
     hasBin: true
 
-  cborg@4.2.2:
-    resolution: {integrity: sha512-A0z7WhnY4HDLrVdnQI4i/OLG3kANHotk5NzDpr2iauf4xrmQPwJCxlbCnIXkVrFtsr8G3omfvvr5oF50i1Zt8g==}
+  cborg@4.2.3:
+    resolution: {integrity: sha512-XBFbEJ6WMfn9L7woc2t+EzOxF8vGqddoopKBbrhIvZBt2WIUgSlT8xLmM6Aq1xv8eWt4yOSjwxWjYeuHU3CpJA==}
     hasBin: true
 
   ccount@2.0.1:
@@ -4318,9 +4318,8 @@ packages:
     resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==}
     engines: {node: '>=10.13.0'}
 
-  glob@10.4.4:
-    resolution: {integrity: sha512-XsOKvHsu38Xe19ZQupE6N/HENeHQBA05o3hV8labZZT2zYDg1+emxWHnc/Bm9AcCMPXfD6jt+QC7zC5JSFyumw==}
-    engines: {node: 14 >=14.21 || 16 >=16.20 || 18 || 20 || >=22}
+  glob@10.4.5:
+    resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
     hasBin: true
 
   glob@11.0.0:
@@ -5080,9 +5079,8 @@ packages:
     resolution: {integrity: sha512-oyk4eCeZto2lzWDnJOa3j1S2M+VOGKUh8isEf94ySoaL6IFlyie0T4P9E0ZUaIvX8LyJxYFHFKCt8Zk7Sm/XPQ==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
-  jackspeak@3.4.2:
-    resolution: {integrity: sha512-qH3nOSj8q/8+Eg8LUPOq3C+6HWkpUioIjDsq1+D4zY91oZvpPttw8GwtF1nReRYKXl+1AORyFqtm2f5Q1SB6/Q==}
-    engines: {node: 14 >=14.21 || 16 >=16.20 || >=18}
+  jackspeak@3.4.3:
+    resolution: {integrity: sha512-OGlZQpz2yfahA/Rd1Y8Cd9SIEsqvXkLVoSw/cgwhnhFMDbsQFeZYoJJ7bIZBS9BcamUW96asq/npPWugM+RQBw==}
 
   jackspeak@4.0.1:
     resolution: {integrity: sha512-cub8rahkh0Q/bw1+GxP7aeSe29hHHn2V4m29nnDlvCdlgU+3UGxkZp7Z53jLUdpX3jdTO0nJZUDl3xvbWc2Xog==}
@@ -5265,11 +5263,11 @@ packages:
   libp2p@1.8.0:
     resolution: {integrity: sha512-+dZe5Q1IedmD6JshhHP63sXfFpoBv2x/2dCytKGJmtgYJINVL2/hFCz4ezBQqcmOEa+XVs9A2nAuocH30r089Q==}
 
-  libsodium-sumo@0.7.13:
-    resolution: {integrity: sha512-zTGdLu4b9zSNLfovImpBCbdAA4xkpkZbMnSQjP8HShyOutnGjRHmSOKlsylh1okao6QhLiz7nG98EGn+04cZjQ==}
+  libsodium-sumo@0.7.14:
+    resolution: {integrity: sha512-2nDge6qlAjcwyslAhWfVumlkeSNK5+WCfKa2/VEq9prvlT5vP2FR0m0o5hmKaYqfsZ4TQVj5czQsimZvXDB1CQ==}
 
-  libsodium-wrappers-sumo@0.7.13:
-    resolution: {integrity: sha512-lz4YdplzDRh6AhnLGF2Dj2IUj94xRN6Bh8T0HLNwzYGwPehQJX6c7iYVrFUPZ3QqxE0bqC+K0IIqqZJYWumwSQ==}
+  libsodium-wrappers-sumo@0.7.14:
+    resolution: {integrity: sha512-0lm7ZwN5a95J2yUi8R1rgQeeaVDIWnvNzgVmXmZswis4mC+bQtbDrB+QpJlL4qklaKx3hVpJjoc6ubzJFiv64Q==}
 
   lie@3.3.0:
     resolution: {integrity: sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==}
@@ -5400,9 +5398,8 @@ packages:
     resolution: {integrity: sha512-9/8QXrtbGeMB6LxwQd4x1tIMnsmUxMvIH/qWGsccz6bt9Uln3S+sgAaqfQNhbGA8ufzs2fHuP/yqapGgP9Hh2g==}
     engines: {node: '>=18'}
 
-  lru-cache@10.4.1:
-    resolution: {integrity: sha512-8h/JsUc/2+Dm9RPJnBAmObGnUqTMmsIKThxixMLOkrebSihRhTV0wLD/8BSk6OU6Pbj8hiDTbsI3fLjBJSlhDg==}
-    engines: {node: 14 >= 14.21 || 16 >= 16.20 || 18 >=18.20 || 20 || >=22}
+  lru-cache@10.4.3:
+    resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
   lru-cache@11.0.0:
     resolution: {integrity: sha512-Qv32eSV1RSCfhY3fpPE2GNZ8jgM9X7rdAfemLWqTUxwiyIC4jJ6Sy0fZ8H+oLWevO6i4/bizg7c8d8i6bxrzbA==}
@@ -6662,6 +6659,9 @@ packages:
     resolution: {integrity: sha512-zIB6QDrSbPfRg+33FZalluFIowkbV5Xh1xSuetjG+rlC5he6u2dc6VQJ0TbMdlN3R1RHdpOqxEFMKTnQ+itUwA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
+  progress-events@1.0.1:
+    resolution: {integrity: sha512-MOzLIwhpt64KIVN64h1MwdKWiyKFNc/S6BoYKPIVUHFg0/eIEyBulhWCgn678v/4c0ri3FdGuzXymNCv02MUIw==}
+
   progress@2.0.3:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
@@ -6990,8 +6990,8 @@ packages:
     engines: {node: 14 >=14.20 || 16 >=16.20 || >=18}
     hasBin: true
 
-  rimraf@6.0.0:
-    resolution: {integrity: sha512-u+yqhM92LW+89cxUQK0SRyvXYQmyuKHx0jkx4W7KfwLGLqJnQM5031Uv1trE4gB9XEXBM/s6MxKlfW95IidqaA==}
+  rimraf@6.0.1:
+    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -7516,8 +7516,8 @@ packages:
     resolution: {integrity: sha512-7jDLIdD2Zp0bDe5r3D2qtkd1QOCacylBuL7oa4udvN6v2pqr4+LcCr67C8DR1zkpaZ8XosF5m1yQSabKAW6f2g==}
     engines: {node: '>=14.16'}
 
-  terser@5.31.1:
-    resolution: {integrity: sha512-37upzU1+viGvuFtBo9NPufCb9dwM0+l9hMxYyWfBA+fbwrPqNJAhbZ6W47bBFnZHKHTUBnMvi87434qq+qnxOg==}
+  terser@5.31.2:
+    resolution: {integrity: sha512-LGyRZVFm/QElZHy/CPr/O4eNZOZIzsrQ92y4v9UJe/pFJjypje2yI3C2FmPtvUEnhadlSbmG2nXtdcjHOjCfxw==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -9347,7 +9347,7 @@ snapshots:
       it-length-prefixed: 9.0.4
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.1.3
+      multiformats: 13.0.1
       protobufjs: 7.3.2
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -9808,7 +9808,7 @@ snapshots:
       it-take: 3.0.6
       multiformats: 13.1.3
       p-defer: 4.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       protons-runtime: 5.4.0
       race-event: 1.3.0
       uint8-varint: 2.0.4
@@ -9827,8 +9827,8 @@ snapshots:
       ipfs-bitswap: 20.0.2
       it-filter: 3.1.1
       it-foreach: 2.1.1
-      multiformats: 13.1.3
-      progress-events: 1.0.0
+      multiformats: 13.0.1
+      progress-events: 1.0.1
       uint8arrays: 5.1.0
     transitivePeerDependencies:
       - supports-color
@@ -9846,7 +9846,7 @@ snapshots:
       interface-blockstore: 5.2.10
       interface-store: 5.1.8
       multiformats: 13.1.3
-      progress-events: 1.0.0
+      progress-events: 1.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -9876,8 +9876,8 @@ snapshots:
       interface-datastore: 8.2.11
       interface-store: 5.1.8
       ipfs-bitswap: 20.0.2
-      multiformats: 13.1.3
-      progress-events: 1.0.0
+      multiformats: 13.0.1
+      progress-events: 1.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -9889,7 +9889,7 @@ snapshots:
       interface-datastore: 8.2.11
       interface-store: 5.1.8
       multiformats: 13.1.3
-      progress-events: 1.0.0
+      progress-events: 1.0.1
 
   '@helia/unixfs@3.0.6':
     dependencies:
@@ -9909,7 +9909,7 @@ snapshots:
       it-pipe: 3.0.1
       merge-options: 3.0.4
       multiformats: 13.1.3
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       sparse-array: 1.3.2
       uint8arrays: 5.1.0
     transitivePeerDependencies:
@@ -9930,7 +9930,7 @@ snapshots:
       '@types/murmurhash3js-revisited': 3.0.3
       any-signal: 4.1.1
       blockstore-core: 4.4.1
-      cborg: 4.2.2
+      cborg: 4.2.3
       interface-blockstore: 5.2.10
       interface-datastore: 8.2.11
       interface-store: 5.1.8
@@ -9942,7 +9942,7 @@ snapshots:
       multiformats: 13.1.3
       murmurhash3js-revisited: 3.0.0
       p-defer: 4.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
     transitivePeerDependencies:
@@ -9962,7 +9962,7 @@ snapshots:
       '@types/murmurhash3js-revisited': 3.0.3
       any-signal: 4.1.1
       blockstore-core: 4.4.1
-      cborg: 4.2.2
+      cborg: 4.2.3
       interface-blockstore: 5.2.10
       interface-datastore: 8.2.11
       interface-store: 5.1.8
@@ -9974,7 +9974,7 @@ snapshots:
       multiformats: 13.1.3
       murmurhash3js-revisited: 3.0.0
       p-defer: 4.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
     transitivePeerDependencies:
@@ -10003,12 +10003,12 @@ snapshots:
 
   '@ipld/dag-cbor@9.2.1':
     dependencies:
-      cborg: 4.2.2
+      cborg: 4.2.3
       multiformats: 13.1.3
 
   '@ipld/dag-json@10.2.2':
     dependencies:
-      cborg: 4.2.2
+      cborg: 4.2.3
       multiformats: 13.1.3
 
   '@ipld/dag-pb@4.1.2':
@@ -10154,7 +10154,7 @@ snapshots:
       it-stream-types: 2.0.1
       multiformats: 13.1.3
       p-defer: 4.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       protons-runtime: 5.4.0
       race-signal: 1.0.2
       uint8arraylist: 2.4.8
@@ -10238,7 +10238,7 @@ snapshots:
       '@libp2p/interface': 1.6.0
       '@libp2p/peer-collections': 5.2.5
       '@multiformats/multiaddr': 12.3.0
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       uint8arraylist: 2.4.8
     transitivePeerDependencies:
       - supports-color
@@ -10301,7 +10301,7 @@ snapshots:
       it-pushable: 3.2.3
       it-stream-types: 2.0.1
       multiformats: 13.1.3
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       uint8arraylist: 2.4.8
 
   '@libp2p/interfaces@3.3.2': {}
@@ -10332,7 +10332,7 @@ snapshots:
       p-defer: 4.0.1
       p-event: 6.0.1
       p-queue: 8.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       protons-runtime: 5.4.0
       race-signal: 1.0.2
       uint8-varint: 2.0.4
@@ -10535,7 +10535,7 @@ snapshots:
       '@multiformats/mafmt': 12.1.6
       '@multiformats/multiaddr': 12.3.0
       '@types/sinon': 17.0.3
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       stream-to-it: 1.0.1
     transitivePeerDependencies:
       - supports-color
@@ -10649,7 +10649,7 @@ snapshots:
       p-defer: 4.0.1
       p-event: 6.0.1
       p-timeout: 6.1.2
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       protons-runtime: 5.4.0
       race-signal: 1.0.2
       react-native-webrtc: 118.0.7(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
@@ -10669,7 +10669,7 @@ snapshots:
       '@types/ws': 8.5.10
       it-ws: 6.1.1
       p-defer: 4.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       race-signal: 1.0.2
       wherearewe: 2.0.1
       ws: 8.18.0
@@ -10688,7 +10688,7 @@ snapshots:
       '@multiformats/multiaddr-matcher': 1.2.4
       it-stream-types: 2.0.1
       multiformats: 13.1.3
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       race-signal: 1.0.2
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10725,7 +10725,7 @@ snapshots:
       '@localfirst/shared': 5.6.0
       '@types/lodash-es': 4.17.12
       bs58: 5.0.0
-      libsodium-wrappers-sumo: 0.7.13
+      libsodium-wrappers-sumo: 0.7.14
       lodash-es: 4.17.21
       msgpackr: 1.10.2
     transitivePeerDependencies:
@@ -10779,7 +10779,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.0.2
       '@multiformats/multiaddr': 12.3.0
-      multiformats: 13.1.3
+      multiformats: 13.0.1
 
   '@multiformats/multiaddr-to-uri@10.1.0':
     dependencies:
@@ -11616,10 +11616,10 @@ snapshots:
       '@types/node': 20.14.10
     optional: true
 
-  '@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3)':
+  '@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3)':
     dependencies:
       '@eslint-community/regexpp': 4.11.0
-      '@typescript-eslint/parser': 7.16.0(eslint@9.6.0)(typescript@5.5.3)
+      '@typescript-eslint/parser': 7.16.0(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/scope-manager': 7.14.1
       '@typescript-eslint/type-utils': 7.14.1(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/utils': 7.14.1(eslint@8.57.0)(typescript@5.5.3)
@@ -11634,7 +11634,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)(typescript@5.5.3)':
+  '@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3)':
     dependencies:
       '@eslint-community/regexpp': 4.11.0
       '@typescript-eslint/parser': 7.16.0(eslint@9.6.0)(typescript@5.5.3)
@@ -11642,7 +11642,7 @@ snapshots:
       '@typescript-eslint/type-utils': 7.14.1(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/utils': 7.14.1(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/visitor-keys': 7.14.1
-      eslint: 9.6.0
+      eslint: 8.57.0
       graphemer: 1.4.0
       ignore: 5.3.1
       natural-compare: 1.4.0
@@ -11851,9 +11851,9 @@ snapshots:
 
   '@vascosantos/moving-average@1.1.0': {}
 
-  '@vitejs/plugin-vue@5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.31.1))(vue@3.4.31(typescript@5.5.3))':
+  '@vitejs/plugin-vue@5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))(vue@3.4.31(typescript@5.5.3))':
     dependencies:
-      vite: 5.3.3(@types/node@20.14.10)(terser@5.31.1)
+      vite: 5.3.3(@types/node@20.14.10)(terser@5.31.2)
       vue: 3.4.31(typescript@5.5.3)
 
   '@vue/compiler-core@3.4.31':
@@ -12441,7 +12441,7 @@ snapshots:
       it-filter: 3.1.1
       it-merge: 3.0.5
       it-pushable: 3.2.3
-      multiformats: 13.1.3
+      multiformats: 13.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -12451,7 +12451,7 @@ snapshots:
       interface-blockstore: 5.2.10
       interface-store: 5.1.8
       level: 8.0.1
-      multiformats: 13.1.3
+      multiformats: 13.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -12613,7 +12613,7 @@ snapshots:
 
   cborg@4.2.0: {}
 
-  cborg@4.2.2: {}
+  cborg@4.2.3: {}
 
   ccount@2.0.1: {}
 
@@ -13511,12 +13511,12 @@ snapshots:
 
   eslint-config-ipfs@7.0.2(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint@8.57.0)(typescript@5.5.3):
     dependencies:
-      '@typescript-eslint/eslint-plugin': 7.14.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)(typescript@5.5.3)
+      '@typescript-eslint/eslint-plugin': 7.14.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/parser': 7.16.0(eslint@8.57.0)(typescript@5.5.3)
-      eslint-config-love: 47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)
+      eslint-config-love: 47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3)
       eslint-config-standard: 17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-etc: 2.0.3(eslint@8.57.0)(typescript@5.5.3)
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)
       eslint-plugin-jsdoc: 48.5.0(eslint@8.57.0)
       eslint-plugin-no-only-tests: 3.1.0
       eslint-plugin-node: 11.1.0(eslint@8.57.0)
@@ -13530,12 +13530,12 @@ snapshots:
       - eslint-plugin-n
       - supports-color
 
-  eslint-config-love@47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3):
+  eslint-config-love@47.0.0(@typescript-eslint/eslint-plugin@7.14.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)(typescript@5.5.3))(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0)(typescript@5.5.3):
     dependencies:
-      '@typescript-eslint/eslint-plugin': 7.14.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)(typescript@5.5.3)
+      '@typescript-eslint/eslint-plugin': 7.14.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)(typescript@5.5.3)
       '@typescript-eslint/parser': 7.16.0(eslint@8.57.0)(typescript@5.5.3)
       eslint: 8.57.0
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)
       eslint-plugin-n: 16.6.2(eslint@9.6.0)
       eslint-plugin-promise: 6.4.0(eslint@8.57.0)
       typescript: 5.5.3
@@ -13549,7 +13549,7 @@ snapshots:
   eslint-config-standard@17.1.0(eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0))(eslint-plugin-n@16.6.2(eslint@9.6.0))(eslint-plugin-promise@6.4.0(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
-      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0)
+      eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0)
       eslint-plugin-n: 16.6.2(eslint@9.6.0)
       eslint-plugin-promise: 6.4.0(eslint@8.57.0)
 
@@ -13617,6 +13617,33 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint@8.57.0):
+    dependencies:
+      array-includes: 3.1.8
+      array.prototype.findlastindex: 1.2.5
+      array.prototype.flat: 1.3.2
+      array.prototype.flatmap: 1.3.2
+      debug: 3.2.7
+      doctrine: 2.1.0
+      eslint: 8.57.0
+      eslint-import-resolver-node: 0.3.9
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint-import-resolver-node@0.3.9)(eslint@8.57.0)
+      hasown: 2.0.2
+      is-core-module: 2.14.0
+      is-glob: 4.0.3
+      minimatch: 3.1.2
+      object.fromentries: 2.0.8
+      object.groupby: 1.0.3
+      object.values: 1.2.0
+      semver: 6.3.1
+      tsconfig-paths: 3.15.0
+    optionalDependencies:
+      '@typescript-eslint/parser': 7.16.0(eslint@8.57.0)(typescript@5.5.3)
+    transitivePeerDependencies:
+      - eslint-import-resolver-typescript
+      - eslint-import-resolver-webpack
+      - supports-color
+
   eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@8.57.0):
     dependencies:
       array-includes: 3.1.8
@@ -13628,33 +13655,6 @@ snapshots:
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
       eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint-import-resolver-node@0.3.9)(eslint@8.57.0)
-      hasown: 2.0.2
-      is-core-module: 2.14.0
-      is-glob: 4.0.3
-      minimatch: 3.1.2
-      object.fromentries: 2.0.8
-      object.groupby: 1.0.3
-      object.values: 1.2.0
-      semver: 6.3.1
-      tsconfig-paths: 3.15.0
-    optionalDependencies:
-      '@typescript-eslint/parser': 7.16.0(eslint@9.6.0)(typescript@5.5.3)
-    transitivePeerDependencies:
-      - eslint-import-resolver-typescript
-      - eslint-import-resolver-webpack
-      - supports-color
-
-  eslint-plugin-import@2.29.1(@typescript-eslint/parser@7.16.0(eslint@9.6.0)(typescript@5.5.3))(eslint@9.6.0):
-    dependencies:
-      array-includes: 3.1.8
-      array.prototype.findlastindex: 1.2.5
-      array.prototype.flat: 1.3.2
-      array.prototype.flatmap: 1.3.2
-      debug: 3.2.7
-      doctrine: 2.1.0
-      eslint: 9.6.0
-      eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@7.16.0(eslint@8.57.0)(typescript@5.5.3))(eslint-import-resolver-node@0.3.9)(eslint@8.57.0)
       hasown: 2.0.2
       is-core-module: 2.14.0
       is-glob: 4.0.3
@@ -14279,10 +14279,10 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  glob@10.4.4:
+  glob@10.4.5:
     dependencies:
       foreground-child: 3.2.1
-      jackspeak: 3.4.2
+      jackspeak: 3.4.3
       minimatch: 9.0.5
       minipass: 7.1.2
       package-json-from-dist: 1.0.0
@@ -14509,7 +14509,7 @@ snapshots:
       '@libp2p/websockets': 8.1.1
       '@libp2p/webtransport': 4.1.1
       blockstore-core: 4.4.1
-      cborg: 4.2.2
+      cborg: 4.2.3
       datastore-core: 9.2.9
       interface-blockstore: 5.2.10
       interface-datastore: 8.2.11
@@ -14518,8 +14518,8 @@ snapshots:
       it-drain: 3.0.7
       libp2p: 1.8.0
       mortice: 3.0.4
-      multiformats: 13.1.3
-      progress-events: 1.0.0
+      multiformats: 13.0.1
+      progress-events: 1.0.1
       uint8arrays: 5.1.0
     transitivePeerDependencies:
       - bufferutil
@@ -14713,8 +14713,8 @@ snapshots:
       it-pipe: 3.0.1
       it-take: 3.0.6
       just-debounce-it: 3.2.0
-      multiformats: 13.1.3
-      progress-events: 1.0.0
+      multiformats: 13.0.1
+      progress-events: 1.0.1
       protons-runtime: 5.4.0
       timeout-abort-controller: 3.0.0
       uint8arraylist: 2.4.8
@@ -14742,7 +14742,7 @@ snapshots:
       it-pushable: 3.2.3
       multiformats: 13.1.3
       p-queue: 8.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
 
   ipfs-unixfs-importer@15.2.5:
     dependencies:
@@ -14758,7 +14758,7 @@ snapshots:
       it-first: 3.0.6
       it-parallel-batch: 3.0.6
       multiformats: 13.1.3
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       rabin-wasm: 0.1.5
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -14778,7 +14778,7 @@ snapshots:
       '@libp2p/interface': 0.1.6
       '@libp2p/logger': 3.1.0
       '@libp2p/peer-id': 3.0.6
-      cborg: 4.2.2
+      cborg: 4.2.3
       err-code: 3.0.1
       interface-datastore: 8.2.11
       multiformats: 12.1.3
@@ -14795,10 +14795,10 @@ snapshots:
       '@libp2p/interface': 1.6.0
       '@libp2p/logger': 4.0.16
       '@libp2p/peer-id': 4.2.0
-      cborg: 4.2.2
+      cborg: 4.2.3
       err-code: 3.0.1
       interface-datastore: 8.2.11
-      multiformats: 13.1.3
+      multiformats: 13.0.1
       protons-runtime: 5.4.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -15183,7 +15183,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  jackspeak@3.4.2:
+  jackspeak@3.4.3:
     dependencies:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
@@ -15421,18 +15421,18 @@ snapshots:
       merge-options: 3.0.4
       multiformats: 13.1.3
       p-defer: 4.0.1
-      progress-events: 1.0.0
+      progress-events: 1.0.1
       race-event: 1.3.0
       race-signal: 1.0.2
       uint8arrays: 5.1.0
     transitivePeerDependencies:
       - supports-color
 
-  libsodium-sumo@0.7.13: {}
+  libsodium-sumo@0.7.14: {}
 
-  libsodium-wrappers-sumo@0.7.13:
+  libsodium-wrappers-sumo@0.7.14:
     dependencies:
-      libsodium-sumo: 0.7.13
+      libsodium-sumo: 0.7.14
 
   lie@3.3.0:
     dependencies:
@@ -15576,7 +15576,7 @@ snapshots:
 
   lru-cache@10.3.1: {}
 
-  lru-cache@10.4.1: {}
+  lru-cache@10.4.3: {}
 
   lru-cache@11.0.0: {}
 
@@ -15846,7 +15846,7 @@ snapshots:
 
   metro-minify-terser@0.80.9:
     dependencies:
-      terser: 5.31.1
+      terser: 5.31.2
 
   metro-react-native-babel-preset@0.64.0(@babel/core@7.24.7):
     dependencies:
@@ -16970,7 +16970,7 @@ snapshots:
 
   path-scurry@1.11.1:
     dependencies:
-      lru-cache: 10.4.1
+      lru-cache: 10.4.3
       minipass: 7.1.2
 
   path-scurry@2.0.0:
@@ -17159,6 +17159,8 @@ snapshots:
   process@0.11.10: {}
 
   progress-events@1.0.0: {}
+
+  progress-events@1.0.1: {}
 
   progress@2.0.3: {}
 
@@ -17584,11 +17586,12 @@ snapshots:
 
   rimraf@5.0.9:
     dependencies:
-      glob: 10.4.4
+      glob: 10.4.5
 
-  rimraf@6.0.0:
+  rimraf@6.0.1:
     dependencies:
       glob: 11.0.0
+      package-json-from-dist: 1.0.0
 
   roarr@2.15.4:
     dependencies:
@@ -18210,7 +18213,7 @@ snapshots:
       type-fest: 2.19.0
       unique-string: 3.0.0
 
-  terser@5.31.1:
+  terser@5.31.2:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.12.1
@@ -18226,7 +18229,7 @@ snapshots:
   test-exclude@7.0.1:
     dependencies:
       '@istanbuljs/schema': 0.1.3
-      glob: 10.4.4
+      glob: 10.4.5
       minimatch: 9.0.5
 
   text-table@0.2.0: {}
@@ -18634,7 +18637,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@5.3.3(@types/node@20.14.10)(terser@5.31.1):
+  vite@5.3.3(@types/node@20.14.10)(terser@5.31.2):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.39
@@ -18642,16 +18645,16 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.14.10
       fsevents: 2.3.3
-      terser: 5.31.1
+      terser: 5.31.2
 
-  vitepress@1.3.0(@algolia/client-search@4.23.3)(@types/node@20.14.10)(axios@1.7.2)(postcss@8.4.39)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.1)(typescript@5.5.3):
+  vitepress@1.3.0(@algolia/client-search@4.23.3)(@types/node@20.14.10)(axios@1.7.2)(postcss@8.4.39)(react@18.2.0)(search-insights@2.13.0)(terser@5.31.2)(typescript@5.5.3):
     dependencies:
       '@docsearch/css': 3.6.0
       '@docsearch/js': 3.6.0(@algolia/client-search@4.23.3)(react@18.2.0)(search-insights@2.13.0)
       '@shikijs/core': 1.10.3
       '@shikijs/transformers': 1.10.3
       '@types/markdown-it': 14.1.1
-      '@vitejs/plugin-vue': 5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.31.1))(vue@3.4.31(typescript@5.5.3))
+      '@vitejs/plugin-vue': 5.0.5(vite@5.3.3(@types/node@20.14.10)(terser@5.31.2))(vue@3.4.31(typescript@5.5.3))
       '@vue/devtools-api': 7.3.5
       '@vue/shared': 3.4.31
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.3))
@@ -18660,7 +18663,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 6.3.0
       shiki: 1.10.3
-      vite: 5.3.3(@types/node@20.14.10)(terser@5.31.1)
+      vite: 5.3.3(@types/node@20.14.10)(terser@5.31.2)
       vue: 3.4.31(typescript@5.5.3)
     optionalDependencies:
       postcss: 8.4.39
@@ -18774,7 +18777,7 @@ snapshots:
 
   wide-align@1.1.5:
     dependencies:
-      string-width: 4.2.3
+      string-width: 1.0.2
 
   winston@2.4.7:
     dependencies:
