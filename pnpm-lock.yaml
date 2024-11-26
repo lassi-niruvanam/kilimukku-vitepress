@@ -59,7 +59,7 @@ importers:
         version: 10.8.2
       prettier:
         specifier: ^3.2.5
-        version: 3.4.0
+        version: 3.4.1
       rimraf:
         specifier: ^6.0.0
         version: 6.0.1
@@ -922,8 +922,8 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@constl/bohr-db@1.2.0':
-    resolution: {integrity: sha512-v0v51icUjihHgMTDyZvEnGpaATvXKn3UbVurG8rAc9VjIg4nafsJMiHXuC4KxZvIy/03A1NiLI7H4/CMpdYr+g==}
+  '@constl/bohr-db@1.2.1':
+    resolution: {integrity: sha512-HMJyztz1hdQum7chNVY3Dso6ZkYUe35PV3JIVmL/9pvA/Hianz4FOw7EgubJGOUkMLi2aHHDLuayKx2RgHd7QA==}
 
   '@constl/ipa@1.0.0':
     resolution: {integrity: sha512-OYVjvdj0pwHZJHhE0XqtcF7NeK0gRIuf3v91K0w79OQ0pNG6O/XxXOg6hYSUIOJQhpSoYVAUFxdbr2gJ/IvTvA==}
@@ -938,8 +938,8 @@ packages:
     resolution: {integrity: sha512-saDMdbk/PYu9R800/wjI1784hz4hQdC4utAoSNYq3R2UrWxiAN98s1frOHZNV2y5Jwc7T/Lvj7OxuJ6MO3o4+Q==}
     engines: {node: '>=20'}
 
-  '@constl/utils-ipa@1.0.3':
-    resolution: {integrity: sha512-gWv7BhTXYactNBXPDlUol4EudIr1tsZC1/Gvqcp0Rb2SDqGLHiSURqyiXqj6xVtzPMlcyPHDkBmqsEf8cecWJg==}
+  '@constl/utils-ipa@1.0.4':
+    resolution: {integrity: sha512-U9GCw5o9ZBJHBy5XK5Rt0rEn30ceSkhhQr6UTylVAF4hJ9ChlNsPKYVdk6KHk+opcwxcdS01RMczHIwEoRzRGg==}
     engines: {node: '>=20'}
 
   '@cspotcode/source-map-support@0.8.1':
@@ -2014,6 +2014,9 @@ packages:
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
 
+  '@orbitdb/core-types@1.0.11':
+    resolution: {integrity: sha512-A6Y1isBVCcErjeD/CR9VnNx8SRfD962yBxfmVAfgSlTk4apUMIk1qgl2oMrdI1335Bp5/6Ea+qzldNJz0XF9JQ==}
+
   '@orbitdb/core@2.2.0':
     resolution: {integrity: sha512-W1jScRjNVne7l0V9camdFQXrPPcWxSz7LwJzq6SryMe+xfVArrV4ADiElk7+dpQa6zwOOQpSUUfX2o46kY5dTw==}
     engines: {node: '>=20.0.0'}
@@ -2022,14 +2025,14 @@ packages:
     resolution: {integrity: sha512-pRHDJlODTy35nySEAPhTjzZIKQ7eedwCIoplmEXs1rW3KYqMHNQaNxrIc1uBMw9cRsPTeIGwxTUkvXfhhaf35Q==}
     engines: {node: '>=20.0.0'}
 
-  '@orbitdb/feed-db@1.1.0':
-    resolution: {integrity: sha512-MsTVANxG9AAlTybky1FCr/ZJL7nyay9l24Y/P7psBz+wDZHvuyQ+OZ0wgPA2f12n/b9pGGnrnAplmBUYWb4l5A==}
+  '@orbitdb/feed-db@1.1.1':
+    resolution: {integrity: sha512-HfEp9BQ1/rfhqXey0MdU4yowE09jN6rTVDpl2XeZ6arQPjzGdjcbkqh/MXVHJqTM0nC2GSlWAZnFOM7xGFx9Vw==}
 
-  '@orbitdb/ordered-keyvalue-db@1.1.0':
-    resolution: {integrity: sha512-TocqPys5LeXXmsn5dTI/Btc3yvfxwLe/PsmHKhZmru37zjSuLRFNISX9ISXSFnR+BRdZQR539cXUOXm7fQ+e+w==}
+  '@orbitdb/ordered-keyvalue-db@1.1.1':
+    resolution: {integrity: sha512-trhu+Vv5ARLMbsBkUJd1ulY/qlur7iO+FQCPBxPb6z7kp8//V53dkYoBVFh+hZl2drMau06Wqsljx/fG5QUUcQ==}
 
-  '@orbitdb/set-db@1.1.0':
-    resolution: {integrity: sha512-+aDbfQEWUyHGcXVQi4jqLSJYvmaW316cr1Jo4boI65BdLMeIWcl412TJDGIQhTXwUuO0S5JDr7vGC6fizNaNCA==}
+  '@orbitdb/set-db@1.1.1':
+    resolution: {integrity: sha512-sh0leY0l69JsY8c8oBrH0+8W6EPNO+ZxauykrKNslNw3bvV8/ogBNrAi9ALJAUZLFwr+XLW0fQBKI7aPPWaxvQ==}
 
   '@paralleldrive/cuid2@2.2.2':
     resolution: {integrity: sha512-ZOBkgDwEdoYVlSeRbYYXs0S9MejQofiVYoTbKzy/6GQa39/q5tQU2IX46+shYnUkpEl3wc+J6wRlar7r2EK2xA==}
@@ -6298,9 +6301,6 @@ packages:
   multiformats@13.1.1:
     resolution: {integrity: sha512-JiptvwMmlxlzIlLLwhCi/srf/nk409UL0eUBr0kioRJq15hqqKyg68iftrBvhCRjR6Rw4fkNnSc4ZJXJDuta/Q==}
 
-  multiformats@13.1.3:
-    resolution: {integrity: sha512-CZPi9lFZCM/+7oRolWYsvalsyWQGFo+GpdaTmjxXXomC+nP/W1Rnxb9sUgjvmNmRZ5bOPqRAl4nuK+Ydw/4tGw==}
-
   multiformats@13.3.1:
     resolution: {integrity: sha512-QxowxTNwJ3r5RMctoGA5p13w5RbRT2QDkoM+yFlqfLiioBp78nhDjnRLvmSBI9+KAqN4VdgOVWM9c0CHd86m3g==}
 
@@ -6328,6 +6328,11 @@ packages:
 
   nanoid@5.0.8:
     resolution: {integrity: sha512-TcJPw+9RV9dibz1hHUzlLVy8N4X9TnwirAjrU08Juo6BNKggzVfP2ZJ/3ZUSq15Xl5i85i+Z89XBO90pB2PghQ==}
+    engines: {node: ^18 || >=20}
+    hasBin: true
+
+  nanoid@5.0.9:
+    resolution: {integrity: sha512-Aooyr6MXU6HpvvWXKoVoXwKMs/KyVakWwg7xQfv5/S/RIgJMy0Ifa45H9qqYy7pTCszrHzP21Uk4PZq2HpEM8Q==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -7054,8 +7059,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  prettier@3.4.0:
-    resolution: {integrity: sha512-/OXNZcLyWkfo13ofOW5M7SLh+k5pnIs07owXK2teFpnfaOEcycnSy7HQxldaVX1ZP/7Q8oO1eDuQJNwbomQq5Q==}
+  prettier@3.4.1:
+    resolution: {integrity: sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -9919,12 +9924,13 @@ snapshots:
 
   '@colors/colors@1.5.0': {}
 
-  '@constl/bohr-db@1.2.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
+  '@constl/bohr-db@1.2.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.4.3
-      '@orbitdb/feed-db': 1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
-      '@orbitdb/ordered-keyvalue-db': 1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
-      '@orbitdb/set-db': 1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
+      '@orbitdb/core-types': 1.0.11
+      '@orbitdb/feed-db': 1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
+      '@orbitdb/ordered-keyvalue-db': 1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
+      '@orbitdb/set-db': 1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
       ajv: 8.17.1
       events: 3.3.0
       helia: 5.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
@@ -9941,9 +9947,9 @@ snapshots:
       '@chainsafe/libp2p-noise': 15.1.2
       '@chainsafe/libp2p-yamux': 6.0.2
       '@chriscdn/promise-semaphore': 2.0.9
-      '@constl/bohr-db': 1.2.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
+      '@constl/bohr-db': 1.2.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
       '@constl/mandataire': 0.1.16
-      '@constl/utils-ipa': 1.0.3
+      '@constl/utils-ipa': 1.0.4
       '@helia/block-brokers': 2.1.3
       '@helia/unixfs': 3.0.7
       '@ipld/dag-cbor': 9.2.2
@@ -9965,9 +9971,9 @@ snapshots:
       '@localfirst/auth': 5.6.0
       '@localfirst/crypto': 5.6.0
       '@orbitdb/core': 2.4.3
-      '@orbitdb/feed-db': 1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
-      '@orbitdb/ordered-keyvalue-db': 1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
-      '@orbitdb/set-db': 1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
+      '@orbitdb/feed-db': 1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
+      '@orbitdb/ordered-keyvalue-db': 1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
+      '@orbitdb/set-db': 1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
       ajv: 8.17.1
       approx-string-match: 2.0.0
       axios: 1.7.8
@@ -10027,7 +10033,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@constl/utils-ipa@1.0.3':
+  '@constl/utils-ipa@1.0.4':
     dependencies:
       '@chriscdn/promise-semaphore': 2.0.9
       browser-fs-access: 0.35.0
@@ -10036,8 +10042,8 @@ snapshots:
       genversion: 3.2.0
       geojson-validation: 1.0.2
       jszip: 3.10.1
-      multiformats: 13.1.3
-      rimraf: 5.0.10
+      multiformats: 13.3.1
+      rimraf: 6.0.1
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
 
@@ -10810,7 +10816,7 @@ snapshots:
   '@lassi-js/kili@0.3.16(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))(wrtc@0.4.7))':
     dependencies:
       '@constl/ipa': 1.0.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))(wrtc@0.4.7)
-      '@constl/utils-ipa': 1.0.3
+      '@constl/utils-ipa': 1.0.4
       '@orbitdb/core': 2.4.3
       deepcopy: 2.1.0
 
@@ -10898,7 +10904,7 @@ snapshots:
       it-protobuf-stream: 1.1.5
       it-stream-types: 2.0.2
       multiformats: 13.3.1
-      nanoid: 5.0.8
+      nanoid: 5.0.9
       progress-events: 1.0.1
       protons-runtime: 5.5.0
       retimeable-signal: 0.0.0
@@ -11923,6 +11929,8 @@ snapshots:
 
   '@opentelemetry/api@1.9.0': {}
 
+  '@orbitdb/core-types@1.0.11': {}
+
   '@orbitdb/core@2.2.0':
     dependencies:
       '@ipld/dag-cbor': 9.2.0
@@ -11947,7 +11955,7 @@ snapshots:
       timeout-abort-controller: 3.0.0
       uint8arrays: 5.1.0
 
-  '@orbitdb/feed-db@1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
+  '@orbitdb/feed-db@1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.4.3
       helia: 5.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
@@ -11957,7 +11965,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@orbitdb/ordered-keyvalue-db@1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
+  '@orbitdb/ordered-keyvalue-db@1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.4.3
       helia: 5.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
@@ -11967,7 +11975,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@orbitdb/set-db@1.1.0(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
+  '@orbitdb/set-db@1.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.4.3
       helia: 5.1.1(react-native@0.73.6(@babel/core@7.26.0)(@babel/preset-env@7.24.4(@babel/core@7.26.0))(react@18.2.0))
@@ -17727,8 +17735,6 @@ snapshots:
 
   multiformats@13.1.1: {}
 
-  multiformats@13.1.3: {}
-
   multiformats@13.3.1: {}
 
   multiformats@9.9.0: {}
@@ -17754,6 +17760,8 @@ snapshots:
   nanoid@3.3.7: {}
 
   nanoid@5.0.8: {}
+
+  nanoid@5.0.9: {}
 
   napi-build-utils@1.0.2: {}
 
@@ -18475,7 +18483,7 @@ snapshots:
 
   premove@4.0.0: {}
 
-  prettier@3.4.0: {}
+  prettier@3.4.1: {}
 
   pretty-format@26.6.2:
     dependencies:
