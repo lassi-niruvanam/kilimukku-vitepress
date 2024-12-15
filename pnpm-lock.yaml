@@ -10,7 +10,7 @@ importers:
     dependencies:
       marked:
         specifier: ^15.0.0
-        version: 15.0.3
+        version: 15.0.4
       merge-options:
         specifier: ^3.0.4
         version: 3.0.4
@@ -5914,8 +5914,8 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
-  marked@15.0.3:
-    resolution: {integrity: sha512-Ai0cepvl2NHnTcO9jYDtcOEtVBNVYR31XnEA3BndO7f5As1wzpcOceSUM8FDkNLJNIODcLpDTWay/qQhqbuMvg==}
+  marked@15.0.4:
+    resolution: {integrity: sha512-TCHvDqmb3ZJ4PWG7VEGVgtefA5/euFmsIhxtD0XsBxI39gUSKL81mIRFdt0AiNQozUahd4ke98ZdirExd/vSEw==}
     engines: {node: '>= 18'}
     hasBin: true
 
@@ -11854,7 +11854,7 @@ snapshots:
       '@chainsafe/is-ip': 2.0.2
       '@chainsafe/netmask': 2.0.0
       '@multiformats/dns': 1.0.6
-      multiformats: 13.0.1
+      multiformats: 13.3.1
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
@@ -17041,7 +17041,7 @@ snapshots:
 
   marked@12.0.2: {}
 
-  marked@15.0.3: {}
+  marked@15.0.4: {}
 
   marked@4.3.0: {}
 
