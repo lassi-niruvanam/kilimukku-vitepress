@@ -44,7 +44,7 @@ importers:
         version: 0.4.14
       aegir:
         specifier: ^47.0.0
-        version: 47.0.11(@babel/core@7.27.1)
+        version: 47.0.12(@babel/core@7.27.1)
       eslint:
         specifier: ^9.2.0
         version: 9.27.0
@@ -1802,12 +1802,12 @@ packages:
     resolution: {integrity: sha512-N14oMy0q4gM6OuZkIpisKe0JBSjf1Jb39VI+7jMLiWX9124u1Z3Fdj/Tag1NA0cVxxqWDh0CqsjcVfOKtelPDA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
-  '@ipld/dag-cbor@9.2.3':
-    resolution: {integrity: sha512-x78CdVhtctIMBpwOnzbojsvDy6qNxdeR3RC2W+/fMo2sccqlYkPXbjpmghAVdKx/g0xfHYvSMU8cgCnYvLwRag==}
+  '@ipld/dag-cbor@9.2.4':
+    resolution: {integrity: sha512-GbDWYl2fdJgkYtIJN0HY9oO0o50d1nB4EQb7uYWKUd2ztxCjxiEW3PjwGG0nqUpN1G4Cug6LX8NzbA7fKT+zfA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
-  '@ipld/dag-json@10.2.4':
-    resolution: {integrity: sha512-u1Pp4Tqz4r9GHGeLIJUJat5slasSxpBiBlL/i5pmGVEkCnQ1plrp5rQ5e+x3wZaPabxvsirQpfR76TPoGAiXiw==}
+  '@ipld/dag-json@10.2.5':
+    resolution: {integrity: sha512-Q4Fr3IBDEN8gkpgNefynJ4U/ZO5Kwr7WSUMBDbZx0c37t0+IwQCTM9yJh8l5L4SRFjm31MuHwniZ/kM+P7GQ3Q==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
   '@ipld/dag-pb@4.1.5':
@@ -3190,8 +3190,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  aegir@47.0.11:
-    resolution: {integrity: sha512-2vNs3JdtxHBSkvTexch4lSZY01ZdZoSkTNA6HVXAUGwXpYzDHYshi8aU7jfK4cRUXISb2HHpLqtzHXFvsERYpQ==}
+  aegir@47.0.12:
+    resolution: {integrity: sha512-wHe/gmpJIV+OSc02Qg5vXfodgJUcdiCUKRLrZ7qMs2TmENSFnoNi4mpR7CzjFlfodn7ln3NRcUzwik+fxIEsug==}
     hasBin: true
 
   agent-base@7.1.3:
@@ -4398,8 +4398,8 @@ packages:
     resolution: {integrity: sha512-rcOwbfvP1WTViVoUjcfZicVzjhjTuhSMntHh6mW3IrEiyE6mJyXvsToJUJGlGlw/2xU9P5whlWNGlIDVeCiT4A==}
     engines: {node: '>= 0.8'}
 
-  es-abstract@1.23.9:
-    resolution: {integrity: sha512-py07lI0wjxAC/DcfK1S6G7iANonniZwTISvdPzk9hzeH0IZIshbuuFxLIU96OyF89Yb9hiqWn8M/bY83KY5vzA==}
+  es-abstract@1.23.10:
+    resolution: {integrity: sha512-MtUbM072wlJNyeYAe0mhzrD+M6DIJa96CZAOBBrhDbgKnB4MApIKefcyAB1eOdYn8cUNZgvwBvEzdoAYsxgEIw==}
     engines: {node: '>= 0.4'}
 
   es-define-property@1.0.1:
@@ -10421,7 +10421,7 @@ snapshots:
       '@constl/utils-ipa': 1.0.5
       '@helia/block-brokers': 2.1.3
       '@helia/unixfs': 3.0.7
-      '@ipld/dag-cbor': 9.2.3
+      '@ipld/dag-cbor': 9.2.4
       '@lassi-js/kili': 0.3.16(@constl/ipa@1.0.0(react-native@0.73.6(@babel/core@7.27.1)(@babel/preset-env@7.24.4(@babel/core@7.27.1))(react@18.2.0))(wrtc@0.4.7))
       '@libp2p/autonat': 1.1.5
       '@libp2p/bootstrap': 10.1.5
@@ -11291,8 +11291,8 @@ snapshots:
   '@helia/utils@0.2.0':
     dependencies:
       '@helia/interface': 4.3.1
-      '@ipld/dag-cbor': 9.2.3
-      '@ipld/dag-json': 10.2.4
+      '@ipld/dag-cbor': 9.2.4
+      '@ipld/dag-json': 10.2.5
       '@ipld/dag-pb': 4.1.5
       '@libp2p/crypto': 4.1.9
       '@libp2p/interface': 1.7.0
@@ -11321,8 +11321,8 @@ snapshots:
   '@helia/utils@0.3.3':
     dependencies:
       '@helia/interface': 4.3.1
-      '@ipld/dag-cbor': 9.2.3
-      '@ipld/dag-json': 10.2.4
+      '@ipld/dag-cbor': 9.2.4
+      '@ipld/dag-json': 10.2.5
       '@ipld/dag-pb': 4.1.5
       '@libp2p/crypto': 4.1.9
       '@libp2p/interface': 1.7.0
@@ -11351,8 +11351,8 @@ snapshots:
   '@helia/utils@1.3.2':
     dependencies:
       '@helia/interface': 5.3.2
-      '@ipld/dag-cbor': 9.2.3
-      '@ipld/dag-json': 10.2.4
+      '@ipld/dag-cbor': 9.2.4
+      '@ipld/dag-json': 10.2.5
       '@ipld/dag-pb': 4.1.5
       '@libp2p/interface': 2.10.1
       '@libp2p/logger': 5.1.17
@@ -11403,12 +11403,12 @@ snapshots:
       cborg: 4.2.0
       multiformats: 13.1.1
 
-  '@ipld/dag-cbor@9.2.3':
+  '@ipld/dag-cbor@9.2.4':
     dependencies:
       cborg: 4.2.11
       multiformats: 13.3.6
 
-  '@ipld/dag-json@10.2.4':
+  '@ipld/dag-json@10.2.5':
     dependencies:
       cborg: 4.2.11
       multiformats: 13.3.6
@@ -12590,7 +12590,7 @@ snapshots:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
       '@multiformats/dns': 1.0.6
-      multiformats: 13.3.6
+      multiformats: 13.0.1
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
@@ -12720,7 +12720,7 @@ snapshots:
 
   '@orbitdb/core@2.5.0':
     dependencies:
-      '@ipld/dag-cbor': 9.2.3
+      '@ipld/dag-cbor': 9.2.4
       '@libp2p/crypto': 5.1.3
       it-pipe: 3.0.1
       level: 8.0.1
@@ -13921,7 +13921,7 @@ snapshots:
 
   acorn@8.14.1: {}
 
-  aegir@47.0.11(@babel/core@7.27.1):
+  aegir@47.0.12(@babel/core@7.27.1):
     dependencies:
       '@electron/get': 4.0.0
       '@polka/send-type': 0.5.2
@@ -14169,7 +14169,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-object-atoms: 1.1.1
       get-intrinsic: 1.3.0
       is-string: 1.1.1
@@ -14182,7 +14182,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-errors: 1.3.0
       es-object-atoms: 1.1.1
       es-shim-unscopables: 1.1.0
@@ -14192,7 +14192,7 @@ snapshots:
       call-bind: 1.0.8
       call-bound: 1.0.4
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-errors: 1.3.0
       es-object-atoms: 1.1.1
       es-shim-unscopables: 1.1.0
@@ -14201,21 +14201,21 @@ snapshots:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-shim-unscopables: 1.1.0
 
   array.prototype.flatmap@1.3.3:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-shim-unscopables: 1.1.0
 
   array.prototype.tosorted@1.1.4:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-errors: 1.3.0
       es-shim-unscopables: 1.1.0
 
@@ -14224,7 +14224,7 @@ snapshots:
       array-buffer-byte-length: 1.0.2
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-errors: 1.3.0
       get-intrinsic: 1.3.0
       is-array-buffer: 3.0.5
@@ -15379,7 +15379,7 @@ snapshots:
       accepts: 1.3.8
       escape-html: 1.0.3
 
-  es-abstract@1.23.9:
+  es-abstract@1.23.10:
     dependencies:
       array-buffer-byte-length: 1.0.2
       arraybuffer.prototype.slice: 1.0.4
@@ -15454,7 +15454,7 @@ snapshots:
       call-bind: 1.0.8
       call-bound: 1.0.4
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-errors: 1.3.0
       es-set-tostringtag: 2.1.0
       function-bind: 1.1.2
@@ -16475,8 +16475,8 @@ snapshots:
       '@helia/block-brokers': 1.0.0
       '@helia/delegated-routing-v1-http-api-client': 1.1.2
       '@helia/interface': 3.0.1
-      '@ipld/dag-cbor': 9.2.3
-      '@ipld/dag-json': 10.2.4
+      '@ipld/dag-cbor': 9.2.4
+      '@ipld/dag-json': 10.2.5
       '@ipld/dag-pb': 4.1.5
       '@libp2p/autonat': 1.1.5
       '@libp2p/bootstrap': 10.1.5
@@ -16781,8 +16781,8 @@ snapshots:
 
   ipfs-unixfs-exporter@13.6.2:
     dependencies:
-      '@ipld/dag-cbor': 9.2.3
-      '@ipld/dag-json': 10.2.4
+      '@ipld/dag-cbor': 9.2.4
+      '@ipld/dag-json': 10.2.5
       '@ipld/dag-pb': 4.1.5
       '@multiformats/murmur3': 2.1.8
       hamt-sharding: 3.0.6
@@ -18889,14 +18889,14 @@ snapshots:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-object-atoms: 1.1.1
 
   object.groupby@1.0.3:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
 
   object.values@1.2.1:
     dependencies:
@@ -19737,7 +19737,7 @@ snapshots:
     dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-errors: 1.3.0
       es-object-atoms: 1.1.1
       get-intrinsic: 1.3.0
@@ -20371,7 +20371,7 @@ snapshots:
       call-bind: 1.0.8
       call-bound: 1.0.4
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-errors: 1.3.0
       es-object-atoms: 1.1.1
       get-intrinsic: 1.3.0
@@ -20385,7 +20385,7 @@ snapshots:
   string.prototype.repeat@1.0.0:
     dependencies:
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
 
   string.prototype.trim@1.2.10:
     dependencies:
@@ -20393,7 +20393,7 @@ snapshots:
       call-bound: 1.0.4
       define-data-property: 1.1.4
       define-properties: 1.2.1
-      es-abstract: 1.23.9
+      es-abstract: 1.23.10
       es-object-atoms: 1.1.1
       has-property-descriptors: 1.0.2
 
