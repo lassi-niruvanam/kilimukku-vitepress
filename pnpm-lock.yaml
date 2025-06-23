@@ -59,7 +59,7 @@ importers:
         version: 11.7.0
       prettier:
         specifier: ^3.2.5
-        version: 3.5.3
+        version: 3.6.0
       rimraf:
         specifier: ^6.0.0
         version: 6.0.1
@@ -77,7 +77,7 @@ importers:
         version: 3.5.5(typescript@5.8.3)
       vitepress:
         specifier: 1.6.3
-        version: 1.6.3(@algolia/client-search@5.19.0)(@types/node@22.15.32)(axios@1.10.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.0)(typescript@5.8.3)
+        version: 1.6.3(@algolia/client-search@5.19.0)(@types/node@22.15.32)(axios@1.10.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3)
 
 packages:
 
@@ -944,8 +944,8 @@ packages:
   '@chainsafe/libp2p-yamux@6.0.2':
     resolution: {integrity: sha512-S5OkLHqYhEVMQQ4BTgnRANEIbGTQhaC23glCgBwGdeoTRtMpIozwDiPfljFLCm0RYWdCRJw9oFztO95KUHjptA==}
 
-  '@chainsafe/libp2p-yamux@7.0.1':
-    resolution: {integrity: sha512-949MI0Ll0AsYq1gUETZmL/MijwX0jilOQ1i4s8wDEXGiMhuPWWiMsPgEnX6n+VzFmTrfNYyGaaJj5/MqxV9y/g==}
+  '@chainsafe/libp2p-yamux@7.0.2':
+    resolution: {integrity: sha512-FhIcl4/jejf05mkX4UlIBhHjIQPSpBsN8KGsQP/Kxug/lq8N2HBygrDL8OK98Lp05K+EKWt8R/N+PNOlI0EIqw==}
 
   '@chainsafe/netmask@2.0.0':
     resolution: {integrity: sha512-I3Z+6SWUoaljh3TBzCnCxjlUyN8tA+NAk5L6m9IxvCf1BENQTePzPMis97CoN/iMW1St3WN+AWCCRp+TTBRiDg==}
@@ -1931,14 +1931,14 @@ packages:
   '@libp2p/bootstrap@10.1.5':
     resolution: {integrity: sha512-cXn/Wl7X4uaVGRyh/uSU/crRbhsPkyzH59hzoLP3727f7w82o+sIHVr4SkJcJewt+LZELBLgkJTibZxAntA1dA==}
 
-  '@libp2p/bootstrap@11.0.41':
-    resolution: {integrity: sha512-AMBKzlM2C8biXwkddlSPRzyqDI4H8Gb6uP9gElVzC443bj1kQgyA/d9O90KJNO8Q/FOZ/b/hN72zKOpJfZUPiQ==}
+  '@libp2p/bootstrap@11.0.42':
+    resolution: {integrity: sha512-xe5LMZrXR2cnFcR69ax/cHqNCc8zwSvqDWOf82u/ifAsUae7M0eeoEVi15lfrPewWst4YPkTqYDkZSPWC65I3Q==}
 
   '@libp2p/circuit-relay-v2@1.1.5':
     resolution: {integrity: sha512-WVIHaj61LJd2JB6vvPikd049NhC2R3vrkuu4T00WJSMNWobmhrKPvFyQMN+1miL6KmdL8Yt1AjK0gog2oT4vDw==}
 
-  '@libp2p/circuit-relay-v2@3.2.18':
-    resolution: {integrity: sha512-M1XRQgbf9MsVxeVJ5hmHUveCXFhLDsUSk8tQSTw61pZwOzSVCWW94d8L/ZdRFyQRgYR+040HEQG1W5Es7pmVbg==}
+  '@libp2p/circuit-relay-v2@3.2.19':
+    resolution: {integrity: sha512-sY439DQmQv16iOs82l5NMvD2Dzmj7SsidcYpMK/ZpJOat+1IJMAWvHj23nyy7AIlqHAjqWjvMS7ZPICPyweMHA==}
 
   '@libp2p/config@1.1.12':
     resolution: {integrity: sha512-U28eaQ7Kca/8UA4Y+yuZKZdE8zaajybpVJkjWhmBaDCLoplJcSJJi6nuxWsPPGVIrye3Gs1VbrAZg4GTOxKpcw==}
@@ -1967,8 +1967,8 @@ packages:
   '@libp2p/identify@1.0.21':
     resolution: {integrity: sha512-wUpgXK1pCrd1wkG1vgkRe+TRHMv+SvR206o5x0srcifjGByXHwKzmTgwYK8dVVVA7SITsuobxVRuELl6OOAaCg==}
 
-  '@libp2p/identify@3.0.35':
-    resolution: {integrity: sha512-D6LZDosspb6PQrvJJA9DwuxsYZDhOc4p7H52fAS7ShIrlf1HN/NslExaBWfREIZp30n4+an20R9lYfIFALlgiQ==}
+  '@libp2p/identify@3.0.36':
+    resolution: {integrity: sha512-swpgKzZ8SihHeguIEf3LxYlEcD7C9cSB7DE1XGTuCxNXkXksv2ieQTSiJ2xURMRw0nwe0wEGS5vzmshJh3kzrA==}
 
   '@libp2p/interface-connection@5.1.1':
     resolution: {integrity: sha512-ytknMbuuNW72LYMmTP7wFGP5ZTaUSGBCmV9f+uQ55XPcFHtKXLtKWVU/HE8IqPmwtyU8AO7veGoJ/qStMHNRVA==}
@@ -2015,8 +2015,8 @@ packages:
   '@libp2p/kad-dht@12.1.5':
     resolution: {integrity: sha512-n/Tdd3zVa2p1S4L6wRIBUAo3ctCbiEkp1aewpOUthL6rOwBh6U/RQ+dssiZNEDHCsF1ta/mZkREuXqxOPpplFQ==}
 
-  '@libp2p/kad-dht@15.1.5':
-    resolution: {integrity: sha512-NhY5T9L6/xn5i8mfE0LXHo7TPkvNHbp4qR7OD+Uoc4nJyBT+iroIouZ5DlMWeokx4lN/PoOS1xmPA2Ou8wRo5A==}
+  '@libp2p/kad-dht@15.1.6':
+    resolution: {integrity: sha512-USKgoHssd5AEkErsEJrUJPv3t0pdzRTjKGlrA9alQVjS7Y1BiQeAFQAb+wJeATSy+yyRuJFaxCEmsnHNz+txZA==}
 
   '@libp2p/keychain@4.1.6':
     resolution: {integrity: sha512-HZ5VhKPAqItMWY/5jfXaFMKCddAxYuybgn0j3v3hZnnHQ2HyeLJnUvDd5yjM7L3DxMDLdetK2rdocrdtqjdWkA==}
@@ -2040,15 +2040,15 @@ packages:
   '@libp2p/mdns@10.1.5':
     resolution: {integrity: sha512-iSBnjaUgPdPudXP3ZPXJMWzJkT+I+TQHRCBTh6OMPa0V2C/MhL+FfCGn0SDMWKSDDwqK6I6UOeTflf4YUzy/8w==}
 
-  '@libp2p/mdns@11.0.41':
-    resolution: {integrity: sha512-VxdmQSwj3qdYazGssYCCsBh9Rn4qVnK1uoULyShKO9bjQOTNRcctEj8V1Q9w76iHwbB7QkV9BBCxqp4xGUqXzA==}
+  '@libp2p/mdns@11.0.42':
+    resolution: {integrity: sha512-e19TxcHXWIX2qguQeP5cTPa042flfcNH7BUEeY2EbqptiHZjCnrqfJu+kDEJAYFRvmonwAHCZIVxJW7SHKksqg==}
 
   '@libp2p/mplex@10.1.5':
     resolution: {integrity: sha512-NdT9ak8omeJZvdJhzsKSSeHBZlP+3sl68UbrpfVanWebQVuNqw7UOLURKtXnRd7II7siXt37Yq6W2km7VIT1yQ==}
     deprecated: Mplex has no flow control - please use @chainsafe/libp2p-yamux instead
 
-  '@libp2p/mplex@11.0.41':
-    resolution: {integrity: sha512-4Oay5V36SIPOsABnJmgG2aozO/8+1gjpQLKHz6tcinfmFF6e6yCrh6hLW+V6LCebBGcoR6BGRcZL5IFyzmBdBA==}
+  '@libp2p/mplex@11.0.42':
+    resolution: {integrity: sha512-06HXNQS02GOEx1796Nsk640tIHwnHtJvd4TWnslUEeVi7SxLA8LqCttT7qJ2P3Y1tmm3E2a74kxtHqaJDqypig==}
 
   '@libp2p/multistream-select@5.1.17':
     resolution: {integrity: sha512-QOMGjCzKGf/W+qzWw5OxaqLEYhK45XjMCxGJYQ7L5eUkcwAv6rlPZAYw6YslaMLpJTa61/yfh8D4u7EuoMFsUw==}
@@ -2137,8 +2137,8 @@ packages:
   '@libp2p/webrtc@4.1.10':
     resolution: {integrity: sha512-3NSntJ5DYeq4xlM9gekFkjJH2pqYD+pUQtTilRU1lFgPtGs9bbWmZr3mtsK3QaMyryvKT8GoqcR+cSgyZ2LYjQ==}
 
-  '@libp2p/webrtc@5.2.18':
-    resolution: {integrity: sha512-4whc9wIvR5J6VY4bJ3d0ctKeVSMoWb/nQwL1urOnc/1LAzxzKy2E0MT1duOD4hgK6Dre6BlXBkIhnRcrnumHoA==}
+  '@libp2p/webrtc@5.2.19':
+    resolution: {integrity: sha512-IrpvfQ3+9B6bg7emAKj8m0poJ3s54YioElrO9H5zNjpZzLn2/1S3CBLa2T3ROpiDzMe6TSZ7D2aODt50e9H1Rg==}
 
   '@libp2p/websockets@8.2.0':
     resolution: {integrity: sha512-UNjqkQ8/emnYswp1ohIIuZCnhI5DlvWF9IaIND2MoTCDavi7yubWfMp8jSWBsAqPnMeLMO8MQ6YlOo4FFC104Q==}
@@ -2318,8 +2318,8 @@ packages:
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
 
-  '@orbitdb/core-types@1.0.15':
-    resolution: {integrity: sha512-rf1ZJTYsPw/x+lu/hNtwFIU4Dyo1S+UI9X8BqwDhPCw+D+HTb3gM0eut+XRDLUuzfeBwIIWaHJbPkWJ8Zk22yQ==}
+  '@orbitdb/core-types@1.1.2':
+    resolution: {integrity: sha512-lnKtp+jpnc5EyAOjUVjiqAEKW0Bvem1rwPeaEoY0jdJYCeQ5FwCZaba/YxS3lSVLW35od2EpmkGWiBkqBQVnSw==}
 
   '@orbitdb/core@2.2.0':
     resolution: {integrity: sha512-W1jScRjNVne7l0V9camdFQXrPPcWxSz7LwJzq6SryMe+xfVArrV4ADiElk7+dpQa6zwOOQpSUUfX2o46kY5dTw==}
@@ -2333,17 +2333,17 @@ packages:
     resolution: {integrity: sha512-YTJIBbe8mIDLpA0T3cOdVjWDeAyIojQLR54p0TfVyUBAjWh7N0rbKBbgQMTOrFxhUmRf/D85iFScmGnnEn5v+w==}
     engines: {node: '>=20.0.0'}
 
-  '@orbitdb/feed-db@1.1.2':
-    resolution: {integrity: sha512-o+9SBiVWdbvBWQyGRXUajTq75uDQqRzLafbn2dGMshsU8ibWAllxpOhHXojaDyJRUGXxjt25LkbLFQGQQGiBEQ==}
+  '@orbitdb/feed-db@1.1.4':
+    resolution: {integrity: sha512-/j3j5VLpcoUue/4nBYhC5MnC5n4CXy4tsOmhNuhdKxFsr+xVu0SGSmU2HRzsSS5rGWb1c1rbJias8qcM4gDowg==}
 
-  '@orbitdb/nested-db@1.0.2':
-    resolution: {integrity: sha512-9+LjPG4xB7kN8wWHAs+qvK1zhZFQdy2BL2ghh+AzcYBJtq2M8+rqpGRLqxSbQiqi5Xr8Fi3GNKoksmggP2NkYA==}
+  '@orbitdb/nested-db@1.0.3':
+    resolution: {integrity: sha512-eF8K59ULd39/lSGLMWrhSrn8N1j7nDqHSiKcOMxLJetbCd0kmqAb9hTUpNlqzpshRUUTVXV+JHg3X6bdcHl+0A==}
 
-  '@orbitdb/ordered-keyvalue-db@1.1.2':
-    resolution: {integrity: sha512-itNbThLgZlc3H0qOku7i8VgD9zOWDmCR4Frk2HcQ1MPni4bnUcna0TKurkBSAQvwhwrtQHtq9Me0d0drEKMN5Q==}
+  '@orbitdb/ordered-keyvalue-db@1.1.3':
+    resolution: {integrity: sha512-aO4oHh3ez8w91ynKQtv9EVKqAs72kaY/ncQuqHKWnyLq6APA1WpDcLWaIIMFqF4LLawJoBzqdfVEZyYVSnDfrw==}
 
-  '@orbitdb/set-db@1.1.2':
-    resolution: {integrity: sha512-zgMWoMPxN6kJv++JZhgkfx7+ZoDgeLgV5vTU6LG5ZZLg4LLg9irqneoc80Gg93vf4nP6jQiGxC5d8SmeDZsBFA==}
+  '@orbitdb/set-db@1.1.4':
+    resolution: {integrity: sha512-9pTfrFcjnAjowBQ7z6WZYI47phEaN5FRX9yJZcXHnSQi4BdJlLMe0sAhq6jSmFFNnVKUJ9ASHY92RUpcIWUREw==}
 
   '@paralleldrive/cuid2@2.2.2':
     resolution: {integrity: sha512-ZOBkgDwEdoYVlSeRbYYXs0S9MejQofiVYoTbKzy/6GQa39/q5tQU2IX46+shYnUkpEl3wc+J6wRlar7r2EK2xA==}
@@ -5486,14 +5486,14 @@ packages:
   ipfs-bitswap@20.0.2:
     resolution: {integrity: sha512-B/pPf0Dvnp/TzZ/jk7IElxCH+MwxTCe8YvyQzsQ4i8RhUh0IwyyaHPy0LSVGuJpADNjaaZQffe6DSxwmRKF7uA==}
 
-  ipfs-unixfs-exporter@13.6.5:
-    resolution: {integrity: sha512-o7KzZfRCRzk1QYYp3ITnRKmGm349xwWeVwmnJZ2m+biNlV19sEzpz4bjGCtWRJSzfhG6aHKYz55nbzz4tiIrsw==}
+  ipfs-unixfs-exporter@13.6.6:
+    resolution: {integrity: sha512-i/U1gU8AIFuuJH4y06SjtpFpFAhBixrMkvZJsurrGregSkoSroBxsxJZDMb64p2TenN+m5397oznINEbOzPQZA==}
 
   ipfs-unixfs-importer@15.4.0:
     resolution: {integrity: sha512-laypY07Q0uGLMSxx5YsfVAEPVzdbV2p9cEC1/HNxqoWoz83LA2nX45usr8dcehalKLHm38u0FwUiRHq5wCHngQ==}
 
-  ipfs-unixfs@11.2.4:
-    resolution: {integrity: sha512-v/A7P7ap+E1q64wlLLdc58Nq38lSOWLczk+HEW3zrPLw6jQIBElWMjKSyxK+P21STj2ltE+Si+pvZy9b7aDppw==}
+  ipfs-unixfs@11.2.5:
+    resolution: {integrity: sha512-uasYJ0GLPbViaTFsOLnL9YPjX5VmhnqtWRriogAHOe4ApmIi9VAOFBzgDHsUW2ub4pEa/EysbtWk126g2vkU/g==}
 
   ipns@10.0.2:
     resolution: {integrity: sha512-tokCgz9X678zvHnAabVG91K64X7HnHdWOrop0ghUcXkzH5XNsmxHwVpqVATNqq/w62h7fRDhWURHU/WOfYmCpA==}
@@ -7559,8 +7559,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.6.0:
+    resolution: {integrity: sha512-ujSB9uXHJKzM/2GBuE0hBOUgC77CN3Bnpqa+g80bkv3T3A93wL/xlzDATHhnhkzifz/UE2SNOvmbTz5hSkDlHw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -8543,8 +8543,8 @@ packages:
     resolution: {integrity: sha512-7jDLIdD2Zp0bDe5r3D2qtkd1QOCacylBuL7oa4udvN6v2pqr4+LcCr67C8DR1zkpaZ8XosF5m1yQSabKAW6f2g==}
     engines: {node: '>=14.16'}
 
-  terser@5.43.0:
-    resolution: {integrity: sha512-CqNNxKSGKSZCunSvwKLTs8u8sGGlp27sxNZ4quGh0QeNuyHM0JSEM/clM9Mf4zUp6J+tO2gUXhgXT2YMMkwfKQ==}
+  terser@5.43.1:
+    resolution: {integrity: sha512-+6erLbBm0+LROX2sPXlUYx/ux5PyE9K/a92Wrt6oA+WDAoFTdpHE5tCYCI5PNzq2y8df4rA+QgHLJuR4jNymsg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -9223,8 +9223,8 @@ packages:
     resolution: {integrity: sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==}
     engines: {node: '>=4.0'}
 
-  xstate@5.19.4:
-    resolution: {integrity: sha512-h1UMSYOB564NXqAI+VpXrxwaBdOJUh6LOStooQ+Rn/+gqJWtGBfjZn265BwFI8Mp4ZoOyoLDNf8X1yp3faBUZQ==}
+  xstate@5.20.0:
+    resolution: {integrity: sha512-lFQ0fLwVa0OMZnjNP8zUkt2fwIS85ZBNPvxE41APVYhYj0++aTssgmsnTAiBHdKYbgnd6+L8DRTZ9jPZAFPuyw==}
 
   xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
@@ -10476,7 +10476,7 @@ snapshots:
       it-pushable: 3.2.3
       uint8arraylist: 2.4.8
 
-  '@chainsafe/libp2p-yamux@7.0.1':
+  '@chainsafe/libp2p-yamux@7.0.2':
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/utils': 6.7.0
@@ -10499,11 +10499,11 @@ snapshots:
   '@constl/bohr-db@1.2.7(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 3.0.2
-      '@orbitdb/core-types': 1.0.15
-      '@orbitdb/feed-db': 1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
-      '@orbitdb/nested-db': 1.0.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
-      '@orbitdb/ordered-keyvalue-db': 1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
-      '@orbitdb/set-db': 1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@orbitdb/core-types': 1.1.2
+      '@orbitdb/feed-db': 1.1.4(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@orbitdb/nested-db': 1.0.3(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@orbitdb/ordered-keyvalue-db': 1.1.3(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@orbitdb/set-db': 1.1.4(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
       ajv: 8.17.1
       events: 3.3.0
       helia: 5.4.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
@@ -10545,9 +10545,9 @@ snapshots:
       '@localfirst/auth': 5.6.0
       '@localfirst/crypto': 5.6.0
       '@orbitdb/core': 2.5.0
-      '@orbitdb/feed-db': 1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
-      '@orbitdb/ordered-keyvalue-db': 1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
-      '@orbitdb/set-db': 1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@orbitdb/feed-db': 1.1.4(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@orbitdb/ordered-keyvalue-db': 1.1.3(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@orbitdb/set-db': 1.1.4(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
       ajv: 8.17.1
       approx-string-match: 2.0.0
       axios: 1.10.0(debug@4.4.1)
@@ -11382,8 +11382,8 @@ snapshots:
       '@multiformats/murmur3': 2.1.8
       hamt-sharding: 3.0.6
       interface-blockstore: 5.3.2
-      ipfs-unixfs: 11.2.4
-      ipfs-unixfs-exporter: 13.6.5
+      ipfs-unixfs: 11.2.5
+      ipfs-unixfs-exporter: 13.6.6
       ipfs-unixfs-importer: 15.4.0
       it-all: 3.0.9
       it-glob: 3.0.4
@@ -11708,7 +11708,7 @@ snapshots:
       '@multiformats/mafmt': 12.1.6
       '@multiformats/multiaddr': 12.5.0
 
-  '@libp2p/bootstrap@11.0.41':
+  '@libp2p/bootstrap@11.0.42':
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/interface-internal': 2.3.17
@@ -11738,7 +11738,7 @@ snapshots:
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
-  '@libp2p/circuit-relay-v2@3.2.18':
+  '@libp2p/circuit-relay-v2@3.2.19':
     dependencies:
       '@libp2p/crypto': 5.1.6
       '@libp2p/interface': 2.10.4
@@ -11867,7 +11867,7 @@ snapshots:
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
 
-  '@libp2p/identify@3.0.35':
+  '@libp2p/identify@3.0.36':
     dependencies:
       '@libp2p/crypto': 5.1.6
       '@libp2p/interface': 2.10.4
@@ -12014,7 +12014,7 @@ snapshots:
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
-  '@libp2p/kad-dht@15.1.5':
+  '@libp2p/kad-dht@15.1.6':
     dependencies:
       '@libp2p/crypto': 5.1.6
       '@libp2p/interface': 2.10.4
@@ -12118,7 +12118,7 @@ snapshots:
       dns-packet: 5.6.1
       multicast-dns: 7.2.5
 
-  '@libp2p/mdns@11.0.41':
+  '@libp2p/mdns@11.0.42':
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/interface-internal': 2.3.17
@@ -12141,7 +12141,7 @@ snapshots:
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
-  '@libp2p/mplex@11.0.41':
+  '@libp2p/mplex@11.0.42':
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/utils': 6.7.0
@@ -12520,7 +12520,7 @@ snapshots:
       - react-native
       - supports-color
 
-  '@libp2p/webrtc@5.2.18(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
+  '@libp2p/webrtc@5.2.19(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/libp2p-noise': 16.1.3
@@ -12621,7 +12621,7 @@ snapshots:
       '@paralleldrive/cuid2': 2.2.2
       lodash-es: 4.17.21
       msgpackr: 1.11.4
-      xstate: 5.19.4
+      xstate: 5.20.0
     transitivePeerDependencies:
       - supports-color
 
@@ -12694,7 +12694,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@multiformats/multiaddr': 12.5.0
-      multiformats: 13.0.1
+      multiformats: 13.3.7
 
   '@multiformats/multiaddr-to-uri@10.1.2':
     dependencies:
@@ -12720,7 +12720,7 @@ snapshots:
       '@chainsafe/netmask': 2.0.0
       '@multiformats/dns': 1.0.6
       abort-error: 1.0.1
-      multiformats: 13.0.1
+      multiformats: 13.3.7
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
@@ -12834,7 +12834,7 @@ snapshots:
 
   '@opentelemetry/api@1.9.0': {}
 
-  '@orbitdb/core-types@1.0.15': {}
+  '@orbitdb/core-types@1.1.2': {}
 
   '@orbitdb/core@2.2.0':
     dependencies:
@@ -12872,7 +12872,7 @@ snapshots:
       timeout-abort-controller: 3.0.0
       uint8arrays: 5.1.0
 
-  '@orbitdb/feed-db@1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
+  '@orbitdb/feed-db@1.1.4(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.5.0
       helia: 5.4.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
@@ -12882,7 +12882,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@orbitdb/nested-db@1.0.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
+  '@orbitdb/nested-db@1.0.3(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.5.0
       helia: 5.4.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
@@ -12892,7 +12892,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@orbitdb/ordered-keyvalue-db@1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
+  '@orbitdb/ordered-keyvalue-db@1.1.3(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.5.0
       helia: 5.4.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
@@ -12902,7 +12902,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@orbitdb/set-db@1.1.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
+  '@orbitdb/set-db@1.1.4(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 2.5.0
       helia: 5.4.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
@@ -13903,9 +13903,9 @@ snapshots:
 
   '@vascosantos/moving-average@1.1.0': {}
 
-  '@vitejs/plugin-vue@5.2.1(vite@5.4.14(@types/node@22.15.32)(terser@5.43.0))(vue@3.5.13(typescript@5.8.3))':
+  '@vitejs/plugin-vue@5.2.1(vite@5.4.14(@types/node@22.15.32)(terser@5.43.1))(vue@3.5.13(typescript@5.8.3))':
     dependencies:
-      vite: 5.4.14(@types/node@22.15.32)(terser@5.43.0)
+      vite: 5.4.14(@types/node@22.15.32)(terser@5.43.1)
       vue: 3.5.13(typescript@5.8.3)
 
   '@vue/compiler-core@3.5.13':
@@ -16707,7 +16707,7 @@ snapshots:
   helia@5.4.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0)):
     dependencies:
       '@chainsafe/libp2p-noise': 16.1.3
-      '@chainsafe/libp2p-yamux': 7.0.1
+      '@chainsafe/libp2p-yamux': 7.0.2
       '@helia/block-brokers': 4.2.2
       '@helia/delegated-routing-v1-http-api-client': 4.2.5
       '@helia/interface': 5.3.2
@@ -16715,21 +16715,21 @@ snapshots:
       '@helia/utils': 1.3.2
       '@ipshipyard/libp2p-auto-tls': 1.0.0
       '@libp2p/autonat': 2.0.36
-      '@libp2p/bootstrap': 11.0.41
-      '@libp2p/circuit-relay-v2': 3.2.18
+      '@libp2p/bootstrap': 11.0.42
+      '@libp2p/circuit-relay-v2': 3.2.19
       '@libp2p/config': 1.1.12
       '@libp2p/dcutr': 2.0.35
-      '@libp2p/identify': 3.0.35
+      '@libp2p/identify': 3.0.36
       '@libp2p/interface': 2.10.4
-      '@libp2p/kad-dht': 15.1.5
+      '@libp2p/kad-dht': 15.1.6
       '@libp2p/keychain': 5.2.7
-      '@libp2p/mdns': 11.0.41
-      '@libp2p/mplex': 11.0.41
+      '@libp2p/mdns': 11.0.42
+      '@libp2p/mplex': 11.0.42
       '@libp2p/ping': 2.0.35
       '@libp2p/tcp': 10.1.16
       '@libp2p/tls': 2.2.5
       '@libp2p/upnp-nat': 3.1.19
-      '@libp2p/webrtc': 5.2.18(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
+      '@libp2p/webrtc': 5.2.19(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
       '@libp2p/websockets': 9.2.16
       '@multiformats/dns': 1.0.6
       blockstore-core: 5.0.4
@@ -16968,7 +16968,7 @@ snapshots:
       varint: 6.0.0
       varint-decoder: 1.0.0
 
-  ipfs-unixfs-exporter@13.6.5:
+  ipfs-unixfs-exporter@13.6.6:
     dependencies:
       '@ipld/dag-cbor': 9.2.4
       '@ipld/dag-json': 10.2.5
@@ -16976,7 +16976,7 @@ snapshots:
       '@multiformats/murmur3': 2.1.8
       hamt-sharding: 3.0.6
       interface-blockstore: 5.3.2
-      ipfs-unixfs: 11.2.4
+      ipfs-unixfs: 11.2.5
       it-filter: 3.1.4
       it-last: 3.0.9
       it-map: 3.1.4
@@ -16994,7 +16994,7 @@ snapshots:
       hamt-sharding: 3.0.6
       interface-blockstore: 5.3.2
       interface-store: 6.0.3
-      ipfs-unixfs: 11.2.4
+      ipfs-unixfs: 11.2.5
       it-all: 3.0.9
       it-batch: 3.0.9
       it-first: 3.0.9
@@ -17008,7 +17008,7 @@ snapshots:
       - encoding
       - supports-color
 
-  ipfs-unixfs@11.2.4:
+  ipfs-unixfs@11.2.5:
     dependencies:
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
@@ -18272,7 +18272,7 @@ snapshots:
   metro-minify-terser@0.80.12:
     dependencies:
       flow-enums-runtime: 0.0.6
-      terser: 5.43.0
+      terser: 5.43.1
 
   metro-react-native-babel-preset@0.64.0(@babel/core@7.27.4):
     dependencies:
@@ -19584,7 +19584,7 @@ snapshots:
 
   premove@4.0.0: {}
 
-  prettier@3.5.3: {}
+  prettier@3.6.0: {}
 
   pretty-format@26.6.2:
     dependencies:
@@ -20800,7 +20800,7 @@ snapshots:
       type-fest: 2.19.0
       unique-string: 3.0.0
 
-  terser@5.43.0:
+  terser@5.43.1:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.15.0
@@ -21271,7 +21271,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@5.4.14(@types/node@22.15.32)(terser@5.43.0):
+  vite@5.4.14(@types/node@22.15.32)(terser@5.43.1):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.5.1
@@ -21279,9 +21279,9 @@ snapshots:
     optionalDependencies:
       '@types/node': 22.15.32
       fsevents: 2.3.3
-      terser: 5.43.0
+      terser: 5.43.1
 
-  vitepress@1.6.3(@algolia/client-search@5.19.0)(@types/node@22.15.32)(axios@1.10.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.0)(typescript@5.8.3):
+  vitepress@1.6.3(@algolia/client-search@5.19.0)(@types/node@22.15.32)(axios@1.10.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.19.0)(react@18.2.0)(search-insights@2.13.0)
@@ -21290,7 +21290,7 @@ snapshots:
       '@shikijs/transformers': 2.1.0
       '@shikijs/types': 2.1.0
       '@types/markdown-it': 14.1.2
-      '@vitejs/plugin-vue': 5.2.1(vite@5.4.14(@types/node@22.15.32)(terser@5.43.0))(vue@3.5.13(typescript@5.8.3))
+      '@vitejs/plugin-vue': 5.2.1(vite@5.4.14(@types/node@22.15.32)(terser@5.43.1))(vue@3.5.13(typescript@5.8.3))
       '@vue/devtools-api': 7.7.0
       '@vue/shared': 3.5.13
       '@vueuse/core': 12.4.0(typescript@5.8.3)
@@ -21299,7 +21299,7 @@ snapshots:
       mark.js: 8.11.1
       minisearch: 7.1.1
       shiki: 2.1.0
-      vite: 5.4.14(@types/node@22.15.32)(terser@5.43.0)
+      vite: 5.4.14(@types/node@22.15.32)(terser@5.43.1)
       vue: 3.5.13(typescript@5.8.3)
     optionalDependencies:
       postcss: 8.5.6
@@ -21527,7 +21527,7 @@ snapshots:
 
   xmlbuilder@11.0.1: {}
 
-  xstate@5.19.4: {}
+  xstate@5.20.0: {}
 
   xtend@4.0.2: {}
 
