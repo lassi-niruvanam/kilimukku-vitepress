@@ -59,7 +59,7 @@ importers:
         version: 11.7.1
       prettier:
         specifier: ^3.2.5
-        version: 3.6.0
+        version: 3.6.1
       rimraf:
         specifier: ^6.0.0
         version: 6.0.1
@@ -944,8 +944,8 @@ packages:
   '@chainsafe/libp2p-yamux@6.0.2':
     resolution: {integrity: sha512-S5OkLHqYhEVMQQ4BTgnRANEIbGTQhaC23glCgBwGdeoTRtMpIozwDiPfljFLCm0RYWdCRJw9oFztO95KUHjptA==}
 
-  '@chainsafe/libp2p-yamux@7.0.2':
-    resolution: {integrity: sha512-FhIcl4/jejf05mkX4UlIBhHjIQPSpBsN8KGsQP/Kxug/lq8N2HBygrDL8OK98Lp05K+EKWt8R/N+PNOlI0EIqw==}
+  '@chainsafe/libp2p-yamux@7.0.4':
+    resolution: {integrity: sha512-Qw+EB9ew/9hRCq9V702gkm5xXThFHQ3Bdvh01M+enI1RScriSDWFGod02dwNHUxsYRc743i49sLlHp0edC7hSQ==}
 
   '@chainsafe/netmask@2.0.0':
     resolution: {integrity: sha512-I3Z+6SWUoaljh3TBzCnCxjlUyN8tA+NAk5L6m9IxvCf1BENQTePzPMis97CoN/iMW1St3WN+AWCCRp+TTBRiDg==}
@@ -2212,8 +2212,8 @@ packages:
   '@multiformats/multiaddr@12.3.0':
     resolution: {integrity: sha512-JQ8Gc/jgucqqvEaDTFN/AvxlYDHEE7lgEWLMYW7hKZkWggER+GvG/tVxUgUxIP8M0vFpvEHKKHE0lKzyMsgi8Q==}
 
-  '@multiformats/multiaddr@12.5.0':
-    resolution: {integrity: sha512-MyxvubZklr2qnCTmmMF7cYK1sJ9WosRleOI++XOyPEJb/9kP3r9cLcb0JR7ddkBwKuh2IkaMEVuP00OdgCjcJQ==}
+  '@multiformats/multiaddr@12.5.1':
+    resolution: {integrity: sha512-+DDlr9LIRUS8KncI1TX/FfUn8F2dl6BIxJgshS/yFQCNB5IAF0OGzcwB39g5NLE22s4qqDePv0Qof6HdpJ/4aQ==}
 
   '@multiformats/murmur3@2.1.8':
     resolution: {integrity: sha512-6vId1C46ra3R1sbJUOFCZnsUIveR9oF20yhPmAFxPm0JfrX3/ZRCgP3YDrBzlGoEppOXnA9czHeYc0T9mB6hbA==}
@@ -7559,8 +7559,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  prettier@3.6.0:
-    resolution: {integrity: sha512-ujSB9uXHJKzM/2GBuE0hBOUgC77CN3Bnpqa+g80bkv3T3A93wL/xlzDATHhnhkzifz/UE2SNOvmbTz5hSkDlHw==}
+  prettier@3.6.1:
+    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -7636,8 +7636,8 @@ packages:
   protons-runtime@5.4.0:
     resolution: {integrity: sha512-XfA++W/WlQOSyjUyuF5lgYBfXZUEMP01Oh1C2dSwZAlF2e/ZrMRPfWonXj6BGM+o8Xciv7w0tsRMKYwYEuQvaw==}
 
-  protons-runtime@5.5.0:
-    resolution: {integrity: sha512-EsALjF9QsrEk6gbCx3lmfHxVN0ah7nG3cY7GySD4xf4g8cr7g543zB88Foh897Sr1RQJ9yDCUsoT1i1H/cVUFA==}
+  protons-runtime@5.6.0:
+    resolution: {integrity: sha512-/Kde+sB9DsMFrddJT/UZWe6XqvL7SL5dbag/DBCElFKhkwDj7XKt53S+mzLyaDP5OqS0wXjV5SA572uWDaT0Hg==}
 
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
@@ -10395,7 +10395,7 @@ snapshots:
       '@libp2p/interface-internal': 1.3.4
       '@libp2p/peer-id': 4.2.4
       '@libp2p/pubsub': 9.0.26
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       denque: 2.1.0
       it-length-prefixed: 9.1.1
       it-pipe: 3.0.1
@@ -10421,7 +10421,7 @@ snapshots:
       it-pair: 2.0.6
       it-pipe: 3.0.1
       it-stream-types: 2.0.2
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
@@ -10441,7 +10441,7 @@ snapshots:
       it-pair: 2.0.6
       it-pipe: 3.0.1
       it-stream-types: 2.0.2
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
@@ -10461,7 +10461,7 @@ snapshots:
       it-pair: 2.0.6
       it-pipe: 3.0.1
       it-stream-types: 2.0.2
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
@@ -10476,7 +10476,7 @@ snapshots:
       it-pushable: 3.2.3
       uint8arraylist: 2.4.8
 
-  '@chainsafe/libp2p-yamux@7.0.2':
+  '@chainsafe/libp2p-yamux@7.0.4':
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/utils': 6.7.0
@@ -10484,6 +10484,7 @@ snapshots:
       it-foreach: 2.1.4
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
+      race-signal: 1.1.3
       uint8arraylist: 2.4.8
 
   '@chainsafe/netmask@2.0.0':
@@ -11204,7 +11205,7 @@ snapshots:
       '@libp2p/logger': 4.0.20
       '@libp2p/peer-collections': 5.2.9
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       interface-blockstore: 5.3.2
       interface-store: 5.1.8
@@ -11217,7 +11218,7 @@ snapshots:
       multiformats: 13.3.7
       p-defer: 4.0.1
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       race-event: 1.3.0
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
@@ -11231,7 +11232,7 @@ snapshots:
       '@libp2p/logger': 5.1.20
       '@libp2p/peer-collections': 6.0.33
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       interface-blockstore: 5.3.2
       interface-store: 6.0.3
@@ -11243,7 +11244,7 @@ snapshots:
       multiformats: 13.3.7
       p-defer: 4.0.1
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       race-event: 1.3.0
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
@@ -11270,7 +11271,7 @@ snapshots:
       '@helia/utils': 0.2.0
       '@libp2p/interface': 1.7.0
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       '@multiformats/multiaddr-to-uri': 10.1.2
       interface-blockstore: 5.3.2
@@ -11285,7 +11286,7 @@ snapshots:
       '@helia/utils': 1.3.2
       '@libp2p/interface': 2.10.4
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       '@multiformats/multiaddr-to-uri': 11.0.0
       interface-blockstore: 5.3.2
@@ -11298,7 +11299,7 @@ snapshots:
       '@libp2p/interface': 0.1.6
       '@libp2p/logger': 3.1.0
       '@libp2p/peer-id': 3.0.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       browser-readablestream-to-it: 2.0.10
       ipns: 7.0.2
@@ -11317,7 +11318,7 @@ snapshots:
       '@libp2p/interface': 2.10.4
       '@libp2p/logger': 5.1.20
       '@libp2p/peer-id': 5.1.7
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       browser-readablestream-to-it: 2.0.10
       ipns: 10.0.2
@@ -11353,7 +11354,7 @@ snapshots:
     dependencies:
       '@libp2p/interface': 2.10.4
       '@multiformats/dns': 1.0.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
       interface-store: 6.0.3
@@ -11468,7 +11469,7 @@ snapshots:
       '@libp2p/logger': 5.1.20
       '@libp2p/utils': 6.7.0
       '@multiformats/dns': 1.0.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       blockstore-core: 5.0.4
       cborg: 4.2.12
@@ -11536,7 +11537,7 @@ snapshots:
       '@libp2p/interface-internal': 2.3.17
       '@libp2p/keychain': 5.2.7
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       '@peculiar/x509': 1.12.4
       acme-client: 5.4.0
@@ -11677,13 +11678,13 @@ snapshots:
       '@libp2p/interface-internal': 1.3.4
       '@libp2p/peer-id': 4.2.4
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       it-first: 3.0.9
       it-length-prefixed: 9.1.1
       it-map: 3.1.4
       it-parallel: 3.0.13
       it-pipe: 3.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
 
   '@libp2p/autonat@2.0.36':
@@ -11693,12 +11694,12 @@ snapshots:
       '@libp2p/peer-collections': 6.0.33
       '@libp2p/peer-id': 5.1.7
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       it-protobuf-stream: 2.0.3
       main-event: 1.0.1
       multiformats: 13.3.7
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
 
   '@libp2p/bootstrap@10.1.5':
@@ -11706,7 +11707,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/peer-id': 4.2.4
       '@multiformats/mafmt': 12.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
 
   '@libp2p/bootstrap@11.0.42':
     dependencies:
@@ -11714,7 +11715,7 @@ snapshots:
       '@libp2p/interface-internal': 2.3.17
       '@libp2p/peer-id': 5.1.7
       '@multiformats/mafmt': 12.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       main-event: 1.0.1
 
   '@libp2p/circuit-relay-v2@1.1.5':
@@ -11726,14 +11727,14 @@ snapshots:
       '@libp2p/peer-record': 7.0.25
       '@libp2p/utils': 5.4.9
       '@multiformats/mafmt': 12.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       it-protobuf-stream: 1.1.6
       it-stream-types: 2.0.2
       multiformats: 13.3.7
       p-defer: 4.0.1
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       race-signal: 1.1.3
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -11747,7 +11748,7 @@ snapshots:
       '@libp2p/peer-id': 5.1.7
       '@libp2p/peer-record': 8.0.33
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       any-signal: 4.1.1
       it-protobuf-stream: 2.0.3
@@ -11756,7 +11757,7 @@ snapshots:
       multiformats: 13.3.7
       nanoid: 5.1.5
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       retimeable-signal: 1.0.1
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -11776,7 +11777,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       multiformats: 12.1.3
       node-forge: 1.3.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 4.0.10
 
@@ -11798,7 +11799,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       asn1js: 3.0.6
       multiformats: 13.3.7
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -11808,7 +11809,7 @@ snapshots:
       '@noble/curves': 1.9.2
       '@noble/hashes': 1.8.0
       multiformats: 13.3.7
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -11817,11 +11818,11 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/interface-internal': 1.3.4
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       delay: 6.0.0
       it-protobuf-stream: 1.1.6
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
 
   '@libp2p/dcutr@2.0.35':
@@ -11829,11 +11830,11 @@ snapshots:
       '@libp2p/interface': 2.10.4
       '@libp2p/interface-internal': 2.3.17
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       delay: 6.0.0
       it-protobuf-stream: 2.0.3
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
 
   '@libp2p/http-fetch@2.2.2':
@@ -11843,7 +11844,7 @@ snapshots:
       '@libp2p/interface': 2.10.4
       '@libp2p/interface-internal': 2.3.17
       '@libp2p/peer-id': 5.1.7
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-to-uri': 11.0.0
       http-cookie-agent: 6.0.8(tough-cookie@5.1.2)(undici@6.21.3)
       p-defer: 4.0.1
@@ -11859,10 +11860,10 @@ snapshots:
       '@libp2p/interface-internal': 1.3.4
       '@libp2p/peer-id': 4.2.4
       '@libp2p/peer-record': 7.0.25
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       it-protobuf-stream: 1.1.6
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
@@ -11875,13 +11876,13 @@ snapshots:
       '@libp2p/peer-id': 5.1.7
       '@libp2p/peer-record': 8.0.33
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       it-drain: 3.0.10
       it-parallel: 3.0.13
       it-protobuf-stream: 2.0.3
       main-event: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -11889,7 +11890,7 @@ snapshots:
     dependencies:
       '@libp2p/interface-peer-id': 2.0.2
       '@libp2p/interfaces': 3.3.2
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       it-stream-types: 2.0.2
       uint8arraylist: 2.4.8
 
@@ -11897,7 +11898,7 @@ snapshots:
     dependencies:
       '@libp2p/interface': 1.7.0
       '@libp2p/peer-collections': 5.2.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       progress-events: 1.0.1
       uint8arraylist: 2.4.8
 
@@ -11905,7 +11906,7 @@ snapshots:
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/peer-collections': 6.0.33
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       progress-events: 1.0.1
 
   '@libp2p/interface-peer-id@2.0.2':
@@ -11915,7 +11916,7 @@ snapshots:
   '@libp2p/interface-peer-store@2.0.4':
     dependencies:
       '@libp2p/interface-peer-id': 2.0.2
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
 
   '@libp2p/interface-stream-muxer@4.1.2':
     dependencies:
@@ -11935,14 +11936,14 @@ snapshots:
       '@libp2p/interface-connection': 5.1.1
       '@libp2p/interface-stream-muxer': 4.1.2
       '@libp2p/interfaces': 3.3.2
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       it-stream-types: 2.0.2
     transitivePeerDependencies:
       - supports-color
 
   '@libp2p/interface@0.1.6':
     dependencies:
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       abortable-iterator: 5.1.0
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
@@ -11962,7 +11963,7 @@ snapshots:
 
   '@libp2p/interface@1.7.0':
     dependencies:
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
       multiformats: 13.3.7
@@ -11971,7 +11972,7 @@ snapshots:
 
   '@libp2p/interface@2.10.4':
     dependencies:
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
       main-event: 1.0.1
@@ -11990,7 +11991,7 @@ snapshots:
       '@libp2p/peer-id': 4.2.4
       '@libp2p/record': 4.0.7
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       hashlru: 2.3.0
       interface-datastore: 8.3.2
@@ -12008,7 +12009,7 @@ snapshots:
       p-event: 6.0.1
       p-queue: 8.1.0
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       race-signal: 1.1.3
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
@@ -12024,7 +12025,7 @@ snapshots:
       '@libp2p/ping': 2.0.35
       '@libp2p/record': 4.0.7
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       any-signal: 4.1.1
       interface-datastore: 8.3.2
       it-all: 3.0.9
@@ -12042,7 +12043,7 @@ snapshots:
       p-defer: 4.0.1
       p-event: 6.0.1
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       race-signal: 1.1.3
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
@@ -12084,7 +12085,7 @@ snapshots:
   '@libp2p/logger@3.1.0':
     dependencies:
       '@libp2p/interface': 0.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       debug: 4.4.1(supports-color@8.1.1)
       interface-datastore: 8.3.2
       multiformats: 12.1.3
@@ -12094,7 +12095,7 @@ snapshots:
   '@libp2p/logger@4.0.20':
     dependencies:
       '@libp2p/interface': 1.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       interface-datastore: 8.3.2
       multiformats: 13.3.7
       weald: 1.0.4
@@ -12102,7 +12103,7 @@ snapshots:
   '@libp2p/logger@5.1.20':
     dependencies:
       '@libp2p/interface': 2.10.4
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       interface-datastore: 8.3.2
       multiformats: 13.3.7
       weald: 1.0.4
@@ -12113,7 +12114,7 @@ snapshots:
       '@libp2p/interface-internal': 1.3.4
       '@libp2p/peer-id': 4.2.4
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@types/multicast-dns': 7.2.4
       dns-packet: 5.6.1
       multicast-dns: 7.2.5
@@ -12124,7 +12125,7 @@ snapshots:
       '@libp2p/interface-internal': 2.3.17
       '@libp2p/peer-id': 5.1.7
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@types/multicast-dns': 7.2.4
       dns-packet: 5.6.1
       main-event: 1.0.1
@@ -12194,7 +12195,7 @@ snapshots:
       '@libp2p/crypto': 4.1.9
       '@libp2p/interface': 1.7.0
       '@libp2p/peer-id': 4.2.4
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -12223,8 +12224,8 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/peer-id': 4.2.4
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
-      protons-runtime: 5.5.0
+      '@multiformats/multiaddr': 12.5.1
+      protons-runtime: 5.6.0
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -12235,9 +12236,9 @@ snapshots:
       '@libp2p/interface': 2.10.4
       '@libp2p/peer-id': 5.1.7
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       multiformats: 13.3.7
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -12248,12 +12249,12 @@ snapshots:
       '@libp2p/peer-collections': 5.2.9
       '@libp2p/peer-id': 4.2.4
       '@libp2p/peer-record': 7.0.25
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       interface-datastore: 8.3.2
       it-all: 3.0.9
       mortice: 3.3.1
       multiformats: 13.3.7
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -12264,13 +12265,13 @@ snapshots:
       '@libp2p/peer-collections': 6.0.33
       '@libp2p/peer-id': 5.1.7
       '@libp2p/peer-record': 8.0.33
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       interface-datastore: 8.3.2
       it-all: 3.0.9
       main-event: 1.0.1
       mortice: 3.3.1
       multiformats: 13.3.7
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -12279,7 +12280,7 @@ snapshots:
       '@libp2p/crypto': 4.1.9
       '@libp2p/interface': 1.7.0
       '@libp2p/interface-internal': 1.3.4
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       it-first: 3.0.9
       it-pipe: 3.0.1
       uint8arrays: 5.1.0
@@ -12289,7 +12290,7 @@ snapshots:
       '@libp2p/crypto': 5.1.6
       '@libp2p/interface': 2.10.4
       '@libp2p/interface-internal': 2.3.17
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       it-byte-stream: 2.0.3
       main-event: 1.0.1
       uint8arrays: 5.1.0
@@ -12299,8 +12300,8 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/interface-internal': 1.3.4
       '@libp2p/peer-id': 4.2.4
-      '@multiformats/multiaddr': 12.5.0
-      protons-runtime: 5.5.0
+      '@multiformats/multiaddr': 12.5.1
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -12322,7 +12323,7 @@ snapshots:
 
   '@libp2p/record@4.0.7':
     dependencies:
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -12330,7 +12331,7 @@ snapshots:
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       '@types/sinon': 17.0.4
       main-event: 1.0.1
@@ -12345,7 +12346,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/utils': 5.4.9
       '@multiformats/mafmt': 12.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@types/sinon': 17.0.4
       progress-events: 1.0.1
       stream-to-it: 1.0.1
@@ -12362,7 +12363,7 @@ snapshots:
       asn1js: 3.0.6
       it-queueless-pushable: 2.0.2
       it-stream-types: 2.0.2
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
@@ -12372,7 +12373,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/interface-internal': 1.3.4
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       wherearewe: 2.0.1
 
   '@libp2p/upnp-nat@3.1.19':
@@ -12382,7 +12383,7 @@ snapshots:
       '@libp2p/interface': 2.10.4
       '@libp2p/interface-internal': 2.3.17
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       main-event: 1.0.1
       p-defer: 4.0.1
@@ -12395,7 +12396,7 @@ snapshots:
       '@libp2p/interface-peer-store': 2.0.4
       '@libp2p/interfaces': 3.3.2
       '@libp2p/logger': 2.1.1
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       abortable-iterator: 5.1.0
       is-loopback-addr: 2.0.2
       it-stream-types: 2.0.2
@@ -12410,7 +12411,7 @@ snapshots:
       '@libp2p/crypto': 4.1.9
       '@libp2p/interface': 1.7.0
       '@libp2p/logger': 4.0.20
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       '@sindresorhus/fnv1a': 3.1.0
       '@types/murmurhash3js-revisited': 3.0.3
@@ -12435,7 +12436,7 @@ snapshots:
       '@libp2p/crypto': 5.1.6
       '@libp2p/interface': 2.10.4
       '@libp2p/logger': 5.1.20
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@sindresorhus/fnv1a': 3.1.0
       any-signal: 4.1.1
       delay: 6.0.0
@@ -12462,7 +12463,7 @@ snapshots:
       '@libp2p/utils': 3.0.13
       '@libp2p/webrtc-peer': 2.0.2
       '@multiformats/mafmt': 12.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       abortable-iterator: 5.1.0
       err-code: 3.0.1
       multiformats: 11.0.2
@@ -12497,7 +12498,7 @@ snapshots:
       '@libp2p/peer-id': 4.2.4
       '@libp2p/utils': 5.4.9
       '@multiformats/mafmt': 12.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       detect-browser: 5.3.0
       it-length-prefixed: 9.1.1
@@ -12510,7 +12511,7 @@ snapshots:
       p-event: 6.0.1
       p-timeout: 6.1.4
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       race-signal: 1.1.3
       react-native-webrtc: 118.0.7(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
       uint8-varint: 2.0.4
@@ -12531,7 +12532,7 @@ snapshots:
       '@libp2p/keychain': 5.2.7
       '@libp2p/peer-id': 5.1.7
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       '@peculiar/webcrypto': 1.5.0
       '@peculiar/x509': 1.12.4
@@ -12549,7 +12550,7 @@ snapshots:
       p-timeout: 6.1.4
       p-wait-for: 5.0.2
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       race-event: 1.3.0
       race-signal: 1.1.3
       react-native-webrtc: 124.0.5(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0))
@@ -12565,7 +12566,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/utils': 5.4.9
       '@multiformats/mafmt': 12.1.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-to-uri': 10.1.2
       '@types/ws': 8.18.1
       it-ws: 6.1.5
@@ -12582,7 +12583,7 @@ snapshots:
     dependencies:
       '@libp2p/interface': 2.10.4
       '@libp2p/utils': 6.7.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       '@multiformats/multiaddr-to-uri': 11.0.0
       '@types/ws': 8.18.1
@@ -12603,7 +12604,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/peer-id': 4.2.4
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       it-stream-types: 2.0.2
       multiformats: 13.3.7
@@ -12688,21 +12689,21 @@ snapshots:
 
   '@multiformats/mafmt@12.1.6':
     dependencies:
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
 
   '@multiformats/multiaddr-matcher@1.7.2':
     dependencies:
       '@chainsafe/is-ip': 2.1.0
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       multiformats: 13.0.1
 
   '@multiformats/multiaddr-to-uri@10.1.2':
     dependencies:
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
 
   '@multiformats/multiaddr-to-uri@11.0.0':
     dependencies:
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
 
   '@multiformats/multiaddr@12.3.0':
     dependencies:
@@ -12714,7 +12715,7 @@ snapshots:
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
-  '@multiformats/multiaddr@12.5.0':
+  '@multiformats/multiaddr@12.5.1':
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
@@ -12731,7 +12732,7 @@ snapshots:
 
   '@multiformats/uri-to-multiaddr@9.0.1':
     dependencies:
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       is-ip: 5.0.1
 
   '@napi-rs/wasm-runtime@0.2.11':
@@ -16707,7 +16708,7 @@ snapshots:
   helia@5.4.2(react-native@0.73.6(@babel/core@7.27.4)(@babel/preset-env@7.24.4(@babel/core@7.27.4))(react@18.2.0)):
     dependencies:
       '@chainsafe/libp2p-noise': 16.1.3
-      '@chainsafe/libp2p-yamux': 7.0.2
+      '@chainsafe/libp2p-yamux': 7.0.4
       '@helia/block-brokers': 4.2.2
       '@helia/delegated-routing-v1-http-api-client': 4.2.5
       '@helia/interface': 5.3.2
@@ -16946,7 +16947,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/logger': 4.0.20
       '@libp2p/utils': 5.4.9
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@vascosantos/moving-average': 1.1.0
       any-signal: 4.1.1
       events: 3.3.0
@@ -16961,7 +16962,7 @@ snapshots:
       just-debounce-it: 3.2.0
       multiformats: 13.0.1
       progress-events: 1.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       timeout-abort-controller: 3.0.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -17010,7 +17011,7 @@ snapshots:
 
   ipfs-unixfs@11.2.5:
     dependencies:
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       uint8arraylist: 2.4.8
 
   ipns@10.0.2:
@@ -17021,7 +17022,7 @@ snapshots:
       cborg: 4.2.12
       interface-datastore: 8.3.2
       multiformats: 13.3.7
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -17036,7 +17037,7 @@ snapshots:
       err-code: 3.0.1
       interface-datastore: 8.3.2
       multiformats: 12.1.3
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -17053,7 +17054,7 @@ snapshots:
       err-code: 3.0.1
       interface-datastore: 8.3.2
       multiformats: 13.0.1
-      protons-runtime: 5.5.0
+      protons-runtime: 5.6.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -17771,7 +17772,7 @@ snapshots:
       '@libp2p/peer-store': 10.1.5
       '@libp2p/utils': 5.4.9
       '@multiformats/dns': 1.0.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       any-signal: 4.1.1
       datastore-core: 9.2.9
@@ -17801,7 +17802,7 @@ snapshots:
       '@libp2p/peer-store': 11.2.5
       '@libp2p/utils': 6.7.0
       '@multiformats/dns': 1.0.6
-      '@multiformats/multiaddr': 12.5.0
+      '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.7.2
       any-signal: 4.1.1
       datastore-core: 10.0.4
@@ -19584,7 +19585,7 @@ snapshots:
 
   premove@4.0.0: {}
 
-  prettier@3.6.0: {}
+  prettier@3.6.1: {}
 
   pretty-format@26.6.2:
     dependencies:
@@ -19683,7 +19684,7 @@ snapshots:
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
 
-  protons-runtime@5.5.0:
+  protons-runtime@5.6.0:
     dependencies:
       uint8-varint: 2.0.4
       uint8arraylist: 2.4.8
