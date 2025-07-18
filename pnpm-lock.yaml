@@ -50,7 +50,7 @@ importers:
         version: 9.31.0
       eslint-config-prettier:
         specifier: ^10.0.0
-        version: 10.1.5(eslint@9.31.0)
+        version: 10.1.8(eslint@9.31.0)
       genversion:
         specifier: ^3.2.0
         version: 3.2.0
@@ -2246,8 +2246,8 @@ packages:
   '@noble/curves@1.4.0':
     resolution: {integrity: sha512-p+4cb332SFCrReJkCYe8Xzm0OWi4Jji5jVdIZRL/PmacmDkFNw6MrrV+gGpiPxLHbV+zKFRywUWbaseT+tZRXg==}
 
-  '@noble/curves@1.9.2':
-    resolution: {integrity: sha512-HxngEd2XUcg9xi20JkwlLCtYwfoFw4JGkuZpT+WlsPD4gB/cxkvTD8fSsoAnphGZhFdZYKeQIPCuFlWPm1uE0g==}
+  '@noble/curves@1.9.4':
+    resolution: {integrity: sha512-2bKONnuM53lINoDrSmK8qP8W271ms7pygDhZt4SiLOoLwBtoHqeCFi6RG42V8zd3mLHuJFhU/Bmaqo4nX0/kBw==}
     engines: {node: ^14.21.3 || >=16}
 
   '@noble/hashes@1.4.0':
@@ -2344,11 +2344,11 @@ packages:
   '@orbitdb/feed-db@1.2.1':
     resolution: {integrity: sha512-Rbpq4lo/8urvGZFAKWkO/BlBvnnULDDy0EJslWurnGpFmR8btCn+TjZBg98rSguXqOEfSfE42JrgHjj8KzJZ1w==}
 
-  '@orbitdb/nested-db@1.2.4':
-    resolution: {integrity: sha512-qa4jViVMHkVz07MXUGGTAp2XlSGW27JPNSu76mHyACOvfYSUv9CZO7KtCLiYpwgzPvZiNhWq1ngI682nfJuaDw==}
+  '@orbitdb/nested-db@1.3.4':
+    resolution: {integrity: sha512-1/4kc3RRSgT6P2l8fuOyZy6/gHfsWNPjqNGzU7cAxh4z2k5YERYavWfNmEonuozAxpeFmV7DkD1pq8SUWfLC3g==}
 
-  '@orbitdb/ordered-keyvalue-db@1.3.1':
-    resolution: {integrity: sha512-DH+f1SKL4Vf0thdjvqLXAFmpm2ZwRlejceRhe8JrVVrAPqsvcAuPBVa5gLZjKi0wCB2QVg6PVAClsYdS9fcVjg==}
+  '@orbitdb/ordered-keyvalue-db@1.3.5':
+    resolution: {integrity: sha512-Sq2V6BVwcaK0AUACQaeP4o6y/tjGPieT+k3oto8wMvPi1EkSxWvEe2CjIlCmwb9WYIDlfa00N7PEtW8DXtm7cQ==}
 
   '@orbitdb/set-db@1.2.1':
     resolution: {integrity: sha512-u9G21ouXKUQ7NsesjEG54tklO1dSlKG42p3Sxa7Jfm2lvH3lDLCP5ec6HpnP80MDg8nBkWONNmxic8cnrY13jQ==}
@@ -2356,35 +2356,35 @@ packages:
   '@paralleldrive/cuid2@2.2.2':
     resolution: {integrity: sha512-ZOBkgDwEdoYVlSeRbYYXs0S9MejQofiVYoTbKzy/6GQa39/q5tQU2IX46+shYnUkpEl3wc+J6wRlar7r2EK2xA==}
 
-  '@peculiar/asn1-cms@2.3.15':
-    resolution: {integrity: sha512-B+DoudF+TCrxoJSTjjcY8Mmu+lbv8e7pXGWrhNp2/EGJp9EEcpzjBCar7puU57sGifyzaRVM03oD5L7t7PghQg==}
+  '@peculiar/asn1-cms@2.4.0':
+    resolution: {integrity: sha512-TJvw5Tna/txvzzwnKUlCFd6zIz4R7qysHCaU6M2oe/MUT6EkvJDOzGGNY0hdjJYpuuHoqanQbIqEBhSLSWe1Tg==}
 
-  '@peculiar/asn1-csr@2.3.15':
-    resolution: {integrity: sha512-caxAOrvw2hUZpxzhz8Kp8iBYKsHbGXZPl2KYRMIPvAfFateRebS3136+orUpcVwHRmpXWX2kzpb6COlIrqCumA==}
+  '@peculiar/asn1-csr@2.4.0':
+    resolution: {integrity: sha512-9yQz0hQ9ynGr/I1X1v64QQGfRMbviHXyqY07cy69UzXa8s4ayCKx/TncU6lDWcTKs7P/X/AEcuJcG7Xbw0cl1A==}
 
-  '@peculiar/asn1-ecc@2.3.15':
-    resolution: {integrity: sha512-/HtR91dvgog7z/WhCVdxZJ/jitJuIu8iTqiyWVgRE9Ac5imt2sT/E4obqIVGKQw7PIy+X6i8lVBoT6wC73XUgA==}
+  '@peculiar/asn1-ecc@2.4.0':
+    resolution: {integrity: sha512-fJiYUBCJBDkjh347zZe5H81BdJ0+OGIg0X9z06v8xXUoql3MFeENUX0JsjCaVaU9A0L85PefLPGYkIoGpTnXLQ==}
 
-  '@peculiar/asn1-pfx@2.3.15':
-    resolution: {integrity: sha512-E3kzQe3J2xV9DP6SJS4X6/N1e4cYa2xOAK46VtvpaRk8jlheNri8v0rBezKFVPB1rz/jW8npO+u1xOvpATFMWg==}
+  '@peculiar/asn1-pfx@2.4.0':
+    resolution: {integrity: sha512-fhpeoJ6T4nCLWT5tt3Un+BbyM1lLFnGXcRC2Ioe5ra2I0yptdjw05j20rV8BlUVzPIvUYpatq6joMQKe3ibh0w==}
 
-  '@peculiar/asn1-pkcs8@2.3.15':
-    resolution: {integrity: sha512-/PuQj2BIAw1/v76DV1LUOA6YOqh/UvptKLJHtec/DQwruXOCFlUo7k6llegn8N5BTeZTWMwz5EXruBw0Q10TMg==}
+  '@peculiar/asn1-pkcs8@2.4.0':
+    resolution: {integrity: sha512-4r2LtsAM0HWXLxetGTYKyBumky7W6C1EuiOctqhl7zFK5MHjiZ+9WOeaoeTPR1g3OEoeG7KEWIkaUOyRH4ojTw==}
 
-  '@peculiar/asn1-pkcs9@2.3.15':
-    resolution: {integrity: sha512-yiZo/1EGvU1KiQUrbcnaPGWc0C7ElMMskWn7+kHsCFm+/9fU0+V1D/3a5oG0Jpy96iaXggQpA9tzdhnYDgjyFg==}
+  '@peculiar/asn1-pkcs9@2.4.0':
+    resolution: {integrity: sha512-D7paqEVpu9wuWuClMN+vR5cqJWJITNPaMoa9R+FmkJ8ywF9UaS2JFI0RYclKILNoLdLg1N4eUCoJvM+ubsIIZQ==}
 
-  '@peculiar/asn1-rsa@2.3.15':
-    resolution: {integrity: sha512-p6hsanvPhexRtYSOHihLvUUgrJ8y0FtOM97N5UEpC+VifFYyZa0iZ5cXjTkZoDwxJ/TTJ1IJo3HVTB2JJTpXvg==}
+  '@peculiar/asn1-rsa@2.4.0':
+    resolution: {integrity: sha512-6PP75voaEnOSlWR9sD25iCQyLgFZHXbmxvUfnnDcfL6Zh5h2iHW38+bve4LfH7a60x7fkhZZNmiYqAlAff9Img==}
 
-  '@peculiar/asn1-schema@2.3.15':
-    resolution: {integrity: sha512-QPeD8UA8axQREpgR5UTAfu2mqQmm97oUqahDtNdBcfj3qAnoXzFdQW+aNf/tD2WVXF8Fhmftxoj0eMIT++gX2w==}
+  '@peculiar/asn1-schema@2.4.0':
+    resolution: {integrity: sha512-umbembjIWOrPSOzEGG5vxFLkeM8kzIhLkgigtsOrfLKnuzxWxejAcUX+q/SoZCdemlODOcr5WiYa7+dIEzBXZQ==}
 
-  '@peculiar/asn1-x509-attr@2.3.15':
-    resolution: {integrity: sha512-TWJVJhqc+IS4MTEML3l6W1b0sMowVqdsnI4dnojg96LvTuP8dga9f76fjP07MUuss60uSyT2ckoti/2qHXA10A==}
+  '@peculiar/asn1-x509-attr@2.4.0':
+    resolution: {integrity: sha512-Tr5Zi+wcE2sfR0gKRvsPwXoA1U8CuDnwiFbxCS+5Z1Nck9zlHj86+4/EZhwucjKXwPEHk1ekhqb3iwISY/+E/w==}
 
-  '@peculiar/asn1-x509@2.3.15':
-    resolution: {integrity: sha512-0dK5xqTqSLaxv1FHXIcd4Q/BZNuopg+u1l23hT9rOmQ1g4dNtw0g/RnEi+TboB0gOwGtrWn269v27cMgchFIIg==}
+  '@peculiar/asn1-x509@2.4.0':
+    resolution: {integrity: sha512-F7mIZY2Eao2TaoVqigGMLv+NDdpwuBKU1fucHPONfzaBS4JXXCNCmfO0Z3dsy7JzKGqtDcYC1mr9JjaZQZNiuw==}
 
   '@peculiar/json-schema@1.1.12':
     resolution: {integrity: sha512-coUfuoMeIB7B8/NMekxaDzLhaYmp0HZNPEjYRm9goRou8UZIC3z21s0sL9AWoCw4EG876QyO3kYrc61WNF9B/w==}
@@ -3986,8 +3986,8 @@ packages:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
     engines: {node: '>= 0.6'}
 
-  compression@1.8.0:
-    resolution: {integrity: sha512-k6WLKfunuqCYD3t6AsuPGvQWaKwuLLh2/xHNcX4qE+vIfDNXpSqnrhwA7O53R7WVQUnt8dVAIW+YHr7xTgOgGA==}
+  compression@1.8.1:
+    resolution: {integrity: sha512-9mAqGPHLakhCLeNyxPkK4xVo746zQ/czLH1Ky+vkitMnWfWZps8r0qXuwhwizagCRttsL4lfG4pIOvaWLpAP0w==}
     engines: {node: '>= 0.8.0'}
 
   concat-map@0.0.1:
@@ -4580,8 +4580,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-prettier@10.1.5:
-    resolution: {integrity: sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -4992,8 +4992,8 @@ packages:
     resolution: {integrity: sha512-G6NsmEW15s0Uw9XnCg+33H3ViYRyiM0hMrMhhqQOR8NFc5GhYrI+6I3u7OTw7b91J2g8rtvMBZJDbcGb2YUniw==}
     engines: {node: '>= 18'}
 
-  form-data@4.0.3:
-    resolution: {integrity: sha512-qsITQPfmvMOSAdeyZ+12I1c+CKSstAFAwu+97zrnWAbIr5u8wfsExUzCesVLC8NgHuRUqNN4Zy6UPWUTRGslcA==}
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
   freeport-promise@2.0.0:
@@ -6785,8 +6785,8 @@ packages:
     resolution: {integrity: sha512-P0efT1C9jIdVRefqjzOQ9Xml57zpOXnIuS+csaB4MdZbTdmGDLo8XhzBG1N7aO11gKDDkJvBLULeFTo46wwreA==}
     hasBin: true
 
-  msgpackr@1.11.4:
-    resolution: {integrity: sha512-uaff7RG9VIC4jacFW9xzL3jc0iM32DNHe4jYVycBcjUePT/Klnfj7pqtWJt9khvDFizmjN2TlYniYmSS2LIaZg==}
+  msgpackr@1.11.5:
+    resolution: {integrity: sha512-UjkUHN0yqp9RWKy0Lplhh+wlpdt9oQBYgULZOiFhV3VclSF1JnSQWZ5r9gORQlNYaUKQoR8itv7g7z1xDDuACA==}
 
   multicast-dns@7.2.5:
     resolution: {integrity: sha512-2eznPJP8z2BFLX50tf0LuODrpINqP1RVIm/CObbTcBRITQgmC/TjcREF1NeTBzIcR5XO/ukWo+YHOjBbFwIupg==}
@@ -7164,8 +7164,8 @@ packages:
     resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
     engines: {node: '>= 0.8'}
 
-  on-headers@1.0.2:
-    resolution: {integrity: sha512-pZAE+FJLoyITytdqK0U5s+FIpjN0JP3OzFi/u8Rx+EV5/W+JTWGXG8xFzevE7AjBfDqHv/8vL8qQsIhHnqRkrA==}
+  on-headers@1.1.0:
+    resolution: {integrity: sha512-737ZY3yNnXy37FHkQxPzt4UZ2UWPWiCZWLvFZ4fu5cueciegX0zGPnrlY6bwRg4FdQOe9YU8MkmJwGhoMybl8A==}
     engines: {node: '>= 0.8'}
 
   once@1.4.0:
@@ -10467,7 +10467,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/peer-id': 4.2.4
       '@noble/ciphers': 0.4.1
-      '@noble/curves': 1.9.2
+      '@noble/curves': 1.9.4
       '@noble/hashes': 1.8.0
       it-byte-stream: 1.1.1
       it-length-prefixed: 9.1.1
@@ -10488,7 +10488,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/peer-id': 4.2.4
       '@noble/ciphers': 0.6.0
-      '@noble/curves': 1.9.2
+      '@noble/curves': 1.9.4
       '@noble/hashes': 1.8.0
       it-length-prefixed: 9.1.1
       it-length-prefixed-stream: 1.2.1
@@ -10508,7 +10508,7 @@ snapshots:
       '@libp2p/interface': 2.10.5
       '@libp2p/peer-id': 5.1.8
       '@noble/ciphers': 1.3.0
-      '@noble/curves': 1.9.2
+      '@noble/curves': 1.9.4
       '@noble/hashes': 1.8.0
       it-length-prefixed: 10.0.1
       it-length-prefixed-stream: 2.0.3
@@ -10556,8 +10556,8 @@ snapshots:
       '@orbitdb/core': 3.0.2
       '@orbitdb/core-types': 1.1.7
       '@orbitdb/feed-db': 1.2.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
-      '@orbitdb/nested-db': 1.2.4(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
-      '@orbitdb/ordered-keyvalue-db': 1.3.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
+      '@orbitdb/nested-db': 1.3.4(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
+      '@orbitdb/ordered-keyvalue-db': 1.3.5(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
       '@orbitdb/set-db': 1.2.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
       ajv: 8.17.1
       events: 3.3.0
@@ -10601,7 +10601,7 @@ snapshots:
       '@localfirst/crypto': 5.6.0
       '@orbitdb/core': 2.5.0
       '@orbitdb/feed-db': 1.2.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
-      '@orbitdb/ordered-keyvalue-db': 1.3.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
+      '@orbitdb/ordered-keyvalue-db': 1.3.5(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
       '@orbitdb/set-db': 1.2.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
       ajv: 8.17.1
       approx-string-match: 2.0.0
@@ -11825,7 +11825,7 @@ snapshots:
   '@libp2p/crypto@2.0.8':
     dependencies:
       '@libp2p/interface': 0.1.6
-      '@noble/curves': 1.9.2
+      '@noble/curves': 1.9.4
       '@noble/hashes': 1.8.0
       multiformats: 12.1.3
       node-forge: 1.3.1
@@ -11847,7 +11847,7 @@ snapshots:
   '@libp2p/crypto@4.1.9':
     dependencies:
       '@libp2p/interface': 1.7.0
-      '@noble/curves': 1.9.2
+      '@noble/curves': 1.9.4
       '@noble/hashes': 1.8.0
       asn1js: 3.0.6
       multiformats: 13.3.7
@@ -11858,7 +11858,7 @@ snapshots:
   '@libp2p/crypto@5.1.7':
     dependencies:
       '@libp2p/interface': 2.10.5
-      '@noble/curves': 1.9.2
+      '@noble/curves': 1.9.4
       '@noble/hashes': 1.8.0
       multiformats: 13.3.7
       protons-runtime: 5.6.0
@@ -12409,8 +12409,8 @@ snapshots:
       '@libp2p/crypto': 5.1.7
       '@libp2p/interface': 2.10.5
       '@libp2p/peer-id': 5.1.8
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
       '@peculiar/webcrypto': 1.5.0
       '@peculiar/x509': 1.13.0
       asn1js: 3.0.6
@@ -12674,7 +12674,7 @@ snapshots:
       '@localfirst/shared': 5.6.0
       '@paralleldrive/cuid2': 2.2.2
       lodash-es: 4.17.21
-      msgpackr: 1.11.4
+      msgpackr: 1.11.5
       xstate: 5.20.1
     transitivePeerDependencies:
       - supports-color
@@ -12687,7 +12687,7 @@ snapshots:
       '@paralleldrive/cuid2': 2.2.2
       '@types/lodash-es': 4.17.12
       lodash-es: 4.17.21
-      msgpackr: 1.11.4
+      msgpackr: 1.11.5
     transitivePeerDependencies:
       - supports-color
 
@@ -12698,7 +12698,7 @@ snapshots:
       bs58: 5.0.0
       libsodium-wrappers-sumo: 0.7.15
       lodash-es: 4.17.21
-      msgpackr: 1.11.4
+      msgpackr: 1.11.5
     transitivePeerDependencies:
       - supports-color
 
@@ -12748,7 +12748,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@multiformats/multiaddr': 12.5.1
-      multiformats: 13.0.1
+      multiformats: 13.3.7
 
   '@multiformats/multiaddr-matcher@2.0.2':
     dependencies:
@@ -12809,7 +12809,7 @@ snapshots:
     dependencies:
       '@noble/hashes': 1.4.0
 
-  '@noble/curves@1.9.2':
+  '@noble/curves@1.9.4':
     dependencies:
       '@noble/hashes': 1.8.0
 
@@ -12940,10 +12940,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@orbitdb/nested-db@1.2.4(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))':
+  '@orbitdb/nested-db@1.3.4(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 3.0.2
-      '@orbitdb/ordered-keyvalue-db': 1.3.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
+      '@orbitdb/ordered-keyvalue-db': 1.3.5(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
       helia: 5.4.2(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
       it-all: 3.0.9
     transitivePeerDependencies:
@@ -12952,7 +12952,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@orbitdb/ordered-keyvalue-db@1.3.1(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))':
+  '@orbitdb/ordered-keyvalue-db@1.3.5(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))':
     dependencies:
       '@orbitdb/core': 3.0.2
       helia: 5.4.2(react-native@0.73.6(@babel/core@7.28.0)(@babel/preset-env@7.24.4(@babel/core@7.28.0))(react@18.2.0))
@@ -12977,78 +12977,78 @@ snapshots:
     dependencies:
       '@noble/hashes': 1.8.0
 
-  '@peculiar/asn1-cms@2.3.15':
+  '@peculiar/asn1-cms@2.4.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
-      '@peculiar/asn1-x509-attr': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
+      '@peculiar/asn1-x509-attr': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-csr@2.3.15':
+  '@peculiar/asn1-csr@2.4.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-ecc@2.3.15':
+  '@peculiar/asn1-ecc@2.4.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-pfx@2.3.15':
+  '@peculiar/asn1-pfx@2.4.0':
     dependencies:
-      '@peculiar/asn1-cms': 2.3.15
-      '@peculiar/asn1-pkcs8': 2.3.15
-      '@peculiar/asn1-rsa': 2.3.15
-      '@peculiar/asn1-schema': 2.3.15
+      '@peculiar/asn1-cms': 2.4.0
+      '@peculiar/asn1-pkcs8': 2.4.0
+      '@peculiar/asn1-rsa': 2.4.0
+      '@peculiar/asn1-schema': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-pkcs8@2.3.15':
+  '@peculiar/asn1-pkcs8@2.4.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-pkcs9@2.3.15':
+  '@peculiar/asn1-pkcs9@2.4.0':
     dependencies:
-      '@peculiar/asn1-cms': 2.3.15
-      '@peculiar/asn1-pfx': 2.3.15
-      '@peculiar/asn1-pkcs8': 2.3.15
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
-      '@peculiar/asn1-x509-attr': 2.3.15
+      '@peculiar/asn1-cms': 2.4.0
+      '@peculiar/asn1-pfx': 2.4.0
+      '@peculiar/asn1-pkcs8': 2.4.0
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
+      '@peculiar/asn1-x509-attr': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-rsa@2.3.15':
+  '@peculiar/asn1-rsa@2.4.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-schema@2.3.15':
+  '@peculiar/asn1-schema@2.4.0':
     dependencies:
       asn1js: 3.0.6
       pvtsutils: 1.3.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-x509-attr@2.3.15':
+  '@peculiar/asn1-x509-attr@2.4.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
-  '@peculiar/asn1-x509@2.3.15':
+  '@peculiar/asn1-x509@2.4.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
       asn1js: 3.0.6
       pvtsutils: 1.3.6
       tslib: 2.8.1
@@ -13059,7 +13059,7 @@ snapshots:
 
   '@peculiar/webcrypto@1.5.0':
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
       '@peculiar/json-schema': 1.1.12
       pvtsutils: 1.3.6
       tslib: 2.8.1
@@ -13067,13 +13067,13 @@ snapshots:
 
   '@peculiar/x509@1.13.0':
     dependencies:
-      '@peculiar/asn1-cms': 2.3.15
-      '@peculiar/asn1-csr': 2.3.15
-      '@peculiar/asn1-ecc': 2.3.15
-      '@peculiar/asn1-pkcs9': 2.3.15
-      '@peculiar/asn1-rsa': 2.3.15
-      '@peculiar/asn1-schema': 2.3.15
-      '@peculiar/asn1-x509': 2.3.15
+      '@peculiar/asn1-cms': 2.4.0
+      '@peculiar/asn1-csr': 2.4.0
+      '@peculiar/asn1-ecc': 2.4.0
+      '@peculiar/asn1-pkcs9': 2.4.0
+      '@peculiar/asn1-rsa': 2.4.0
+      '@peculiar/asn1-schema': 2.4.0
+      '@peculiar/asn1-x509': 2.4.0
       pvtsutils: 1.3.6
       reflect-metadata: 0.2.2
       tslib: 2.8.1
@@ -13206,7 +13206,7 @@ snapshots:
     dependencies:
       '@react-native-community/cli-debugger-ui': 12.3.6
       '@react-native-community/cli-tools': 12.3.6
-      compression: 1.8.0
+      compression: 1.8.1
       connect: 3.7.0
       errorhandler: 1.5.1
       nocache: 3.0.4
@@ -14574,7 +14574,7 @@ snapshots:
   axios@1.10.0(debug@4.4.1):
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.1)
-      form-data: 4.0.3
+      form-data: 4.0.4
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -15076,13 +15076,13 @@ snapshots:
     dependencies:
       mime-db: 1.54.0
 
-  compression@1.8.0:
+  compression@1.8.1:
     dependencies:
       bytes: 3.1.2
       compressible: 2.0.18
       debug: 2.6.9
       negotiator: 0.6.4
-      on-headers: 1.0.2
+      on-headers: 1.1.0
       safe-buffer: 5.2.1
       vary: 1.1.2
     transitivePeerDependencies:
@@ -15886,7 +15886,7 @@ snapshots:
       eslint: 9.31.0
       semver: 7.7.2
 
-  eslint-config-prettier@10.1.5(eslint@9.31.0):
+  eslint-config-prettier@10.1.8(eslint@9.31.0):
     dependencies:
       eslint: 9.31.0
 
@@ -16405,7 +16405,7 @@ snapshots:
 
   form-data-encoder@4.1.0: {}
 
-  form-data@4.0.3:
+  form-data@4.0.4:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
@@ -18876,7 +18876,7 @@ snapshots:
       '@msgpackr-extract/msgpackr-extract-win32-x64': 3.0.3
     optional: true
 
-  msgpackr@1.11.4:
+  msgpackr@1.11.5:
     optionalDependencies:
       msgpackr-extract: 3.0.3
 
@@ -19234,7 +19234,7 @@ snapshots:
     dependencies:
       ee-first: 1.1.1
 
-  on-headers@1.0.2: {}
+  on-headers@1.1.0: {}
 
   once@1.4.0:
     dependencies:
@@ -21479,7 +21479,7 @@ snapshots:
 
   webcrypto-core@1.8.1:
     dependencies:
-      '@peculiar/asn1-schema': 2.3.15
+      '@peculiar/asn1-schema': 2.4.0
       '@peculiar/json-schema': 1.1.12
       asn1js: 3.0.6
       pvtsutils: 1.3.6
