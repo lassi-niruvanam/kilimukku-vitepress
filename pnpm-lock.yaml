@@ -76,8 +76,8 @@ importers:
         specifier: ^3.4.7
         version: 3.5.5(typescript@5.8.3)
       vitepress:
-        specifier: 1.6.3
-        version: 1.6.3(@algolia/client-search@5.19.0)(@types/node@22.16.5)(axios@1.11.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3)
+        specifier: 1.6.4
+        version: 1.6.4(@algolia/client-search@5.19.0)(@types/node@22.16.5)(axios@1.11.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3)
 
 packages:
 
@@ -2551,9 +2551,6 @@ packages:
 
   '@shikijs/types@3.9.2':
     resolution: {integrity: sha512-/M5L0Uc2ljyn2jKvj4Yiah7ow/W+DJSglVafvWAJ/b8AZDeeRAdMu3c2riDzB7N42VD+jSnWxeP9AKtd4TfYVw==}
-
-  '@shikijs/vscode-textmate@10.0.1':
-    resolution: {integrity: sha512-fTIQwLF+Qhuws31iw7Ncl1R3HUDtGwIipiJ9iU+UsDUwMhegFcQKQHd51nZjb7CArq0MvON8rbgCGQYWHUKAdg==}
 
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
@@ -6675,11 +6672,6 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@3.3.9:
-    resolution: {integrity: sha512-SppoicMGpZvbF1l3z4x7No3OlIjP7QJvC9XR7AhZr1kL133KHnKPztkKDc+Ir4aJ/1VhTySrtKhrsycmrMQfvg==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
-    hasBin: true
-
   nanoid@5.1.5:
     resolution: {integrity: sha512-Ir/+ZpE9fDsNH0hQ3C68uyThDXzYcim2EqcZ8zn8Chtt1iylPT9xXJB0kPCnqzgcEGikO9RxSrh63MsmVCU7Fw==}
     engines: {node: ^18 || >=20}
@@ -7402,14 +7394,6 @@ packages:
 
   postcss@8.4.38:
     resolution: {integrity: sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==}
-    engines: {node: ^10 || ^12 || >=14}
-
-  postcss@8.5.1:
-    resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
-    engines: {node: ^10 || ^12 || >=14}
-
-  postcss@8.5.3:
-    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
     engines: {node: ^10 || ^12 || >=14}
 
   postcss@8.5.6:
@@ -8905,8 +8889,8 @@ packages:
       terser:
         optional: true
 
-  vitepress@1.6.3:
-    resolution: {integrity: sha512-fCkfdOk8yRZT8GD9BFqusW3+GggWYZ/rYncOfmgcDtP3ualNHCAg+Robxp2/6xfH1WwPHtGpPwv7mbA3qomtBw==}
+  vitepress@1.6.4:
+    resolution: {integrity: sha512-+2ym1/+0VVrbhNyRoFFesVvBvHAVMZMK0rw60E3X/5349M1GuVdKeazuksqopEdvkKwKGs21Q729jX81/bkBJg==}
     hasBin: true
     peerDependencies:
       markdown-it-mathjax3: ^4
@@ -10273,7 +10257,7 @@ snapshots:
       it-length-prefixed: 9.1.1
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.4.0
       protobufjs: 7.5.3
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -11077,7 +11061,7 @@ snapshots:
       ipfs-bitswap: 20.0.2
       it-filter: 3.1.4
       it-foreach: 2.1.4
-      multiformats: 13.0.1
+      multiformats: 13.4.0
       progress-events: 1.0.1
       uint8arrays: 5.1.0
 
@@ -11155,7 +11139,7 @@ snapshots:
       interface-datastore: 8.3.2
       interface-store: 5.1.8
       ipfs-bitswap: 20.0.2
-      multiformats: 13.0.1
+      multiformats: 13.4.0
       progress-events: 1.0.1
 
   '@helia/interface@4.3.1':
@@ -12513,7 +12497,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@multiformats/multiaddr': 12.5.1
-      multiformats: 13.0.1
+      multiformats: 13.4.0
 
   '@multiformats/multiaddr-matcher@2.0.2':
     dependencies:
@@ -12543,7 +12527,7 @@ snapshots:
       '@chainsafe/netmask': 2.0.0
       '@multiformats/dns': 1.0.6
       abort-error: 1.0.1
-      multiformats: 13.0.1
+      multiformats: 13.4.0
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
@@ -13333,20 +13317,20 @@ snapshots:
       '@shikijs/engine-javascript': 2.1.0
       '@shikijs/engine-oniguruma': 2.1.0
       '@shikijs/types': 2.1.0
-      '@shikijs/vscode-textmate': 10.0.1
+      '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
       hast-util-to-html: 9.0.4
 
   '@shikijs/engine-javascript@2.1.0':
     dependencies:
       '@shikijs/types': 2.1.0
-      '@shikijs/vscode-textmate': 10.0.1
+      '@shikijs/vscode-textmate': 10.0.2
       oniguruma-to-es: 2.3.0
 
   '@shikijs/engine-oniguruma@2.1.0':
     dependencies:
       '@shikijs/types': 2.1.0
-      '@shikijs/vscode-textmate': 10.0.1
+      '@shikijs/vscode-textmate': 10.0.2
 
   '@shikijs/engine-oniguruma@3.9.2':
     dependencies:
@@ -13376,15 +13360,13 @@ snapshots:
 
   '@shikijs/types@2.1.0':
     dependencies:
-      '@shikijs/vscode-textmate': 10.0.1
+      '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
 
   '@shikijs/types@3.9.2':
     dependencies:
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
-
-  '@shikijs/vscode-textmate@10.0.1': {}
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
@@ -13848,7 +13830,7 @@ snapshots:
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
       magic-string: 0.30.17
-      postcss: 8.5.3
+      postcss: 8.5.6
       source-map-js: 1.2.1
 
   '@vue/compiler-sfc@3.5.18':
@@ -14449,7 +14431,7 @@ snapshots:
       it-filter: 3.1.4
       it-merge: 3.0.12
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.4.0
 
   blockstore-core@5.0.4:
     dependencies:
@@ -14466,7 +14448,7 @@ snapshots:
       interface-blockstore: 5.3.2
       interface-store: 5.1.8
       level: 8.0.1
-      multiformats: 13.0.1
+      multiformats: 13.4.0
 
   boolean@3.2.0:
     optional: true
@@ -16564,7 +16546,7 @@ snapshots:
       it-drain: 3.0.10
       libp2p: 1.9.4
       mortice: 3.3.1
-      multiformats: 13.0.1
+      multiformats: 13.4.0
       progress-events: 1.0.1
       uint8arrays: 5.1.0
     transitivePeerDependencies:
@@ -16827,7 +16809,7 @@ snapshots:
       it-pipe: 3.0.1
       it-take: 3.0.9
       just-debounce-it: 3.2.0
-      multiformats: 13.0.1
+      multiformats: 13.4.0
       progress-events: 1.0.1
       protons-runtime: 5.6.0
       timeout-abort-controller: 3.0.0
@@ -16920,7 +16902,7 @@ snapshots:
       cborg: 4.2.12
       err-code: 3.0.1
       interface-datastore: 8.3.2
-      multiformats: 13.0.1
+      multiformats: 13.4.0
       protons-runtime: 5.6.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -18678,8 +18660,6 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  nanoid@3.3.9: {}
-
   nanoid@5.1.5: {}
 
   napi-build-utils@2.0.0: {}
@@ -19412,18 +19392,6 @@ snapshots:
       nanoid: 3.3.7
       picocolors: 1.1.1
       source-map-js: 1.2.0
-
-  postcss@8.5.1:
-    dependencies:
-      nanoid: 3.3.9
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
-
-  postcss@8.5.3:
-    dependencies:
-      nanoid: 3.3.11
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
 
   postcss@8.5.6:
     dependencies:
@@ -20238,7 +20206,7 @@ snapshots:
       '@shikijs/langs': 2.1.0
       '@shikijs/themes': 2.1.0
       '@shikijs/types': 2.1.0
-      '@shikijs/vscode-textmate': 10.0.1
+      '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
 
   side-channel-list@1.0.0:
@@ -21149,14 +21117,14 @@ snapshots:
   vite@5.4.14(@types/node@22.16.5)(terser@5.43.1):
     dependencies:
       esbuild: 0.21.5
-      postcss: 8.5.1
+      postcss: 8.5.6
       rollup: 4.24.0
     optionalDependencies:
       '@types/node': 22.16.5
       fsevents: 2.3.3
       terser: 5.43.1
 
-  vitepress@1.6.3(@algolia/client-search@5.19.0)(@types/node@22.16.5)(axios@1.11.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3):
+  vitepress@1.6.4(@algolia/client-search@5.19.0)(@types/node@22.16.5)(axios@1.11.0)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.43.1)(typescript@5.8.3):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.19.0)(react@18.2.0)(search-insights@2.13.0)
@@ -21167,7 +21135,7 @@ snapshots:
       '@types/markdown-it': 14.1.2
       '@vitejs/plugin-vue': 5.2.1(vite@5.4.14(@types/node@22.16.5)(terser@5.43.1))(vue@3.5.13(typescript@5.8.3))
       '@vue/devtools-api': 7.7.0
-      '@vue/shared': 3.5.13
+      '@vue/shared': 3.5.18
       '@vueuse/core': 12.4.0(typescript@5.8.3)
       '@vueuse/integrations': 12.4.0(axios@1.11.0)(focus-trap@7.6.4)(typescript@5.8.3)
       focus-trap: 7.6.4
@@ -21319,7 +21287,7 @@ snapshots:
 
   wide-align@1.1.5:
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
 
   winston@2.4.7:
     dependencies:
