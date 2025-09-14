@@ -10,7 +10,7 @@ importers:
     dependencies:
       marked:
         specifier: ^16.0.0
-        version: 16.2.1
+        version: 16.3.0
       merge-options:
         specifier: ^3.0.4
         version: 3.0.4
@@ -77,7 +77,7 @@ importers:
         version: 3.5.5(typescript@5.9.2)
       vitepress:
         specifier: 1.6.4
-        version: 1.6.4(@algolia/client-search@5.19.0)(@types/node@22.18.3)(axios@1.12.1)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.44.0)(typescript@5.9.2)
+        version: 1.6.4(@algolia/client-search@5.19.0)(@types/node@22.18.3)(axios@1.12.2)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.44.0)(typescript@5.9.2)
 
 packages:
 
@@ -3453,8 +3453,8 @@ packages:
   average@0.0.1:
     resolution: {integrity: sha512-rnSkP7Xnbxz3cKEHscefV2Uu6GdlDrCCameNIbzM8c3zCMTigfndi1NuOxuks4fK3ZC/FtXLIS3Y8f7N70ZBmQ==}
 
-  axios@1.12.1:
-    resolution: {integrity: sha512-Kn4kbSXpkFHCGE6rBFNwIv0GQs4AvDT80jlveJDKFxjbTYMUeB4QtsdPCv6H8Cm19Je7IU6VFtRl2zWZI0rudQ==}
+  axios@1.12.2:
+    resolution: {integrity: sha512-vMJzPewAlRyOgxV2dU0Cuz2O8zzzx9VYtbJOaBgXFeLc4IV/Eg50n4LowmehOOR61S8ZMpc2K5Sa7g6A4jfkUw==}
 
   babel-core@7.0.0-bridge.0:
     resolution: {integrity: sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==}
@@ -4282,8 +4282,8 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  detect-libc@2.0.4:
-    resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
+  detect-libc@2.1.0:
+    resolution: {integrity: sha512-vEtk+OcP7VBRtQZ1EJ3bdgzSfBjgnEalLTp5zjJrS+2Z1w2KZly4SBdac/WDU3hhsNAZ9E8SC96ME4Ey8MZ7cg==}
     engines: {node: '>=8'}
 
   detect-node@2.1.0:
@@ -6341,8 +6341,8 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
-  marked@16.2.1:
-    resolution: {integrity: sha512-r3UrXED9lMlHF97jJByry90cwrZBBvZmjG1L68oYfuPMW+uDTnuMbyJDymCWwbTE+f+3LhpNDKfpR3a3saFyjA==}
+  marked@16.3.0:
+    resolution: {integrity: sha512-K3UxuKu6l6bmA5FUwYho8CfJBlsUWAooKtdGgMcERSpF7gcBUrCGsLH7wDaaNOzwq18JzSUDyoEb/YsrqMac3w==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -10647,7 +10647,7 @@ snapshots:
       '@orbitdb/set-db': 1.2.1(react-native@0.73.6(@babel/core@7.28.4)(@babel/preset-env@7.24.4(@babel/core@7.28.4))(react@18.2.0))
       ajv: 8.17.1
       approx-string-match: 2.0.0
-      axios: 1.12.1(debug@4.4.3)
+      axios: 1.12.2(debug@4.4.3)
       blockstore-level: 1.1.8
       browser-fs-access: 0.35.0
       chokidar: 3.6.0
@@ -14242,13 +14242,13 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@vueuse/integrations@12.4.0(axios@1.12.1)(focus-trap@7.6.4)(typescript@5.9.2)':
+  '@vueuse/integrations@12.4.0(axios@1.12.2)(focus-trap@7.6.4)(typescript@5.9.2)':
     dependencies:
       '@vueuse/core': 12.4.0(typescript@5.9.2)
       '@vueuse/shared': 12.4.0(typescript@5.9.2)
       vue: 3.5.13(typescript@5.9.2)
     optionalDependencies:
-      axios: 1.12.1(debug@4.4.3)
+      axios: 1.12.2(debug@4.4.3)
       focus-trap: 7.6.4
     transitivePeerDependencies:
       - typescript
@@ -14295,7 +14295,7 @@ snapshots:
     dependencies:
       '@peculiar/x509': 1.14.0
       asn1js: 3.0.6
-      axios: 1.12.1(debug@4.4.3)
+      axios: 1.12.2(debug@4.4.3)
       debug: 4.4.3
       node-forge: 1.3.1
     transitivePeerDependencies:
@@ -14677,7 +14677,7 @@ snapshots:
 
   average@0.0.1: {}
 
-  axios@1.12.1(debug@4.4.3):
+  axios@1.12.2(debug@4.4.3):
     dependencies:
       follow-redirects: 1.15.11(debug@4.4.3)
       form-data: 4.0.4
@@ -15663,7 +15663,7 @@ snapshots:
 
   detect-libc@1.0.3: {}
 
-  detect-libc@2.0.4: {}
+  detect-libc@2.1.0: {}
 
   detect-node@2.1.0:
     optional: true
@@ -18247,7 +18247,7 @@ snapshots:
 
   marked@15.0.12: {}
 
-  marked@16.2.1: {}
+  marked@16.3.0: {}
 
   marky@1.3.0: {}
 
@@ -19107,7 +19107,7 @@ snapshots:
 
   node-gyp-build-optional-packages@5.2.2:
     dependencies:
-      detect-libc: 2.0.4
+      detect-libc: 2.1.0
     optional: true
 
   node-gyp-build@4.8.1: {}
@@ -19768,7 +19768,7 @@ snapshots:
 
   prebuild-install@7.1.3:
     dependencies:
-      detect-libc: 2.0.4
+      detect-libc: 2.1.0
       expand-template: 2.0.3
       github-from-package: 0.0.0
       minimist: 1.2.8
@@ -21512,7 +21512,7 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.44.0
 
-  vitepress@1.6.4(@algolia/client-search@5.19.0)(@types/node@22.18.3)(axios@1.12.1)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.44.0)(typescript@5.9.2):
+  vitepress@1.6.4(@algolia/client-search@5.19.0)(@types/node@22.18.3)(axios@1.12.2)(postcss@8.5.6)(react@18.2.0)(search-insights@2.13.0)(terser@5.44.0)(typescript@5.9.2):
     dependencies:
       '@docsearch/css': 3.8.2
       '@docsearch/js': 3.8.2(@algolia/client-search@5.19.0)(react@18.2.0)(search-insights@2.13.0)
@@ -21525,7 +21525,7 @@ snapshots:
       '@vue/devtools-api': 7.7.0
       '@vue/shared': 3.5.18
       '@vueuse/core': 12.4.0(typescript@5.9.2)
-      '@vueuse/integrations': 12.4.0(axios@1.12.1)(focus-trap@7.6.4)(typescript@5.9.2)
+      '@vueuse/integrations': 12.4.0(axios@1.12.2)(focus-trap@7.6.4)(typescript@5.9.2)
       focus-trap: 7.6.4
       mark.js: 8.11.1
       minisearch: 7.1.1
