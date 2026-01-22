@@ -59,7 +59,7 @@ importers:
         version: 11.7.5
       prettier:
         specifier: ^3.2.5
-        version: 3.8.0
+        version: 3.8.1
       rimraf:
         specifier: ^6.0.0
         version: 6.1.2
@@ -2345,8 +2345,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@multiformats/dns@1.0.12':
-    resolution: {integrity: sha512-32J/4CY86VHiCREAcUT4/2hjns5HpfzS24+5e2cBLUEu78fAcJS5V14AfIJyz+A8Kh14HFQbVAiNRH03qn6x+g==}
+  '@multiformats/dns@1.0.13':
+    resolution: {integrity: sha512-yr4bxtA3MbvJ+2461kYIYMsiiZj/FIqKI64hE4SdvWJUdWF9EtZLar38juf20Sf5tguXKFUruluswAO6JsjS2w==}
 
   '@multiformats/dns@1.0.6':
     resolution: {integrity: sha512-nt/5UqjMPtyvkG9BQYdJ4GfLK3nMqGpFZOzf4hAmIa0sJh2LlS9YKXZ4FgwBDsaHvzZqR/rUFIywIc7pkHNNuw==}
@@ -2375,8 +2375,8 @@ packages:
   '@multiformats/multiaddr@13.0.1':
     resolution: {integrity: sha512-XToN915cnfr6Lr9EdGWakGJbPT0ghpg/850HvdC+zFX8XvpLZElwa8synCiwa8TuvKNnny6m8j8NVBNCxhIO3g==}
 
-  '@multiformats/murmur3@2.1.8':
-    resolution: {integrity: sha512-6vId1C46ra3R1sbJUOFCZnsUIveR9oF20yhPmAFxPm0JfrX3/ZRCgP3YDrBzlGoEppOXnA9czHeYc0T9mB6hbA==}
+  '@multiformats/murmur3@2.1.9':
+    resolution: {integrity: sha512-RHIWfO7nojvazjeHDWZENkK7dDzZYGdy8NjUfFMSF/c43rLtz4cAxJC6AedNyX1tS5zTcE0z+b9TTuGA8NEifQ==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
   '@multiformats/uri-to-multiaddr@9.0.2':
@@ -3897,8 +3897,8 @@ packages:
     resolution: {integrity: sha512-q6cFW5m3KxfP/9xGI3yGLaC1l5DP6DWM9IvjiJojnIwohL5CQDl02EXViPV852mOfQo+7PJGPN01MI87vFGzyA==}
     hasBin: true
 
-  cborg@4.4.1:
-    resolution: {integrity: sha512-mJ6KJfhqHQm5A6nVWBsqUdhDUek2apbF7PhhETwZCJIrgX/xVuR0AIGoGbmAIC86WOwCZmRDaGMz2gOtcPntuw==}
+  cborg@4.5.8:
+    resolution: {integrity: sha512-6/viltD51JklRhq4L7jC3zgy6gryuG5xfZ3kzpE+PravtyeQLeQmCYLREhQH7pWENg5pY4Yu/XCd6a7dKScVlw==}
     hasBin: true
 
   ccount@2.0.1:
@@ -4190,6 +4190,9 @@ packages:
 
   core-js-compat@3.47.0:
     resolution: {integrity: sha512-IGfuznZ/n7Kp9+nypamBhvwdwLsW6KC8IOaURw2doAK5e98AG3acVLdh0woOnEqCfUtS+Vu882JE4k/DAm3ItQ==}
+
+  core-js-compat@3.48.0:
+    resolution: {integrity: sha512-OM4cAF3D6VtH/WkLtWvyNC56EZVXsZdU3iqaMG2B4WvYrlqU831pc4UtG5yp0sE9z8Y02wVN7PjW5Zf9Gt0f1Q==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -6400,8 +6403,8 @@ packages:
   lodash-es@4.17.21:
     resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
-  lodash-es@4.17.22:
-    resolution: {integrity: sha512-XEawp1t0gxSi9x01glktRZ5HDy0HXqrM0x5pXQM98EaI0NxO6jVM7omDOxsuEo5UIASAnm2bRp1Jt/e0a2XU8Q==}
+  lodash-es@4.17.23:
+    resolution: {integrity: sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==}
 
   lodash.capitalize@4.2.1:
     resolution: {integrity: sha512-kZzYOKspf8XVX5AvmQF94gQW0lejFVgb80G85bU4ZWzoJ6C03PQg3coYAUpSTpQWelrZELd3XWgHzw4Ck5kaIw==}
@@ -6432,6 +6435,9 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+  lodash@4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
 
   log-symbols@1.0.2:
     resolution: {integrity: sha512-mmPrW0Fh2fxOzdBbFv4g1m6pR72haFLPJ2G5SJEELf1y+iaQrDG6cWCPjy54RHYbZAt7X+ls690Kw62AdWXBzQ==}
@@ -7049,8 +7055,8 @@ packages:
     resolution: {integrity: sha512-WDD0bdg9mbq6F4mRxEYcPWwfA1vxd0mrvKOyxI7Xj/atfRHVeutzuWByG//jfm4uPzp0y4Kj051EORCBSQMycw==}
     engines: {node: '>=12.0.0'}
 
-  node-abi@3.86.0:
-    resolution: {integrity: sha512-sn9Et4N3ynsetj3spsZR729DVlGH6iBG4RiDMV7HEp3guyOW6W3S0unGpLDxT50mXortGUMax/ykUNQXdqc/Xg==}
+  node-abi@3.87.0:
+    resolution: {integrity: sha512-+CGM1L1CgmtheLcBuleyYOn7NWPVu0s0EJH2C4puxgEZb9h8QpR9G2dBfZJOAUhi7VQxuBPMd0hiISWcTyiYyQ==}
     engines: {node: '>=10'}
 
   node-abort-controller@3.1.1:
@@ -7750,8 +7756,8 @@ packages:
     engines: {node: '>=6'}
     hasBin: true
 
-  prettier@3.8.0:
-    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -10676,7 +10682,7 @@ snapshots:
       babel-plugin-polyfill-corejs2: 0.4.14(@babel/core@7.28.6)
       babel-plugin-polyfill-corejs3: 0.10.6(@babel/core@7.28.6)
       babel-plugin-polyfill-regenerator: 0.6.5(@babel/core@7.28.6)
-      core-js-compat: 3.47.0
+      core-js-compat: 3.48.0
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -10957,7 +10963,7 @@ snapshots:
       iso-constants: https://codeload.github.com/inverted-capital/iso-constants/tar.gz/2af6fdfb2cacaa03ebd58543703918783e62649f
       it-to-buffer: 4.0.10
       jszip: 3.10.1
-      lodash: 4.17.21
+      lodash: 4.17.23
       multiformats: 13.0.1
       node-pre-gyp: 0.17.0
       prom-client: 15.1.3
@@ -11034,7 +11040,7 @@ snapshots:
       genversion: 3.2.0
       geojson-validation: 1.0.2
       jszip: 3.10.1
-      lodash-es: 4.17.22
+      lodash-es: 4.17.23
       multiformats: 13.3.6
       p-queue: 8.1.1
       p-retry: 6.2.1
@@ -11764,7 +11770,7 @@ snapshots:
   '@helia/interface@4.3.1':
     dependencies:
       '@libp2p/interface': 1.7.0
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
       interface-store: 5.1.8
@@ -11774,7 +11780,7 @@ snapshots:
   '@helia/interface@5.4.0':
     dependencies:
       '@libp2p/interface': 2.11.0
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@multiformats/multiaddr': 12.5.1
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
@@ -11801,7 +11807,7 @@ snapshots:
       '@ipld/dag-pb': 4.1.5
       '@libp2p/interface': 1.7.0
       '@libp2p/logger': 4.0.20
-      '@multiformats/murmur3': 2.1.8
+      '@multiformats/murmur3': 2.1.9
       hamt-sharding: 3.0.6
       interface-blockstore: 5.3.2
       ipfs-unixfs: 11.2.5
@@ -11830,11 +11836,11 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/logger': 4.0.20
       '@libp2p/utils': 5.4.9
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@types/murmurhash3js-revisited': 3.0.3
       any-signal: 4.2.0
       blockstore-core: 4.4.1
-      cborg: 4.4.1
+      cborg: 4.5.8
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
       interface-store: 5.1.8
@@ -11860,11 +11866,11 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/logger': 4.0.20
       '@libp2p/utils': 5.4.9
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@types/murmurhash3js-revisited': 3.0.3
       any-signal: 4.2.0
       blockstore-core: 4.4.1
-      cborg: 4.4.1
+      cborg: 4.5.8
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
       interface-store: 5.1.8
@@ -11890,11 +11896,11 @@ snapshots:
       '@libp2p/keychain': 5.2.9
       '@libp2p/logger': 5.2.0
       '@libp2p/utils': 6.7.2
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@multiformats/multiaddr': 12.5.1
       any-signal: 4.2.0
       blockstore-core: 5.0.4
-      cborg: 4.4.1
+      cborg: 4.5.8
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
       interface-store: 6.0.3
@@ -11937,12 +11943,12 @@ snapshots:
 
   '@ipld/dag-cbor@9.2.5':
     dependencies:
-      cborg: 4.4.1
+      cborg: 4.5.8
       multiformats: 13.4.2
 
   '@ipld/dag-json@10.2.6':
     dependencies:
-      cborg: 4.4.1
+      cborg: 4.5.8
       multiformats: 13.4.2
 
   '@ipld/dag-pb@4.1.5':
@@ -12394,7 +12400,7 @@ snapshots:
 
   '@libp2p/interface@2.11.0':
     dependencies:
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@multiformats/multiaddr': 12.5.1
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
@@ -12405,7 +12411,7 @@ snapshots:
 
   '@libp2p/interface@3.1.0':
     dependencies:
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@multiformats/multiaddr': 13.0.1
       main-event: 1.0.1
       multiformats: 13.4.2
@@ -13071,7 +13077,7 @@ snapshots:
       '@localfirst/crypto': 5.6.0
       '@localfirst/shared': 5.6.0
       '@paralleldrive/cuid2': 2.3.1
-      lodash-es: 4.17.22
+      lodash-es: 4.17.23
       msgpackr: 1.11.8
       xstate: 5.25.1
     transitivePeerDependencies:
@@ -13084,7 +13090,7 @@ snapshots:
       '@localfirst/shared': 5.6.0
       '@paralleldrive/cuid2': 2.3.1
       '@types/lodash-es': 4.17.12
-      lodash-es: 4.17.22
+      lodash-es: 4.17.23
       msgpackr: 1.11.8
     transitivePeerDependencies:
       - supports-color
@@ -13095,7 +13101,7 @@ snapshots:
       '@types/lodash-es': 4.17.12
       bs58: 5.0.0
       libsodium-wrappers-sumo: 0.7.16
-      lodash-es: 4.17.22
+      lodash-es: 4.17.23
       msgpackr: 1.11.8
     transitivePeerDependencies:
       - supports-color
@@ -13106,7 +13112,7 @@ snapshots:
       cd: 0.3.3
       debug: 4.4.3(supports-color@8.1.1)
       eventemitter3: 5.0.4
-      lodash-es: 4.17.22
+      lodash-es: 4.17.23
     transitivePeerDependencies:
       - supports-color
 
@@ -13128,9 +13134,10 @@ snapshots:
   '@msgpackr-extract/msgpackr-extract-win32-x64@3.0.3':
     optional: true
 
-  '@multiformats/dns@1.0.12':
+  '@multiformats/dns@1.0.13':
     dependencies:
       '@dnsquery/dns-packet': 6.1.1
+      '@libp2p/interface': 3.1.0
       hashlru: 2.3.0
       p-queue: 9.1.0
       progress-events: 1.0.1
@@ -13182,7 +13189,7 @@ snapshots:
     dependencies:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       abort-error: 1.0.1
       multiformats: 13.4.2
       uint8-varint: 2.0.4
@@ -13195,7 +13202,7 @@ snapshots:
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
-  '@multiformats/murmur3@2.1.8':
+  '@multiformats/murmur3@2.1.9':
     dependencies:
       multiformats: 13.4.2
       murmurhash3js-revisited: 3.0.0
@@ -14738,7 +14745,7 @@ snapshots:
       esbuild: 0.25.12
       eslint: 9.39.2
       eslint-formatter-unix: 8.40.0
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.48.1(eslint@9.39.2)(typescript@5.8.3))(eslint@9.39.2)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2)
       eslint-plugin-jsdoc: 50.8.0(eslint@9.39.2)
       eslint-plugin-no-only-tests: 3.3.0
       execa: 9.6.1
@@ -14765,7 +14772,7 @@ snapshots:
       micromark-extension-gfm-table: 2.1.1
       micromark-extension-gfm-task-list-item: 2.1.0
       mocha: 11.7.5
-      neostandard: 0.12.2(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2)(typescript@5.8.3)
+      neostandard: 0.12.2(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.48.1(eslint@9.39.2)(typescript@5.8.3))(eslint@9.39.2))(eslint@9.39.2)(typescript@5.8.3)
       npm-package-json-lint: 9.0.0(typescript@5.8.3)
       nyc: 17.1.0
       p-map: 7.0.4
@@ -15085,7 +15092,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.6
       '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.28.6)
-      core-js-compat: 3.47.0
+      core-js-compat: 3.48.0
     transitivePeerDependencies:
       - supports-color
 
@@ -15318,7 +15325,7 @@ snapshots:
 
   cborg@4.2.0: {}
 
-  cborg@4.4.1: {}
+  cborg@4.5.8: {}
 
   ccount@2.0.1: {}
 
@@ -15630,6 +15637,10 @@ snapshots:
       is-what: 4.1.16
 
   core-js-compat@3.47.0:
+    dependencies:
+      browserslist: 4.28.1
+
+  core-js-compat@3.48.0:
     dependencies:
       browserslist: 4.28.1
 
@@ -16384,7 +16395,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import-x@4.16.1(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2):
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import-x@4.16.1(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.48.1(eslint@9.39.2)(typescript@5.8.3))(eslint@9.39.2))(eslint@9.39.2):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.3(supports-color@8.1.1)
@@ -16395,7 +16406,7 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.48.1(eslint@9.39.2)(typescript@5.8.3))(eslint@9.39.2)
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2)
       eslint-plugin-import-x: 4.16.1(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2)
     transitivePeerDependencies:
       - supports-color
@@ -16435,7 +16446,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.48.1(eslint@9.39.2)(typescript@5.8.3))(eslint@9.39.2):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -16458,7 +16469,7 @@ snapshots:
       string.prototype.trimend: 1.0.9
       tsconfig-paths: 3.15.0
     optionalDependencies:
-      '@typescript-eslint/parser': 8.48.1(eslint@9.39.2)(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.53.1(eslint@9.39.2)(typescript@5.9.3)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -17270,7 +17281,7 @@ snapshots:
       '@libp2p/websockets': 8.2.0
       '@libp2p/webtransport': 4.1.9
       blockstore-core: 4.4.1
-      cborg: 4.4.1
+      cborg: 4.5.8
       datastore-core: 9.2.9
       interface-blockstore: 5.3.2
       interface-datastore: 8.3.2
@@ -17315,7 +17326,7 @@ snapshots:
       '@libp2p/upnp-nat': 3.1.22
       '@libp2p/webrtc': 5.2.24(react-native@0.73.6(@babel/core@7.28.6)(@babel/preset-env@7.24.4(@babel/core@7.28.6))(react@18.2.0))
       '@libp2p/websockets': 9.2.19
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       blockstore-core: 5.0.4
       datastore-core: 10.0.4
       interface-datastore: 8.3.2
@@ -17563,7 +17574,7 @@ snapshots:
       '@ipld/dag-cbor': 9.2.5
       '@ipld/dag-json': 10.2.6
       '@ipld/dag-pb': 4.1.5
-      '@multiformats/murmur3': 2.1.8
+      '@multiformats/murmur3': 2.1.9
       hamt-sharding: 3.0.6
       interface-blockstore: 5.3.2
       ipfs-unixfs: 11.2.5
@@ -17580,7 +17591,7 @@ snapshots:
   ipfs-unixfs-importer@15.4.0:
     dependencies:
       '@ipld/dag-pb': 4.1.5
-      '@multiformats/murmur3': 2.1.8
+      '@multiformats/murmur3': 2.1.9
       hamt-sharding: 3.0.6
       interface-blockstore: 5.3.2
       interface-store: 6.0.3
@@ -17608,7 +17619,7 @@ snapshots:
       '@libp2p/crypto': 5.1.13
       '@libp2p/interface': 3.1.0
       '@libp2p/logger': 6.2.2
-      cborg: 4.4.1
+      cborg: 4.5.8
       interface-datastore: 9.0.2
       multiformats: 13.4.2
       protons-runtime: 5.6.0
@@ -17622,7 +17633,7 @@ snapshots:
       '@libp2p/interface': 0.1.6
       '@libp2p/logger': 3.1.0
       '@libp2p/peer-id': 3.0.6
-      cborg: 4.4.1
+      cborg: 4.5.8
       err-code: 3.0.1
       interface-datastore: 8.3.2
       multiformats: 12.1.3
@@ -17639,7 +17650,7 @@ snapshots:
       '@libp2p/interface': 1.7.0
       '@libp2p/logger': 4.0.20
       '@libp2p/peer-id': 4.2.4
-      cborg: 4.4.1
+      cborg: 4.5.8
       err-code: 3.0.1
       interface-datastore: 8.3.2
       multiformats: 13.0.1
@@ -18363,7 +18374,7 @@ snapshots:
       '@libp2p/peer-id-factory': 4.2.4
       '@libp2p/peer-store': 10.1.5
       '@libp2p/utils': 5.4.9
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 1.8.0
       any-signal: 4.2.0
@@ -18393,7 +18404,7 @@ snapshots:
       '@libp2p/peer-id': 5.1.9
       '@libp2p/peer-store': 11.2.7
       '@libp2p/utils': 6.7.2
-      '@multiformats/dns': 1.0.12
+      '@multiformats/dns': 1.0.13
       '@multiformats/multiaddr': 12.5.1
       '@multiformats/multiaddr-matcher': 2.0.2
       any-signal: 4.2.0
@@ -18501,7 +18512,7 @@ snapshots:
 
   lodash-es@4.17.21: {}
 
-  lodash-es@4.17.22: {}
+  lodash-es@4.17.23: {}
 
   lodash.capitalize@4.2.1: {}
 
@@ -18522,6 +18533,8 @@ snapshots:
   lodash.uniqby@4.7.0: {}
 
   lodash@4.17.21: {}
+
+  lodash@4.17.23: {}
 
   log-symbols@1.0.2:
     dependencies:
@@ -19444,12 +19457,12 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  neostandard@0.12.2(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2)(typescript@5.8.3):
+  neostandard@0.12.2(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.48.1(eslint@9.39.2)(typescript@5.8.3))(eslint@9.39.2))(eslint@9.39.2)(typescript@5.8.3):
     dependencies:
       '@humanwhocodes/gitignore-to-minimatch': 1.0.2
       '@stylistic/eslint-plugin': 2.11.0(eslint@9.39.2)(typescript@5.8.3)
       eslint: 9.39.2
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import-x@4.16.1(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint@9.39.2))(eslint@9.39.2)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import-x@4.16.1(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.48.1(eslint@9.39.2)(typescript@5.8.3))(eslint@9.39.2))(eslint@9.39.2)
       eslint-plugin-import-x: 4.16.1(@typescript-eslint/utils@8.53.1(eslint@9.39.2)(typescript@5.9.3))(eslint-import-resolver-node@0.3.9)(eslint@9.39.2)
       eslint-plugin-n: 17.23.1(eslint@9.39.2)(typescript@5.8.3)
       eslint-plugin-promise: 7.2.1(eslint@9.39.2)
@@ -19473,7 +19486,7 @@ snapshots:
 
   nocache@3.0.4: {}
 
-  node-abi@3.86.0:
+  node-abi@3.87.0:
     dependencies:
       semver: 7.7.3
 
@@ -20180,7 +20193,7 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 3.86.0
+      node-abi: 3.87.0
       pump: 3.0.3
       rc: 1.2.8
       simple-get: 4.0.1
@@ -20191,7 +20204,7 @@ snapshots:
 
   premove@4.0.0: {}
 
-  prettier@3.8.0: {}
+  prettier@3.8.1: {}
 
   pretty-format@26.6.2:
     dependencies:
