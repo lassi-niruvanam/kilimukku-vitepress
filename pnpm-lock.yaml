@@ -31,8 +31,8 @@ importers:
         specifier: ^10.0.0
         version: 10.0.1(eslint@10.0.2)
       '@types/jsdom':
-        specifier: ^27.0.0
-        version: 27.0.0
+        specifier: ^28.0.0
+        version: 28.0.0
       '@types/mocha':
         specifier: ^10.0.6
         version: 10.0.10
@@ -2911,8 +2911,8 @@ packages:
   '@types/istanbul-reports@3.0.4':
     resolution: {integrity: sha512-pk2B1NWalF9toCRu6gjBzR69syFjP4Od8WRAX+0mmf9lAjCRicLOWc+ZrxZHx/0XRjotgkF9t6iaMJ+aXcOdZQ==}
 
-  '@types/jsdom@27.0.0':
-    resolution: {integrity: sha512-NZyFl/PViwKzdEkQg96gtnB8wm+1ljhdDay9ahn4hgb+SfVtPCbm3TlmDUFXTA+MGN3CijicnMhG18SI5H3rFw==}
+  '@types/jsdom@28.0.0':
+    resolution: {integrity: sha512-A8TBQQC/xAOojy9kM8E46cqT00sF0h7dWjV8t8BJhUi2rG6JRh7XXQo/oLoENuZIQEpXsxLccLCnknyQd7qssQ==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -9053,6 +9053,9 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
+  undici-types@7.22.0:
+    resolution: {integrity: sha512-RKZvifiL60xdsIuC80UY0dq8Z7DbJUV8/l2hOVbyZAxBzEeQU4Z58+4ZzJ6WN2Lidi9KzT5EbiGX+PI/UGYuRw==}
+
   undici@5.29.0:
     resolution: {integrity: sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==}
     engines: {node: '>=14.0'}
@@ -9433,7 +9436,7 @@ packages:
     engines: {node: '>=12'}
 
   xlsx@https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz:
-    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz}
+    resolution: {integrity: sha512-pPh/ybd1bChlhCrtQ9QmRUx2yjQwMbS4tfvV9MSA2Qmm7vRUHQtPDMlLjAvQ2A4v8G92i2RlrNkSOKb1bwY7ww==, tarball: https://cdn.sheetjs.com/xlsx-0.19.1/xlsx-0.19.1.tgz}
     version: 0.19.1
     engines: {node: '>=0.8'}
     hasBin: true
@@ -10722,7 +10725,7 @@ snapshots:
       it-length-prefixed: 9.1.1
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.4.2
       protobufjs: 7.5.4
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -11642,7 +11645,7 @@ snapshots:
       ipfs-bitswap: 20.0.2
       it-filter: 3.1.4
       it-foreach: 2.1.5
-      multiformats: 13.0.1
+      multiformats: 13.4.2
       progress-events: 1.0.1
       uint8arrays: 5.1.0
 
@@ -11720,7 +11723,7 @@ snapshots:
       interface-datastore: 8.3.2
       interface-store: 5.1.8
       ipfs-bitswap: 20.0.2
-      multiformats: 13.0.1
+      multiformats: 13.4.2
       progress-events: 1.0.1
 
   '@helia/interface@4.3.1':
@@ -13141,7 +13144,7 @@ snapshots:
       '@chainsafe/netmask': 2.0.0
       '@multiformats/dns': 1.0.13
       abort-error: 1.0.1
-      multiformats: 13.0.1
+      multiformats: 13.4.2
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
@@ -14086,11 +14089,12 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-report': 3.0.3
 
-  '@types/jsdom@27.0.0':
+  '@types/jsdom@28.0.0':
     dependencies:
       '@types/node': 24.10.13
       '@types/tough-cookie': 4.0.5
       parse5: 7.1.2
+      undici-types: 7.22.0
 
   '@types/json-schema@7.0.15': {}
 
@@ -15125,7 +15129,7 @@ snapshots:
       it-filter: 3.1.4
       it-merge: 3.0.12
       it-pushable: 3.2.3
-      multiformats: 13.0.1
+      multiformats: 13.4.2
 
   blockstore-core@5.0.4:
     dependencies:
@@ -15142,7 +15146,7 @@ snapshots:
       interface-blockstore: 5.3.2
       interface-store: 5.1.8
       level: 8.0.1
-      multiformats: 13.0.1
+      multiformats: 13.4.2
 
   boolean@3.2.0:
     optional: true
@@ -17314,7 +17318,7 @@ snapshots:
       it-drain: 3.0.10
       libp2p: 1.9.4
       mortice: 3.3.1
-      multiformats: 13.0.1
+      multiformats: 13.4.2
       progress-events: 1.0.1
       uint8arrays: 5.1.0
     transitivePeerDependencies:
@@ -17584,7 +17588,7 @@ snapshots:
       it-pipe: 3.0.1
       it-take: 3.0.9
       just-debounce-it: 3.2.0
-      multiformats: 13.0.1
+      multiformats: 13.4.2
       progress-events: 1.0.1
       protons-runtime: 5.6.0
       timeout-abort-controller: 3.0.0
@@ -17677,7 +17681,7 @@ snapshots:
       cborg: 4.5.8
       err-code: 3.0.1
       interface-datastore: 8.3.2
-      multiformats: 13.0.1
+      multiformats: 13.4.2
       protons-runtime: 5.6.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -21769,6 +21773,8 @@ snapshots:
 
   undici-types@7.16.0: {}
 
+  undici-types@7.22.0: {}
+
   undici@5.29.0:
     dependencies:
       '@fastify/busboy': 2.1.1
@@ -22107,7 +22113,7 @@ snapshots:
 
   wide-align@1.1.5:
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
 
   winston@2.4.7:
     dependencies:
